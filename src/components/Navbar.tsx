@@ -1,70 +1,97 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import styled from 'styled-components';
+import { ReactComponent as DiamondIcon } from '../assets/diamond.svg'; // Import Diamond SVG
 
 const NavbarContainer = styled.nav`
+  position: fixed;
+  top: 0;
   width: 100%;
-  background: #d8c3a5; /* Updated background color */
+  background: #d8c3a5; /* Navbar background color */
   display: flex;
-  justify-content: flex-start; /* Aligns items to the left */
+  justify-content: space-between; /* Aligns items to the left and right */
   align-items: center;
-  padding: 20px 50px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px 40px;
   z-index: 1000;
-  position: relative; /* Changed from fixed to relative */
+  transition: background 0.3s;
 `;
 
 const Logo = styled.div`
-  font-size: 24px;
+  font-size: 28px;
   font-weight: bold;
-  color: #e85a4f; /* Updated text color */
-  cursor: pointer;
-  margin-right: 30px; /* Spacing between logo and links */
+  color: #e85a4f; /* Logo text color */
+  margin-right: -500px; /* Adjusted spacing */
 `;
 
-const NavLinks = styled.ul`
+const NavLinks = styled.div`
   display: flex;
-  list-style: none;
-  gap: 20px; /* Space between links */
+  gap: 20px; /* Reduced gap between nav links */
+  margin-left: 50px; /* Moves nav links closer to the logo */
 `;
 
-const NavLink = styled.li`
+const NavLink = styled(Link)`
+  font-size: 16px;
+  color: #e85a4f;
+  text-decoration: none;
   cursor: pointer;
-  font-size: 18px;
-  color: #e85a4f; /* Text color */
-  transition: all 0.3s ease; /* Smooth transition for hover effect */
-
   &:hover {
     text-decoration: underline; /* Underline on hover */
   }
 `;
 
-const ContactButton = styled.button`
-  background-color: #e85a4f;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
+const ContactButton = styled.a`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px; /* Spacing adjustment */
+  margin-right: 100px;
+  padding: 10px 30px;
   font-size: 16px;
-  margin-left: auto; /* Push the button to the right */
-  transition: background 0.3s ease;
+  font-weight: bold;
+  color: #ffffff; /* Text color */
+  background: #e85a4f; /* Restored button color */
+  border-radius: 25px; /* Rounded corners */
+  box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.4), 0px 0px 14px rgba(0, 0, 0, 0.3); /* Increased shadow */
+  text-decoration: none;
+  transition: transform 0.2s ease, background 0.3s ease;
 
   &:hover {
-    background-color: #d55742;
+    background: #d64545; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift effect */
   }
 `;
 
-const Navbar = () => {
+const IconWrapper = styled(DiamondIcon)`
+  width: 16px; /* Smaller icon size */
+  height: 16px;
+  margin-left: 8px; /* Spacing between text and icon */
+  transition: transform 0.3s ease;
+
+  /* Spin animation on hover */
+  ${ContactButton}:hover & {
+    transform: rotate(360deg);
+  }
+`;
+
+const Navbar: React.FC = () => {
   return (
     <NavbarContainer>
       <Logo>Astrid Design</Logo>
       <NavLinks>
-        <NavLink><Link to="portfolio" smooth={true} duration={500}>Portfolio</Link></NavLink>
-        <NavLink><Link to="services" smooth={true} duration={500}>Services</Link></NavLink>
-        <NavLink><Link to="about" smooth={true} duration={500}>About</Link></NavLink>
+        <NavLink to="portfolio" smooth={true} duration={500}>
+          Portfolio
+        </NavLink>
+        <NavLink to="services" smooth={true} duration={500}>
+          Services
+        </NavLink>
+        <NavLink to="about" smooth={true} duration={500}>
+          About
+        </NavLink>
       </NavLinks>
-      <ContactButton>Contact me</ContactButton>
+      <ContactButton href="#contact">
+        Contact me
+        <IconWrapper /> {/* Diamond SVG icon next to text */}
+      </ContactButton>
     </NavbarContainer>
   );
 };

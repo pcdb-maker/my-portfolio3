@@ -30,7 +30,9 @@ const ProjectCard = styled(motion.div)`
   }
 `;
 
-const Portfolio = () => {
+
+
+const Portfolio: React.FC = () => {
   const { ref, inView } = useInView({ threshold: 0.2, triggerOnce: true });
 
   return (
