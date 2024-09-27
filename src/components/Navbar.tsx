@@ -51,7 +51,7 @@ const ContactButton = styled.button`
   transition: background 0.3s ease;
 
   &:hover {
-    background-color: #F13C20;
+    background-color: #d55742;
   }
 `;
 
