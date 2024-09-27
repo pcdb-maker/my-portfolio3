@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const NavbarContainer = styled.nav`
   width: 100%;
-  background: rgba(255, 255, 255, 0.9);
+  background: #d8c3a5; /* Updated background color */
   display: flex;
   justify-content: space-between;
   align-items: center;
