@@ -40,7 +40,8 @@ const NavLink = styled.li`
 `;
 
 const ContactButton = styled.button`
-  background-color: #D79922;
+  background-color: #e85a4f;
+  color: #fff;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
