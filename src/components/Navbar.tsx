@@ -31,6 +31,9 @@ const NavLinks = styled.ul`
 const NavLink = styled.li`
   cursor: pointer;
   font-size: 18px;
+  color: #e85a4f; /* Text color */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+
   &:hover {
     color: #D79922;
   }
