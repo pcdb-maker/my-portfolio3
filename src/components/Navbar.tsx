@@ -25,7 +25,7 @@ const Logo = styled.div`
 const NavLinks = styled.ul`
   display: flex;
   list-style: none;
-  gap: 20px;
+  gap: 20px; /* Space between links */
 `;
 
 const NavLink = styled.li`
