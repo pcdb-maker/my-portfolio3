@@ -35,7 +35,7 @@ const NavLink = styled.li`
   transition: all 0.3s ease; /* Smooth transition for hover effect */
 
   &:hover {
-    color: #D79922;
+    text-decoration: underline; /* Underline on hover */
   }
 `;
 
