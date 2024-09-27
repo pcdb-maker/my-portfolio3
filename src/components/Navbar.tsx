@@ -11,7 +11,7 @@ const NavbarContainer = styled.nav`
   padding: 20px 50px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   z-index: 1000;
-  transition: background 0.3s;
+  position: relative; /* Changed from fixed to relative */
 `;
 
 const Logo = styled.div`
