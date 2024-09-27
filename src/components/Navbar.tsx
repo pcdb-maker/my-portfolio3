@@ -6,7 +6,7 @@ const NavbarContainer = styled.nav`
   width: 100%;
   background: #d8c3a5; /* Updated background color */
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start; /* Aligns items to the left */
   align-items: center;
   padding: 20px 50px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
