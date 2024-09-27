@@ -45,9 +45,11 @@ const ContactButton = styled.button`
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
-  color: white;
   cursor: pointer;
   font-size: 16px;
+  margin-left: auto; /* Push the button to the right */
+  transition: background 0.3s ease;
+
   &:hover {
     background-color: #F13C20;
   }
