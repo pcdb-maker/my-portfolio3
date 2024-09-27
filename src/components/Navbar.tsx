@@ -17,7 +17,7 @@ const NavbarContainer = styled.nav`
 const Logo = styled.div`
   font-size: 24px;
   font-weight: bold;
-  color: #4056A1;
+  color: #e85a4f; /* Updated text color */
   cursor: pointer;
   &:hover {
     color: #D79922;
