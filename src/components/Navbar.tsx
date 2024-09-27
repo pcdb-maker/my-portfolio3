@@ -19,9 +19,7 @@ const Logo = styled.div`
   font-weight: bold;
   color: #e85a4f; /* Updated text color */
   cursor: pointer;
-  &:hover {
-    color: #D79922;
-  }
+  margin-right: 30px; /* Spacing between logo and links */
 `;
 
 const NavLinks = styled.ul`
