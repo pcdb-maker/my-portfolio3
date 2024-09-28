@@ -101,14 +101,7 @@ const scrollToPortfolioSection = () => {
 };
 
 const icons = [
-  { Component: HeartIcon, initialX: 3, initialY: 20, size: 50 },
-  { Component: DiamondIcon, initialX: 93, initialY: 15, size: 50 },
-  { Component: ClubIcon, initialX: 92, initialY: 70, size: 50 },
-  { Component: HeartIcon, initialX: 20, initialY: 75, size: 20 },
-  { Component: DiamondIcon, initialX: 7, initialY: 35, size: 30 },
-  { Component: ClubIcon, initialX: 35, initialY: 80, size: 20 },
-  { Component: HeartIcon, initialX: 55, initialY: 95, size: 25 },
-  { Component: DiamondIcon, initialX: 7, initialY: 10, size: 20 },
+  { Component: ClubIcon, initialX: 20, initialY: 70, size: 50 },
 ];
 
 const greetings = ["Hello!", "こんにちは", "¡Hola!", "Ciao!"]; // English, Japanese, Spanish, Italian
