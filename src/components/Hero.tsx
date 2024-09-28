@@ -42,7 +42,7 @@ const SubText = styled(motion.p)`
   max-width: 600px;
   z-index: 2;
   @media (max-width: 768px) {
-    font-size: 20px; /* Responsive font size for smaller screens */
+    font-size: 18px; 
   }
 `;
 
