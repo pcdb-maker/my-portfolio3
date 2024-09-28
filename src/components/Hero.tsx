@@ -40,7 +40,7 @@ const SubText = styled(motion.p)`
   color: #e85a4f;
   margin-top: 1px;
   max-width: 600px;
-  z-index: 2; /* Ensures text is on top of floating icons */
+  z-index: 2;
   @media (max-width: 768px) {
     font-size: 20px; /* Responsive font size for smaller screens */
   }
