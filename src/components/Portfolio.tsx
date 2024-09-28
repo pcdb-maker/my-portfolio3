@@ -44,7 +44,17 @@ const ParallaxImage = styled(motion.img)`
 `;
 
 const Portfolio: React.FC = () => {
-  const { ref, inView } = useInView({ threshold: 0.2, triggerOnce: true });
+  // Capture scroll position using useScroll
+  const { scrollYProgress } = useScroll();
+
+    // Map the scroll position to the Y-axis of the cards
+    const y1 = useTransform(scrollYProgress, [0, 1], [10, 100]); // Adjust [0, 200] for desired movement
+    const y2 = useTransform(scrollYProgress, [0, 1], [200, 5]);
+    const y3 = useTransform(scrollYProgress, [0, 1], [200, 10]);
+    const y4 = useTransform(scrollYProgress, [0, 1], [10, 100]);
+    const y5 = useTransform(scrollYProgress, [0, 1], [100, 10]);
+    const y6 = useTransform(scrollYProgress, [0, 1], [100, 200]);
+  
 
   return (
     <PortfolioSection ref={ref}>
