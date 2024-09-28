@@ -72,8 +72,8 @@ const Arrow = styled(motion.div)`
   position: absolute;
   margin-bottom: -300px;
   left: 50%;
-  transform: translateX(-50%);
-  font-size: 62px; /* Increased size by 30% (48px to 62px) */
+  transform: translateX(-10%); /* Consistent X-axis positioning */
+  font-size: 62px;
   color: #e85a4f;
   cursor: pointer;
   z-index: 2;
