@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import styled from 'styled-components';
-import { ReactComponent as DiamondIcon } from '../assets/diamond.svg'; // Import Diamond SVG
+import { ReactComponent as ClubIcon } from '../assets/club.svg'; // Import Diamond SVG
 
 const NavbarContainer = styled.nav`
   position: fixed;
