@@ -20,12 +20,14 @@ const HeroSection = styled.section`
   padding: 0 20px;
 `;
 
-const HeroText = styled(motion.h1)`
-  font-size: 203px; /* Font size after another 30% increase */
-  font-weight: bold;
-  color: #e85a4f; /* Hello text color */
-  margin: 0;
-  z-index: 2; /* Ensures text is on top of floating icons */
+const HeroText = styled(motion.div)`
+  font-size: 180px;
+  font-weight: 800;
+  color: #e85a4f;
+  margin-top: -100px;
+  z-index: 2;
+  display: flex;
+  letter-spacing: -10px; /* Adjusted letter-spacing */
   @media (max-width: 768px) {
     font-size: 130px; /* Responsive font size for smaller screens */
   }
