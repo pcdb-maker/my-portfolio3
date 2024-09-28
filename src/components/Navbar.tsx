@@ -23,12 +23,14 @@ const Logo = styled.div`
   font-weight: bold;
   color: #e85a4f; /* Logo text color */
   margin-right: -500px; /* Adjusted spacing */
+  overflow: hidden;
 `;
 
 const NavLinks = styled.div`
   display: flex;
   gap: 20px; /* Reduced gap between nav links */
   margin-left: 50px; /* Moves nav links closer to the logo */
+  overflow: hidden;
 `;
 
 const NavLink = styled(Link)`
@@ -38,6 +40,7 @@ const NavLink = styled(Link)`
   cursor: pointer;
   &:hover {
     text-decoration: underline; /* Underline on hover */
+    overflow: hidden;
   }
 `;
 
