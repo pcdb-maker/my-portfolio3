@@ -26,7 +26,7 @@ const BioText = styled.p`
 
 const About = () => {
   return (
-    <AboutSection>
+    <AboutSection id="about">
       <ProfileImage src="/path/to/profile.jpg" alt="Astrid Mottes" />
       <h2>About Me</h2>
       <BioText>
