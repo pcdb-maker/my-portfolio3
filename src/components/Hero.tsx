@@ -15,9 +15,9 @@ const HeroSection = styled.section`
   height: 100vh;
   background-color: #d8c3a5;
   text-align: center;
-  overflow: hidden; /* Prevents shapes from overflowing the section */
-  font-family: 'Playfair Display', serif; /* Font family */
-  padding: 0 20px; /* Removed top padding and added horizontal padding */
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+  padding: 0 20px;
 `;
 
 const HeroText = styled(motion.h1)`
