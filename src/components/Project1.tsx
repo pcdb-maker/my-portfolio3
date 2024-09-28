@@ -7,3 +7,14 @@ const ProjectContainer = styled.div`
   text-align: center;
 `;
 
+const Project1: React.FC = () => {
+  return (
+    <ProjectContainer>
+      <h1>Project 1 Title</h1>
+      <p>Details about Project 1...</p>
+      {/* Add more content, images, and animations here */}
+    </ProjectContainer>
+  );
+};
+
+export default Project1;
