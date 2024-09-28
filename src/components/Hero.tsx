@@ -54,7 +54,7 @@ const DesignerText = styled(motion.span)`
   color: #e85a4f;
   margin-top: 10px;
   @media (max-width: 768px) {
-    font-size: 24px; /* Responsive font size for smaller screens */
+    font-size: 20px; 
   }
 `;
 
