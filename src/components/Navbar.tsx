@@ -45,18 +45,17 @@ const NavLink = styled(Link)`
 `;
 
 const ContactButton = styled.a`
-  display: flex;
+ 
   align-items: center;
   justify-content: center;
-  margin-left: 30px; /* Spacing adjustment */
-  margin-right: 100px;
-  padding: 10px 30px;
+  margin-left: 10px; /* Spacing adjustment */
+  margin-right: 90px;
+  padding: 10px 40px;
   font-size: 16px;
   font-weight: bold;
   color: #ffffff; /* Text color */
   background: #e85a4f; /* Restored button color */
   border-radius: 25px; /* Rounded corners */
-  box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.4), 0px 0px 14px rgba(0, 0, 0, 0.3); /* Increased shadow */
   text-decoration: none;
   transition: transform 0.2s ease, background 0.3s ease;
 
