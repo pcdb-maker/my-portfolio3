@@ -93,7 +93,7 @@ const Navbar: React.FC = () => {
     <NavbarContainer>
     <Logo>Chloe Osborne <IconWrapper/> </Logo>
       <NavLinks>
-        <NavLink to="portfolio" smooth={true} duration={500}>
+        <NavLink to="header" smooth={true} duration={500}>
           Portfolio
         </NavLink>
         <NavLink to="services" smooth={true} duration={500}>
