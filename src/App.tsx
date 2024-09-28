@@ -11,13 +11,19 @@ import './index.css'; // Ensure your global styles are imported
 
 const App: React.FC = () => {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <Portfolio />
-      <Services />
-      <About />
-    </>
+    <Router>
+      <Navbar /> {/* Navbar will remain consistent across all pages */}
+      <Routes>
+        <Route path="/" element={<>
+          <Hero />
+          <Portfolio />
+          <Services />
+          <About />
+        </>} />
+        <Route path="/project1" element={<Project1 />} /> {/* Project 1 page */}
+        <Route path="/project2" element={<Project2 />} /> {/* Project 2 page */}
+      </Routes>
+    </Router>
   );
 };
 
