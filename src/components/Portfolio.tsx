@@ -1,7 +1,8 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import styled from 'styled-components';
-import { useInView } from 'react-intersection-observer';
+import { Link } from 'react-router-dom';
+import Header from './Header'; // Import Header component
 
 const PortfolioSection = styled.section`
   display: flex;
