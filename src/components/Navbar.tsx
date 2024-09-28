@@ -56,8 +56,10 @@ const ContactButton = styled.a`
   color: #ffffff; /* Text color */
   background: #e85a4f; /* Restored button color */
   border-radius: 25px; /* Rounded corners */
+  box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.4), 0px 0px 14px rgba(0, 0, 0, 0.3); /* Initial shadow */
   text-decoration: none;
-  transition: transform 0.2s ease, background 0.3s ease;
+  transition: transform 0.2s ease, background 0.3s ease, box-shadow 0.2s ease;
+  overflow: hidden;
 
   &:hover {
     background: #d64545; /* Darker shade on hover */
