@@ -35,9 +35,10 @@ const HeroText = styled(motion.div)`
 `;
 
 const SubText = styled(motion.p)`
-  font-size: 25px; /* Reduced size by 30% */
-  color: #e85a4f; /* Text color for the subtext */
-  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 300;
+  color: #e85a4f;
+  margin-top: 1px;
   max-width: 600px;
   z-index: 2; /* Ensures text is on top of floating icons */
   @media (max-width: 768px) {
