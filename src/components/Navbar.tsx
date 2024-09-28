@@ -103,9 +103,9 @@ const Navbar: React.FC = () => {
           About
         </NavLink>
       </NavLinks>
-      <ContactButton href="#contact">
+      <ContactButton href="contact">
         Contact me
-        <IconWrapper /> {/* Diamond SVG icon next to text */}
+        <IconWrapper /> 
       </ContactButton>
     </NavbarContainer>
   );
