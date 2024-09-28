@@ -102,6 +102,12 @@ const scrollToPortfolioSection = () => {
 
 const icons = [
   { Component: ClubIcon, initialX: 20, initialY: 70, size: 50 },
+  { Component: ClubIcon, initialX: 10, initialY: 0, size: 170 },
+  { Component: ClubIcon, initialX: 80, initialY: 40, size: 200 },
+  { Component: DiamondIcon, initialX: 25, initialY: 55, size:30 },
+  { Component: DiamondIcon, initialX: 80, initialY: 10, size: 65 },
+  { Component: DiamondIcon, initialX: 5, initialY: 50, size: 100 },
+  { Component: CircleIcon, initialX: 90, initialY: 10, size: 100 },
 ];
 
 const greetings = ["Hello!", "こんにちは", "¡Hola!", "Ciao!"]; // English, Japanese, Spanish, Italian
