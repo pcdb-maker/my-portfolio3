@@ -205,7 +205,23 @@ const Hero: React.FC = () => {
         animate="animate"
         exit="exit"
       >
-        {greetings[currentGreeting]}
+        {greetings[currentGreeting].split("").map((letter, index) => (
+          <motion.span
+            key={index}
+            custom={index}
+            variants={letterVariants}
+            initial="hidden"
+            animate="visible"
+            exit="exit"
+            whileHover={{ color: "#b73225" }} // Darker shade on hover
+            style={{
+              display: 'inline-block',
+              margin: '0 0px', // Adjusted margins to reduce space between letters
+            }}
+          >
+            {letter}
+          </motion.span>
+        ))}
       </HeroText>
       <SubText
         initial={{ opacity: 0 }}
