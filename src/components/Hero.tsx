@@ -110,6 +110,8 @@ const icons = [
   { Component: CircleIcon, initialX: 90, initialY: 10, size: 100 },
 ];
 
+const greetings = ["Hello!", "こんにちは!", "¡Hola!", "Ciao!"]; // English, Japanese, Spanish, Italian
+
 
 const Hero: React.FC = () => {
   const [currentGreeting, setCurrentGreeting] = useState(0);
