@@ -9,8 +9,12 @@ const PortfolioSection = styled.section`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 50px 0;
-  background-color: #EFE2BA;
+  padding: 10px 2px; /* Adjust padding as needed */
+  background-color: #EFE2BA; /* Background color */
+  overflow: hidden; /* Prevent overflow issues */
+  position: relative; /* Allow absolute positioning inside */
+  min-height: 320vh; /* Increase section height to prevent overlap */
+  z-index: 0; /* Ensures correct stacking context */
 `;
 
 const ProjectCard = styled(motion.div)`
