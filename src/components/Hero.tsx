@@ -70,7 +70,7 @@ const IconWrapper = styled(motion.div)<SVGProps<SVGSVGElement>>`
 // Updated Arrow Component with Separate Hover Animation
 const Arrow = styled(motion.div)`
   position: absolute;
-  bottom: 30px; /* Positioned closer to the bottom */
+  margin-bottom: -300px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 62px; /* Increased size by 30% (48px to 62px) */
