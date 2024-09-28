@@ -29,7 +29,8 @@ const HeroText = styled(motion.div)`
   display: flex;
   letter-spacing: -10px; /* Adjusted letter-spacing */
   @media (max-width: 768px) {
-    font-size: 130px; /* Responsive font size for smaller screens */
+    font-size: 100px;
+    letter-spacing: -5px; /* Adjusted for mobile */
   }
 `;
 
