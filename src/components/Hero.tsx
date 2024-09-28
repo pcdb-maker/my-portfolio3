@@ -234,14 +234,13 @@ const Hero: React.FC = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 2, duration: 1 }}
         >
-          Graphic Designer & Illustrator.
+          Web Development & Digital Artist.
         </DesignerText>
       </SubText>
-      {/* Animated arrow */}
       <Arrow
         onClick={scrollToPortfolioSection}
-        whileHover={{ scale: 1.2 }}
-        whileTap={{ scale: 0.9 }}
+        whileHover={{ scale: 1.1 }} // Minor scaling effect on hover
+        whileTap={{ scale: 0.9 }} // Scale effect only on click
       >
         ↓
       </Arrow>
