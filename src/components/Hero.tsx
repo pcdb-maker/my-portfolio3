@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import styled from 'styled-components';
-import { ReactComponent as HeartIcon } from '../assets/heart.svg';
+import { ReactComponent as CircleIcon } from '../assets/circle.svg';
 import { ReactComponent as DiamondIcon } from '../assets/diamond.svg';
 import { ReactComponent as ClubIcon } from '../assets/club.svg';
 import { SVGProps } from 'react';
@@ -11,9 +11,9 @@ const HeroSection = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; /* Vertically centers the text */
-  height: 100vh; /* Fill the full viewport height */
-  background-color: #d8c3a5; /* Background color */
+  justify-content: center;
+  height: 100vh;
+  background-color: #d8c3a5;
   text-align: center;
   overflow: hidden; /* Prevents shapes from overflowing the section */
   font-family: 'Playfair Display', serif; /* Font family */
@@ -82,10 +82,14 @@ const Arrow = styled(motion.div)`
     }
   }
 
-  animation: jump 2s infinite;
+  /* Separate animation for when clicked */
+  &:active {
+    transform: translateX(-50%) scale(1.1); /* Scaling effect without shifting position */
+  }
 `;
 
-// Function to scroll to the "portfolio" section
+
+// Scroll function to navigate to the portfolio section
 const scrollToPortfolioSection = () => {
   const portfolioSection = document.getElementById('portfolio');
   if (portfolioSection) {
