@@ -17,18 +17,20 @@ const PortfolioSection = styled.section`
   z-index: 0; /* Ensures correct stacking context */
 `;
 
-const ProjectCard = styled(motion.div)`
-  width: 300px;
-  height: 400px;
+// Card Container with Parallax and Sizing Styles
+const ProjectCard = styled(motion.div)<{ large?: boolean }>`
+  width: ${(props) => (props.large ? '600px' : '400px')};
+  height: ${(props) => (props.large ? '550px' : '400px')};
   background: #fff;
   margin: 20px;
   border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  overflow: hidden;
   transition: transform 0.3s ease-in-out;
 
   &:hover {
