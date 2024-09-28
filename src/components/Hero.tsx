@@ -125,6 +125,29 @@ const letterVariants = {
       ease: "easeInOut",
     },
   }),
+  exit: (i: number) => ({
+    opacity: 0,
+    y: -10,
+    transition: {
+      delay: i * 0.08, // Reduced delay for faster animation
+      duration: 0.3,
+      ease: "easeInOut",
+    },
+  }),
+};
+
+const containerVariants = {
+  initial: { opacity: 1 },
+  animate: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.04, // Reduced stagger for faster animation
+      delayChildren: 0.1, // Reduced initial delay
+      when: "beforeChildren",
+    },
+  },
+  exit: { opacity: 0, transition: { staggerChildren: 0.04 } },
+};
 
 const Hero: React.FC = () => {
   const [currentGreeting, setCurrentGreeting] = useState(0);
