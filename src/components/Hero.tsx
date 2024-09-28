@@ -65,6 +65,9 @@ const IconWrapper = styled(motion.div)<SVGProps<SVGSVGElement>>`
   z-index: 1;
 `;
 
+
+
+// Updated Arrow Component with Separate Hover Animation
 const Arrow = styled(motion.div)`
   position: absolute;
   bottom: 30px; /* Positioned closer to the bottom */
