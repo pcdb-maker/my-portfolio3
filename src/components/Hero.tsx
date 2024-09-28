@@ -77,6 +77,7 @@ const Arrow = styled(motion.div)`
   color: #e85a4f;
   cursor: pointer;
   z-index: 2;
+  transition: transform 1s ease, color 0.3s ease; /* Added transition for transform and color */
 
   @keyframes jump {
     0%, 20%, 50%, 80%, 100% {
