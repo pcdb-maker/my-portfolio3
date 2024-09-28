@@ -63,7 +63,15 @@ const ContactButton = styled.a`
 
   &:hover {
     background: #d64545; /* Darker shade on hover */
-    transform: translateY(-2px); /* Slight lift effect */
+    transform: translateY(3px); /* Slight downward movement */
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2); /* Reduced shadow to show 'pressed' effect */
+    overflow: hidden;
+  }
+
+  &:active {
+    transform: translateY(5px); /* Further downward movement on click */
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2); /* Even more reduced shadow on click */
+    overflow: hidden;
   }
 `;
 
