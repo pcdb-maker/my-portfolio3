@@ -75,7 +75,8 @@ const ContactButton = styled.a`
   }
 `;
 
-const IconWrapper = styled(DiamondIcon)`
+
+const IconWrapper = styled(ClubIcon)`
   width: 16px; /* Smaller icon size */
   height: 16px;
   margin-left: 8px; /* Spacing between text and icon */
