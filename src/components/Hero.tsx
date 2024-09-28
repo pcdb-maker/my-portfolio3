@@ -228,7 +228,7 @@ const Hero: React.FC = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5, duration: 1 }}
       >
-        I'm Astrid Mottes,
+        I'm Chloe Osborne,
         <DesignerText
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
