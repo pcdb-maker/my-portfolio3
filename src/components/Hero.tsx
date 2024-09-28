@@ -79,16 +79,10 @@ const Arrow = styled(motion.div)`
   z-index: 2;
   transition: transform 1s ease, color 0.3s ease; /* Added transition for transform and color */
 
-  @keyframes jump {
-    0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(-15px);
-    }
-    60% {
-      transform: translateY(-8px);
-    }
+  /* Separate hover effect to ensure no position change */
+  &:hover {
+    color: #b73225; /* Change color on hover */
+    transform: translateX(-70%) rotate(15deg); /* Keep translateX(-50%) to avoid movement */
   }
 
   /* Separate animation for when clicked */
