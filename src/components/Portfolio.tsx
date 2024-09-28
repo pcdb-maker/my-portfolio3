@@ -57,22 +57,6 @@ const Portfolio: React.FC = () => {
   
 
   return (
-    <PortfolioSection ref={ref}>
-      <ProjectCard
-        initial={{ opacity: 0, y: 50 }}
-        animate={inView ? { opacity: 1, y: 0 } : { opacity: 0 }}
-        transition={{ duration: 0.5 }}
-      >
-        <h3>Project 1</h3>
-      </ProjectCard>
-      <ProjectCard
-        initial={{ opacity: 0, y: 50 }}
-        animate={inView ? { opacity: 1, y: 0 } : { opacity: 0 }}
-        transition={{ duration: 0.7 }}
-      >
-        <h3>Project 2</h3>
-      </ProjectCard>
-    </PortfolioSection>
   );
 };
 
