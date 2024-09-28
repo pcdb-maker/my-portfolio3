@@ -4,16 +4,18 @@ import styled from 'styled-components';
 import { ReactComponent as ClubIcon } from '../assets/club.svg'; // Import Diamond SVG
 
 const NavbarContainer = styled.nav`
-  position: fixed;
+  
   top: 0;
   width: 100%;
+  margin: 0;
   background: #d8c3a5; /* Navbar background color */
   display: flex;
   justify-content: space-between; /* Aligns items to the left and right */
   align-items: center;
-  padding: 20px 40px;
-  z-index: 1000;
+  padding: 30px 40px;
+  z-index: 100;
   transition: background 0.3s;
+  
 `;
 
 const Logo = styled.div`
