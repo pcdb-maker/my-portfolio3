@@ -60,9 +60,9 @@ const DesignerText = styled(motion.span)`
 
 const IconWrapper = styled(motion.div)<SVGProps<SVGSVGElement>>`
   position: absolute;
-  fill: #e85a4f; /* Card icon color */
-  opacity: 0.4; /* Makes the icons less prominent */
-  z-index: 1; /* Places icons behind the text */
+  fill: #e85a4f;
+  opacity: 0.4;
+  z-index: 1;
 `;
 
 const Arrow = styled(motion.div)`
