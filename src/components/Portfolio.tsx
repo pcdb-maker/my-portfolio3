@@ -32,13 +32,16 @@ const ProjectCard = styled(motion.div)<{ large?: boolean }>`
   cursor: pointer;
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
-
-  &:hover {
-    transform: scale(1.05);
-  }
+  z-index: 1; /* Ensure cards appear above the background */
 `;
 
-
+// Parallax Image inside the Card
+const ParallaxImage = styled(motion.img)`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+`;
 
 const Portfolio: React.FC = () => {
   const { ref, inView } = useInView({ threshold: 0.2, triggerOnce: true });
