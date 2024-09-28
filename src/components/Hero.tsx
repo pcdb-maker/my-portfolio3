@@ -156,7 +156,7 @@ const Hero: React.FC = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentGreeting((prevGreeting) => (prevGreeting + 1) % greetings.length);
-    }, 3000);
+    }, 4000); // Reduced timing to 4 seconds between words
     return () => clearInterval(interval);
   }, []);
 
