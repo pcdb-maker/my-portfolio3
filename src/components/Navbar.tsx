@@ -91,7 +91,7 @@ const IconWrapper = styled(ClubIcon)`
 const Navbar: React.FC = () => {
   return (
     <NavbarContainer>
-      <Logo>Astrid Design</Logo>
+    <Logo>Chloe Osborne <IconWrapper/> </Logo>
       <NavLinks>
         <NavLink to="portfolio" smooth={true} duration={500}>
           Portfolio
