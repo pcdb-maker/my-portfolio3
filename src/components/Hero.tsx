@@ -112,6 +112,19 @@ const icons = [
 
 const greetings = ["Hello!", "こんにちは!", "¡Hola!", "Ciao!"]; // English, Japanese, Spanish, Italian
 
+// Define individual letter animation sequence
+const letterVariants = {
+  hidden: { opacity: 0, y: 10 }, // Start off-screen
+  visible: (i: number) => ({
+    opacity: 1,
+    y: 0,
+    scale: 1.1, // Slight bounce effect
+    transition: {
+      delay: i * 0.1, // Reduced delay for faster animation
+      duration: 0.4, // Reduced duration for faster animation
+      ease: "easeInOut",
+    },
+  }),
 
 const Hero: React.FC = () => {
   const [currentGreeting, setCurrentGreeting] = useState(0);
