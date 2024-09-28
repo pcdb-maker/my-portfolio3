@@ -16,3 +16,10 @@ const MainHeading = styled.h1`
   margin: 0;
 `;
 
+const SubHeading = styled.p`
+  font-size: 24px; /* Smaller font size for subheading */
+  color: #4056a1;
+  margin: 10px 0 0;
+`;
+
+const Header: React.FC = () => {
