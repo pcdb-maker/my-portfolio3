@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import Header from './Header'; // Import Header component
 
+// Container for the entire portfolio section
 const PortfolioSection = styled.section`
   display: flex;
   flex-wrap: wrap;
