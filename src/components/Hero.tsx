@@ -152,7 +152,6 @@ const containerVariants = {
 const Hero: React.FC = () => {
   const [currentGreeting, setCurrentGreeting] = useState(0);
 
-  // Cycle through greetings every 3 seconds
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentGreeting((prevGreeting) => (prevGreeting + 1) % greetings.length);
@@ -249,3 +248,4 @@ const Hero: React.FC = () => {
 };
 
 export default Hero;
+
