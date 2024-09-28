@@ -48,8 +48,9 @@ const SubText = styled(motion.p)`
 
 const DesignerText = styled(motion.span)`
   display: block;
-  font-family: 'Playfair Display', serif; /* Font family */
-  font-size: 34px; /* Reduced size by 30% */
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
   color: #e85a4f;
   margin-top: 10px;
   @media (max-width: 768px) {
