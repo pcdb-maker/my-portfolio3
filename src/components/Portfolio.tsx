@@ -57,6 +57,21 @@ const Portfolio: React.FC = () => {
   
 
   return (
+    <>
+      <Header /> {/* Include the Header component at the top */}
+      <PortfolioSection id="portfolio">
+        {/* First Card */}
+        <ProjectCard
+          large={true}
+          style={{ y: y1 }} // Applying the y1 transform value
+        >
+          <Link to="/project1">
+            <ParallaxImage
+              src="https://static.wixstatic.com/media/36e847_d60ecc5b5ba446d5a03ab4521b3409d9~mv2.webp"
+              alt="project1"
+            />
+          </Link>
+        </ProjectCard>
   );
 };
 
