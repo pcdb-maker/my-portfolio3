@@ -21,6 +21,15 @@ const ProjectTitle = styled.h1`
 `;
 
 // Project image
+const ProjectImage = styled.img`
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+`;
+
 `;
 
 const Project1: React.FC = () => {
