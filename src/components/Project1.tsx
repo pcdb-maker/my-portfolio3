@@ -50,12 +50,31 @@ const BackButton = styled(Link)`
   text-decoration: none;
   transition: background 0.3s ease;
 
+  &:hover {
+    background-color: #D64545;
+  }
+`;
+
+// Button to link to the live project
+const LiveProjectButton = styled.a`
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #4056A1;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  margin-left: 20px;
+
+  &:hover {
+    background-color: #32478B;
+  }
 `;
 
 const Project1: React.FC = () => {
   return (
     <ProjectContainer>
-      <h1>Project 1 Title</h1>
       <p>Details about Project 1...</p>
       {/* Add more content, images, and animations here */}
     </ProjectContainer>
