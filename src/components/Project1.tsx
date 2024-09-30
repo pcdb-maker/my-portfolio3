@@ -30,6 +30,15 @@ const ProjectImage = styled.img`
   margin-bottom: 20px;
 `;
 
+// Text block
+const ProjectDescription = styled.p`
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+`;
+
 `;
 
 const Project1: React.FC = () => {
