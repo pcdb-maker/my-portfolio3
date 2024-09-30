@@ -39,6 +39,17 @@ const ProjectDescription = styled.p`
   margin: 0 auto 40px auto;
 `;
 
+// Back button to portfolio
+const BackButton = styled(Link)`
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #F13C20;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+
 `;
 
 const Project1: React.FC = () => {
