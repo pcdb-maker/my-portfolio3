@@ -71,27 +71,30 @@ const Arrow = styled(motion.div)`
   position: absolute;
   margin-bottom: -300px;
   left: 50%;
-  transform: translateX(-10%); /* Consistent X-axis positioning */
+  transform: translateY(0%); /* Original Y-axis position */
   font-size: 62px;
   color: #e85a4f;
   cursor: pointer;
   z-index: 2;
-  transition: transform 1s ease, color 0.3s ease; /* Added transition for transform and color */
+  transition: transform 0.3s ease, color 0.3s ease;
 
-  /* Separate hover effect to ensure no position change */
+  /* Hover effect */
   &:hover {
-    color: #b73225; /* Change color on hover */
-    transform: translateX(-70%) rotate(15deg); /* Keep translateX(-50%) to avoid movement */
+    color: #b73225;
+    transform: translateY(15px); /* Moves the arrow down by 15px on hover */
   }
 
-  /* Separate animation for when clicked */
+  /* Returns to original position when hover ends */
+  &:not(:hover) {
+    transform: translateY(0%); /* Returns to original Y-axis position */
+  }
+
+  /* Click effect */
   &:active {
-    transform: translateX(-50%) scale(1.1); /* Scaling effect without shifting position */
+    transform: translateY(20px); /* Moves down slightly on click */
   }
 `;
 
-
-// Scroll function to navigate to the portfolio section
 const scrollToPortfolioSection = () => {
   const portfolioSection = document.getElementById('portfolio');
   if (portfolioSection) {
@@ -100,27 +103,26 @@ const scrollToPortfolioSection = () => {
 };
 
 const icons = [
-  { Component: ClubIcon, initialX: 20, initialY: 70, size: 50 },
-  { Component: ClubIcon, initialX: 10, initialY: 0, size: 170 },
-  { Component: ClubIcon, initialX: 80, initialY: 40, size: 200 },
-  { Component: DiamondIcon, initialX: 25, initialY: 55, size:30 },
-  { Component: DiamondIcon, initialX: 80, initialY: 10, size: 65 },
-  { Component: DiamondIcon, initialX: 5, initialY: 50, size: 100 },
+  { Component: ClubIcon, initialX: 20, initialY: 80, size: 50 },
+  { Component: ClubIcon, initialX: 10, initialY: 10, size: 170 },
+  { Component: ClubIcon, initialX: 80, initialY: 60, size: 200 },
+  { Component: DiamondIcon, initialX: 35, initialY: 75, size: 30 },
+  { Component: DiamondIcon, initialX: 80, initialY: 30, size: 65 },
+  { Component: DiamondIcon, initialX: 5, initialY: 70, size: 100 },
   { Component: CircleIcon, initialX: 90, initialY: 10, size: 100 },
 ];
 
-const greetings = ["Hello!", "こんにちは!", "¡Hola!", "Ciao!"]; // English, Japanese, Spanish, Italian
+const greetings = ["Hello!", "こんにちは!", "¡Hola!", "Ciao!"];
 
-// Define individual letter animation sequence
 const letterVariants = {
-  hidden: { opacity: 0, y: 10 }, // Start off-screen
+  hidden: { opacity: 0, y: 10 },
   visible: (i: number) => ({
     opacity: 1,
     y: 0,
-    scale: 1.1, // Slight bounce effect
+    scale: 1.1,
     transition: {
-      delay: i * 0.1, // Reduced delay for faster animation
-      duration: 0.4, // Reduced duration for faster animation
+      delay: i * 0.1,
+      duration: 0.4,
       ease: "easeInOut",
     },
   }),
@@ -128,7 +130,7 @@ const letterVariants = {
     opacity: 0,
     y: -10,
     transition: {
-      delay: i * 0.08, // Reduced delay for faster animation
+      delay: i * 0.08,
       duration: 0.3,
       ease: "easeInOut",
     },
@@ -140,8 +142,8 @@ const containerVariants = {
   animate: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.04, // Reduced stagger for faster animation
-      delayChildren: 0.1, // Reduced initial delay
+      staggerChildren: 0.04,
+      delayChildren: 0.1,
       when: "beforeChildren",
     },
   },
@@ -154,13 +156,12 @@ const Hero: React.FC = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentGreeting((prevGreeting) => (prevGreeting + 1) % greetings.length);
-    }, 4000); // Reduced timing to 4 seconds between words
+    }, 4000);
     return () => clearInterval(interval);
   }, []);
 
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
-  // Update mouse position state on mouse move
   const handleMouseMove = (event: MouseEvent) => {
     setMousePosition({ x: event.clientX, y: event.clientY });
   };
@@ -172,7 +173,6 @@ const Hero: React.FC = () => {
     };
   }, []);
 
-  // Calculate icon movement based on mouse position
   const calculateMovement = (initialX: number, initialY: number) => ({
     x: (mousePosition.x / window.innerWidth) * 20 - initialX,
     y: (mousePosition.y / window.innerHeight) * 20 - initialY,
@@ -197,7 +197,7 @@ const Hero: React.FC = () => {
         />
       ))}
       <HeroText
-        key={currentGreeting} // Adding key to force re-render
+        key={currentGreeting}
         variants={containerVariants}
         initial="initial"
         animate="animate"
@@ -211,10 +211,10 @@ const Hero: React.FC = () => {
             initial="hidden"
             animate="visible"
             exit="exit"
-            whileHover={{ color: "#b73225" }} // Darker shade on hover
+            whileHover={{ color: "#b73225" }}
             style={{
               display: 'inline-block',
-              margin: '0 0px', // Adjusted margins to reduce space between letters
+              margin: '0 0px',
             }}
           >
             {letter}
@@ -232,13 +232,13 @@ const Hero: React.FC = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 2, duration: 1 }}
         >
-          Web Development & Digital Artist.
+          Web Developer & Digital Artist.
         </DesignerText>
       </SubText>
       <Arrow
         onClick={scrollToPortfolioSection}
-        whileHover={{ scale: 1.1 }} // Minor scaling effect on hover
-        whileTap={{ scale: 0.9 }} // Scale effect only on click
+        whileHover={{ transform: 'translateY(15px)' }} // Moves the arrow down by 15px on hover
+        whileTap={{ transform: 'translateY(20px)' }} // Moves down slightly on click
       >
         ↓
       </Arrow>
@@ -247,4 +247,3 @@ const Hero: React.FC = () => {
 };
 
 export default Hero;
-
