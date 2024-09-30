@@ -2,19 +2,20 @@ import React from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import Header from './Header'; // Import Header component
+import Header from './PortfolioHeader'; // Import Header component
+import BurgerMenu from './BurgerMenu'; // Import BurgerMenu component
 
 // Container for the entire portfolio section
 const PortfolioSection = styled.section`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 10px 2px; /* Adjust padding as needed */
-  background-color: #EFE2BA; /* Background color */
-  overflow: hidden; /* Prevent overflow issues */
-  position: relative; /* Allow absolute positioning inside */
-  min-height: 320vh; /* Increase section height to prevent overlap */
-  z-index: 0; /* Ensures correct stacking context */
+  padding: 10px 2px;
+  background-color: #EFE2BA;
+  overflow: hidden;
+  position: relative;
+  min-height: 320vh;
+  z-index: 0;
 `;
 
 // Card Container with Parallax and Sizing Styles
@@ -32,7 +33,7 @@ const ProjectCard = styled(motion.div)<{ large?: boolean }>`
   cursor: pointer;
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
-  z-index: 1; /* Ensure cards appear above the background */
+  z-index: 1;
 `;
 
 // Parallax Image inside the Card
@@ -44,99 +45,70 @@ const ParallaxImage = styled(motion.img)`
 `;
 
 const Portfolio: React.FC = () => {
-  // Capture scroll position using useScroll
   const { scrollYProgress } = useScroll();
 
-    // Map the scroll position to the Y-axis of the cards
-    const y1 = useTransform(scrollYProgress, [0, 1], [10, 100]); // Adjust [0, 200] for desired movement
-    const y2 = useTransform(scrollYProgress, [0, 1], [200, 5]);
-    const y3 = useTransform(scrollYProgress, [0, 1], [200, 10]);
-    const y4 = useTransform(scrollYProgress, [0, 1], [10, 100]);
-    const y5 = useTransform(scrollYProgress, [0, 1], [100, 10]);
-    const y6 = useTransform(scrollYProgress, [0, 1], [100, 200]);
-  
+  // Show the burger menu once the user scrolls past the hero section
+  const isBurgerVisible = useTransform(scrollYProgress, [0.15, 0.25], [0, 1]);
+
+  // Map the scroll position to the Y-axis of the cards
+  const y1 = useTransform(scrollYProgress, [0, 1], [-15, 50]);
+  const y2 = useTransform(scrollYProgress, [0, 1], [10, 50]);
+  const y3 = useTransform(scrollYProgress, [0, 1], [200, 10]);
+  const y4 = useTransform(scrollYProgress, [0, 1], [10, 100]);
+  const y5 = useTransform(scrollYProgress, [0, 1], [100, 10]);
+  const y6 = useTransform(scrollYProgress, [0, 1], [100, 200]);
 
   return (
     <>
       <Header /> {/* Include the Header component at the top */}
+
+      {/* BurgerMenu appears when the user scrolls to the Selected Works section */}
+      <motion.div style={{ opacity: isBurgerVisible }}>
+        <BurgerMenu />
+      </motion.div>
+
       <PortfolioSection id="portfolio">
         {/* First Card */}
-        <ProjectCard
-          large={true}
-          style={{ y: y1 }} // Applying the y1 transform value
-        >
+        <ProjectCard large={true} style={{ y: y1 }}>
           <Link to="/project1">
-            <ParallaxImage
-              src="https://static.wixstatic.com/media/36e847_d60ecc5b5ba446d5a03ab4521b3409d9~mv2.webp"
-              alt="project1"
-            />
+            <ParallaxImage src="https://static.wixstatic.com/media/36e847_d60ecc5b5ba446d5a03ab4521b3409d9~mv2.webp" alt="project1" />
           </Link>
         </ProjectCard>
         
         {/* Second Card */}
-        <ProjectCard
-          large={false}
-          style={{ y: y2 }} // Applying the y2 transform value
-        >
-          <Link to="/project2">
-            <ParallaxImage
-              src="https://static.wixstatic.com/media/36e847_9feb77b2a07c4d749bbcca75887be7ee~mv2.webp"
-              alt="project2"
-            />
-          </Link>
-        </ProjectCard>
-
- {/* Third Card */}
- <ProjectCard
-          large={false}
-          style={{ y: y3 }} // Applying the y3 transform value
-        >
-          <Link to="/project2">
-            <ParallaxImage
-              src="https://static.wixstatic.com/media/36e847_9feb77b2a07c4d749bbcca75887be7ee~mv2.webp"
-              alt="project2"
-            />
-          </Link>
-        </ProjectCard>
-
-        {/* Forth Card */}
- <ProjectCard
-          large={true}
-          style={{ y: y4 }} // Applying the y4 transform value
-        >
-          <Link to="/project2">
-            <ParallaxImage
-              src="https://static.wixstatic.com/media/36e847_9feb77b2a07c4d749bbcca75887be7ee~mv2.webp"
-              alt="project2"
-            />
-          </Link>
-        </ProjectCard>
-
-{/* Fith Card */}
-<ProjectCard
-          large={true}
-          style={{ y: y5 }} // Applying the y3 transform value
-        >
-          <Link to="/project2">
-            <ParallaxImage
-            src="https://static.wixstatic.com/media/36e847_9feb77b2a07c4d749bbcca75887be7ee~mv2.webp"
-              alt="project2"
-            />
-          </Link>
-        </ProjectCard>
-
-        {/* Sixth Card */}
- <ProjectCard
-          large={false}
-          style={{ y: y6 }} // Applying the y4 transform value
-        >
+        <ProjectCard large={false} style={{ y: y2 }}>
           <Link to="/project2">
             <ParallaxImage src="https://static.wixstatic.com/media/36e847_9feb77b2a07c4d749bbcca75887be7ee~mv2.webp" alt="project2" />
           </Link>
         </ProjectCard>
 
+        {/* Third Card */}
+        <ProjectCard large={false} style={{ y: y3 }}>
+          <Link to="/project2">
+            <ParallaxImage src="https://static.wixstatic.com/media/36e847_9feb77b2a07c4d749bbcca75887be7ee~mv2.webp" alt="project2" />
+          </Link>
+        </ProjectCard>
 
+        {/* Fourth Card */}
+        <ProjectCard large={true} style={{ y: y4 }}>
+          <Link to="/project2">
+            <ParallaxImage src="https://static.wixstatic.com/media/36e847_9feb77b2a07c4d749bbcca75887be7ee~mv2.webp" alt="project2" />
+          </Link>
+        </ProjectCard>
 
+        {/* Fifth Card */}
+        <ProjectCard large={true} style={{ y: y5 }}>
+          <Link to="/project2">
+            <ParallaxImage src="https://static.wixstatic.com/media/36e847_9feb77b2a07c4d749bbcca75887be7ee~mv2.webp" alt="project2" />
+          </Link>
+        </ProjectCard>
+
+        {/* Sixth Card */}
+        <ProjectCard large={false} style={{ y: y6 }}>
+          <Link to="/project2">
+            <ParallaxImage src="https://static.wixstatic.com/media/36e847_9feb77b2a07c4d749bbcca75887be7ee~mv2.webp" alt="project2" />
+          </Link>
+        </ProjectCard>
       </PortfolioSection>
     </>
   );
