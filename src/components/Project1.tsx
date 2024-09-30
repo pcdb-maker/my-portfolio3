@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom'; // For navigation between pages
 
 // Main container for the project page
 const ProjectContainer = styled.div`
-  padding: 50px;
-  background: #f4f4f9;
   padding: 80px 20px;
   max-width: 1200px;
   margin: 0 auto;
@@ -75,8 +73,6 @@ const LiveProjectButton = styled.a`
 const Project1: React.FC = () => {
   return (
     <ProjectContainer>
-      <p>Details about Project 1...</p>
-      {/* Add more content, images, and animations here */}
       <ProjectTitle>Project 1 Title</ProjectTitle>
       <ProjectImage src="https://static.wixstatic.com/media/36e847_d60ecc5b5ba446d5a03ab4521b3409d9~mv2.webp" alt="Project 1 Image" />
       <ProjectDescription>
