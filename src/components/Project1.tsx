@@ -10,6 +10,17 @@ const ProjectContainer = styled.div`
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
+  background-color: #EFE2BA; /* Background color matching the portfolio section */
+`;
+
+// Project title styling
+const ProjectTitle = styled.h1`
+  font-size: 3rem;
+  color: #4056A1;
+  margin-bottom: 30px;
+`;
+
+// Project image
 `;
 
 const Project1: React.FC = () => {
