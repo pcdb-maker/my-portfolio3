@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom'; // For navigation between pages
 
+// Main container for the project page
 const ProjectContainer = styled.div`
   padding: 50px;
   background: #f4f4f9;
