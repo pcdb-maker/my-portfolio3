@@ -6,6 +6,9 @@ import { Link } from 'react-router-dom'; // For navigation between pages
 const ProjectContainer = styled.div`
   padding: 50px;
   background: #f4f4f9;
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
   text-align: center;
 `;
 
