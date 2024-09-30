@@ -77,6 +77,15 @@ const Project1: React.FC = () => {
     <ProjectContainer>
       <p>Details about Project 1...</p>
       {/* Add more content, images, and animations here */}
+      <ProjectTitle>Project 1 Title</ProjectTitle>
+      <ProjectImage src="https://static.wixstatic.com/media/36e847_d60ecc5b5ba446d5a03ab4521b3409d9~mv2.webp" alt="Project 1 Image" />
+      <ProjectDescription>
+        This is a brief description of Project 1. It outlines the key objectives, tools used, and the overall approach taken in completing this project.
+      </ProjectDescription>
+
+      {/* Buttons to go back to portfolio or view the live project */}
+      <BackButton to="/portfolio">Back to Portfolio</BackButton>
+      <LiveProjectButton href="https://www.example.com" target="_blank">View Live Project</LiveProjectButton>
     </ProjectContainer>
   );
 };
