@@ -27,12 +27,13 @@ const HeroText = styled(motion.div)`
   margin-top: -100px;
   z-index: 2;
   display: flex;
-  letter-spacing: -10px; /* Adjusted letter-spacing */
+  letter-spacing: -10px;
   @media (max-width: 768px) {
     font-size: 100px;
-    letter-spacing: -5px; /* Adjusted for mobile */
+    letter-spacing: -5px;
   }
 `;
+
 
 const SubText = styled(motion.p)`
   font-size: 22px;
@@ -42,19 +43,19 @@ const SubText = styled(motion.p)`
   max-width: 600px;
   z-index: 2;
   @media (max-width: 768px) {
-    font-size: 18px; 
+    font-size: 18px;
   }
 `;
 
 const DesignerText = styled(motion.span)`
   display: block;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Playfair Display', serif;
   font-size: 28px;
   font-weight: 400;
   color: #e85a4f;
   margin-top: 10px;
   @media (max-width: 768px) {
-    font-size: 20px; 
+    font-size: 20px;
   }
 `;
 
@@ -65,9 +66,7 @@ const IconWrapper = styled(motion.div)<SVGProps<SVGSVGElement>>`
   z-index: 1;
 `;
 
-
-
-// Updated Arrow Component with Separate Hover Animation
+// Updated Arrow Component with hover animation
 const Arrow = styled(motion.div)`
   position: absolute;
   margin-bottom: -300px;
