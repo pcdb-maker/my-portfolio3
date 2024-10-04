@@ -10,7 +10,7 @@ const HeaderContainer = styled.div`
 `;
 
 const MainHeading = styled.h1`
-  font-size: 48px; /* Large font size for main heading */
+  font-size: 80px; /* Large font size for main heading */
   color: #e85a4f;
   font-weight: 700;
   margin: 0;
