@@ -41,6 +41,15 @@ const App: React.FC = () => {
         </>} />
         <Route path="/project1" element={<Project1 />} /> {/* Project 1 page */}
         <Route path="/project2" element={<Project2 />} /> {/* Project 2 page */}
+
+        {/* Project 1 page */}
+        <Route path="/project1" element={<>
+          <Project1 />
+          <Footer /> {/* Add Footer to Project1 page */}
+        </>} />
+
+        {/* Project 2 page */}
+        <Route path="/project2" element={<Project2 />} />
       </Routes>
     </Router>
   );
