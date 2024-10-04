@@ -40,3 +40,10 @@ const ProjectLogo = styled.div`
   cursor: pointer; /* Cursor pointer for logo */
 `;
 
+const ProjectNavLinks = styled.div`
+  display: flex;
+  gap: 40px; /* Reduced gap between nav links */
+  margin-left: -300px; /* Moves nav links closer to the logo */
+`;
+
+const ProjectNavLink = styled(Link)`
