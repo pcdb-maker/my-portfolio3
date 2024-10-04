@@ -69,6 +69,21 @@ const CardTitle = styled.h1`
   transition: transform 0.3s ease-in-out;
 `;
 
+// Subtitle with a pop color and rounded background
+const Subtitle = styled.div`
+  font-size: 16px;
+  padding: 5px 15px;
+  background-color: #f13c20;
+  border-radius: 15px;
+  color: white;
+  display: inline-block;
+  margin-top: 10px;
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  transition: none; /* No hover effect on subtitle */
+`;
+
 `;
 
 const Portfolio: React.FC = () => {
