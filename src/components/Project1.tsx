@@ -181,6 +181,17 @@ const Project1: React.FC = () => {
         transition={{ duration: 1 }}
       >
         <InfoTextContainer>
+          <InfoText><strong>Year</strong> ✦ 2023</InfoText>
+          <InfoText><strong>Agency</strong> ✦ t26 Italia</InfoText>
+        </InfoTextContainer>
+        <InfoTextContainer>
+          <InfoText><strong>Client</strong> ✦ Costa d'Oro</InfoText>
+          <InfoText><strong>Service</strong> ✦ Packaging Design</InfoText>
+        </InfoTextContainer>
+
+        {/* Live Project Button */}
+        <LiveProjectButton href="https://www.example.com" target="_blank">
+          View Live Project ✦
     </ProjectContainer>
   );
 };
