@@ -135,7 +135,7 @@ const BurgerMenu: React.FC = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
-      const showAt = 800; // Adjust this value to control when the menu appears
+      const showAt = 800;
       setVisible(scrollTop > showAt);
     };
 
