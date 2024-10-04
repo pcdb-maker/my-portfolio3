@@ -35,6 +35,18 @@ const ProjectCard = styled(motion.div)<{ large?: boolean }>`
   position: relative;
   transition: transform 0.3s ease-in-out;
   z-index: 1;
+
+  &:hover img {
+    transform: scale(1.1); /* Image zoom effect */
+  }
+
+  &:hover div.CircleLink {
+    transform: rotate(360deg); /* Spin animation for icon on card hover */
+  }
+
+  &:hover h1 {
+    transition: transform 0.5s ease-in-out;
+  }
 `;
 
 // Parallax Image inside the Card
