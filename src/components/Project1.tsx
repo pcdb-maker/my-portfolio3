@@ -62,19 +62,29 @@ const InfoText = styled.p`
   margin: 5px 0;
 `;
 
-// Back button to portfolio
-const BackButton = styled(Link)`
-  display: inline-block;
+// Button to link to the live project inside the info box
+const LiveProjectButton = styled.a`
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 10px 30px;
   font-size: 1rem;
-  color: #fff;
-  background-color: #F13C20;
+  color: white;
+  background-color: #e85a4f;
   border-radius: 25px;
   text-decoration: none;
-  transition: background 0.3s ease;
+  box-shadow: 10px 6px 14px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease, background 0.3s ease, box-shadow 0.2s ease;
 
   &:hover {
-    background-color: #D64545;
+    background: #D64545;
+    transform: translateY(3px);
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+  }
+
+  &:active {
+    transform: translateY(5px);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
   }
 `;
 
