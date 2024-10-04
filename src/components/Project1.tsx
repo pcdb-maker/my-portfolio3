@@ -154,6 +154,11 @@ const SmallImage = styled.img`
 `;
 
 const Project1: React.FC = () => {
+  const [ref, inView] = useInView({
+    triggerOnce: true, 
+    threshold: 0.3,
+  });
+
   return (
     <ProjectContainer>
       <ProjectTitle>Project 1 Title</ProjectTitle>
