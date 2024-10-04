@@ -32,6 +32,7 @@ const ProjectCard = styled(motion.div)<{ large?: boolean }>`
   justify-content: center;
   cursor: pointer;
   overflow: hidden;
+  position: relative;
   transition: transform 0.3s ease-in-out;
   z-index: 1;
 `;
