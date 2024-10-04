@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom'; // For navigation between pages
+import { motion } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 
 // Main container for the project page
 const ProjectContainer = styled.div`
