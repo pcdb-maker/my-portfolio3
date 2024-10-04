@@ -1,7 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
+import { motion, useTransform } from 'framer-motion';
+import { useInView } from 'react-intersection-observer'; 
+import { Link } from 'react-router-dom';
+import BurgerMenu from './BurgerMenuProjects'; // Assuming you have the BurgerMenu component
 
 // Main container for the project page
 const ProjectContainer = styled.div`
@@ -9,24 +11,23 @@ const ProjectContainer = styled.div`
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
-  background-color: #EFE2BA; /* Same background color as Portfolio */
+  background-color: #EFE2BA;
 `;
 
 // Project title styling with animation
 const ProjectTitle = styled(motion.h1)`
-  font-size: 4rem;
-  margin-top: -12px;
   font-family: 'Playfair Display', serif;
+  font-size: 4rem;
   margin-left: 10px;
   color: #000000;
-  margin-bottom: 30px;
+  background-color: ##EFE2BA;
 `;
 
-// Project image styling (first large image)
+// Project image styling
 const ProjectImage = styled.img`
   width: 100%;
   height: auto;
-  max-width: 1150px; /* Ensure the image is wide enough */
+  max-width: 1150px;
   height: 647px;
   border-radius: 15px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
@@ -42,7 +43,7 @@ const InfoBox = styled(motion.div)`
   border-radius: 20px;
   padding: 20px;
   width: 100%;
-  max-width: 1112px; /* Match the image width */
+  max-width: 1112px;
   margin: 20px auto 0 auto;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
 `;
@@ -88,8 +89,7 @@ const LiveProjectButton = styled.a`
   }
 `;
 
-// Two columns of text sectionRight Text Column with more details about the project. It can have a longer description here that spans multiple lines.
-
+// Two columns of text section
 const TextColumns = styled.div`
   display: flex;
   justify-content: space-between;
@@ -105,7 +105,7 @@ const LeftColumn = styled.div`
   font-weight: bold;
   font-style: italic;
   text-align: left;
-  margin-left: 30px; 
+  margin-left: 30px;
 `;
 
 const RightColumn = styled.div`
@@ -113,7 +113,7 @@ const RightColumn = styled.div`
   color: #333;
   text-align: left;
   line-height: 1.6;
-  margin-left: 80px; 
+  margin-left: 80px;
 `;
 
 // Image grid for the large images
@@ -128,17 +128,16 @@ const ImageGrid = styled.div`
 const GridImage = styled.img`
   width: 100%;
   height: auto;
-  max-width: 1150px; /* New size for the large images */
+  max-width: 1150px;
   height: 647px;
-  margin-left:25px;
+  margin-left: 25px;
   border-radius: 15px;
 `;
 
 // Image grid for the two smaller side-by-side images
 const SmallImageGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns */
-  
+  grid-template-columns: repeat(2, 1fr);
   justify-items: left;
   margin-top: 20px;
   margin-left: 30px;
@@ -148,14 +147,124 @@ const SmallImageGrid = styled.div`
 
 const SmallImage = styled.img`
   width: 92%;
-  max-width: calc(1150px / 2); /* Half the width of the large images */
-  height: 323px; /* Half the height of the large images */
+  max-width: calc(1150px / 2);
+  height: 323px;
   border-radius: 15px;
+`;
+
+// Featured Works section container
+const FeaturedWorksSection = styled.div`
+  margin-top: 60px;
+  padding: 40px 20px;
+  background-color: ##EFE2BA;
+`;
+
+// Section title
+const FeaturedTitle = styled.h2`
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 40px;
+`;
+
+// Cards grid for featured works
+const CardsGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+`;
+
+// Circle Link Icon with Spin on Hover
+const CircleLink = styled.div`
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: #e85a4f;
+  transition: transform 0.4s ease-in-out;
+
+  &:hover {
+    background-color: #e85a4f;
+    color: white;
+    transform: rotate(360deg);
+  }
+`;
+
+// Card Container with Parallax and Sizing Styles
+const ProjectCard = styled(motion.div)<{ large?: boolean }>`
+  width: ${(props) => (props.large ? '530px' : '350px')};
+  background: #fff;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+  z-index: 1;
+
+  &:hover img {
+    transform: scale(1.1);
+  }
+
+  &:hover div.CircleLink {
+    transform: rotate(360deg);
+  }
+
+  &:hover h1 {
+    transition: transform 0.5s ease-in-out;
+  }
+`;
+
+// Parallax Image inside the Card
+const ParallaxImage = styled(motion.img)`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  transition: transform 0.5s ease-in-out;
+`;
+
+// Card Title
+const CardTitle = styled.h1`
+  position: absolute;
+  bottom: 70px;
+  left: 20px;
+  font-size: 28px;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  transition: transform 0.3s ease-in-out;
+`;
+
+// Subtitle with a pop color and rounded background
+const Subtitle = styled.div`
+  font-size: 16px;
+  padding: 5px 15px;
+  background-color: #f13c20;
+  border-radius: 15px;
+  color: white;
+  display: inline-block;
+  margin-top: 10px;
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  transition: none;
 `;
 
 const Project1: React.FC = () => {
   const [ref, inView] = useInView({
-    triggerOnce: true, 
+    triggerOnce: true,
     threshold: 0.3,
   });
 
@@ -167,11 +276,14 @@ const Project1: React.FC = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ ease: 'easeOut', duration: 0.8 }}
       >
-        Project 1 Title
+        <span style={{ fontWeight: 'bold', fontStyle: 'normal' }}>Project</span> 
+        <span style={{ fontStyle: 'italic', fontWeight: 'normal' }}>Title</span>
       </ProjectTitle>
 
-      {/* Project Image */}
-      <ProjectImage src="https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187.jpg?w=1436&h=958" />
+      {/* Burger Menu */}
+      <motion.div>
+        <BurgerMenu />
+      </motion.div>
 
       {/* White Box with fade-in animation on scroll */}
       <InfoBox
@@ -189,25 +301,10 @@ const Project1: React.FC = () => {
           <InfoText><strong>Service</strong> ✦ Packaging Design</InfoText>
         </InfoTextContainer>
 
-        {/* Live Project Button */}
         <LiveProjectButton href="https://www.example.com" target="_blank">
           View Live Project ✦
         </LiveProjectButton>
       </InfoBox>
-
-      {/* Two Columns of Text */}
-      <TextColumns>
-        <LeftColumn>Description</LeftColumn>
-        <RightColumn>
-          Right Text Column with more details about the project. It can have a longer description here that spans multiple lines.
-          Right Text Column with more details about the project. It can have a longer description here that spans multiple lines.
-          Right Text Column with more details about the project. It can have a longer description here that spans multiple lines.
-          Right Text Column with more details about the project. It can have a longer description here that spans multiple lines.
-          Right Text Column with more details about the project. It can have a longer description here that spans multiple lines.
-          Right Text Column with more details about the project. It can have a longer description here that spans multiple lines.
-          Right Text Column with more details about the project. It can have a longer description here that spans multiple lines.
-        </RightColumn>
-      </TextColumns>
 
       {/* Image Grid */}
       <ImageGrid>
@@ -221,9 +318,31 @@ const Project1: React.FC = () => {
         <SmallImage src="https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187.jpg?w=1436&h=958" alt="Small Image 1" />
         <SmallImage src="https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187.jpg?w=1436&h=958" alt="Small Image 2" />
       </SmallImageGrid>
+
+      {/* Featured Works Section */}
+      <FeaturedWorksSection>
+        <FeaturedTitle>Featured works</FeaturedTitle>
+        <CardsGrid>
+          <ProjectCard large={true}>
+            <Link to="/project2">
+              <ParallaxImage src="https://static.wixstatic.com/media/36e847_9feb77b2a07c4d749bbcca75887be7ee~mv2.webp" alt="project2" />
+              <CardTitle>Opere d'Olio</CardTitle>
+              <Subtitle>Packaging Design</Subtitle>
+              <CircleLink className="CircleLink">→</CircleLink>
+            </Link>
+          </ProjectCard>
+          <ProjectCard large={true}>
+            <Link to="/project2">
+              <ParallaxImage src="https://static.wixstatic.com/media/36e847_9feb77b2a07c4d749bbcca75887be7ee~mv2.webp" alt="project2" />
+              <CardTitle>Opere d'Olio</CardTitle>
+              <Subtitle>Packaging Design</Subtitle>
+              <CircleLink className="CircleLink">→</CircleLink>
+            </Link>
+          </ProjectCard>
+        </CardsGrid>
+      </FeaturedWorksSection>
     </ProjectContainer>
   );
 };
 
 export default Project1;
-

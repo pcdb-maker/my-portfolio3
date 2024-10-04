@@ -8,6 +8,7 @@ import Services from './components/Services';
 import About from './components/About';
 import Project1 from './components/Project1';
 import Project2 from './components/Project2';
+import Footer from './components/Footer'; // Import Footer
 
 // Function to conditionally render the correct navbar
 const NavbarSelector: React.FC = () => {

@@ -105,7 +105,7 @@ const Navbar: React.FC = () => {
     <ProjectNavbarContainer>
       <ProjectLogo onClick={handleLogoClick}>Chloe Osborne <IconWrapper/> </ProjectLogo>
       <ProjectNavLinks>
-        <ProjectNavLink to="header" smooth={true} duration={200}>
+        <ProjectNavLink to="PortfolioHeader" smooth={true} duration={200}>
           Portfolio
         </ProjectNavLink>
         <ProjectNavLink to="services" smooth={true} duration={200}>
