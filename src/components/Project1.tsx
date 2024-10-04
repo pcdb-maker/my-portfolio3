@@ -134,6 +134,23 @@ const GridImage = styled.img`
   border-radius: 15px;
 `;
 
+// Image grid for the two smaller side-by-side images
+const SmallImageGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  
+  justify-items: left;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: -20px;
+  gap: 10px;
+`;
+
+const SmallImage = styled.img`
+  width: 92%;
+  max-width: calc(1150px / 2); /* Half the width of the large images */
+  height: 323px; /* Half the height of the large images */
+  border-radius: 15px;
 `;
 
 const Project1: React.FC = () => {
