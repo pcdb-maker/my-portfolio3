@@ -16,6 +16,16 @@ const MainHeading = styled.h1`
   margin: 0;
 `;
 
+const Fancy = styled.h1`
+  font-size: 80px; /* Large font size for main heading */
+  color: #4056A1;
+  font-weight: 700;
+  font-style: italic;
+   font-family: 'Playfair Display', sans-serif;
+  margin: 0;
+ 
+`;
+
 const SubHeading = styled.p`
   font-size: 24px; /* Smaller font size for subheading */
   color: #4056a1;
