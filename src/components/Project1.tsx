@@ -12,10 +12,6 @@ const ProjectContainer = styled.div`
   background-color: #EFE2BA; /* Same background color as Portfolio */
 `;
 
-// Project title styling
-const ProjectTitle = styled.h1`
-  font-size: 3rem;
-  color: #4056A1;
   margin-bottom: 30px;
 `;
 
