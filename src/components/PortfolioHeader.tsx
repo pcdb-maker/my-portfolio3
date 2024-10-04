@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const HeaderContainer = styled.div`
   padding: 50px 20px;
   text-align: center;
-  background-color: #f7f3e9; /* Header background color */
+  background-color: #EFE2BA;
   font-family: 'Poppins', sans-serif;
 `;
 
