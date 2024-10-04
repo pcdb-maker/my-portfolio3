@@ -58,3 +58,29 @@ const ProjectNavLink = styled(Link)`
 `;
 
 const ContactButton = styled.a`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px; /* Adjust spacing as needed */
+  padding: 10px 30px; /* Button padding */
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000; /* Text color */
+  background: #e85a4f; /* Button background color */
+  border-radius: 25px; /* Rounded corners */
+  box-shadow: 10px 6px 14px rgba(0, 0, 0, 0.4), -1px 5px 3px rgba(0, 0, 0, 20); /* Initial shadow */
+  text-decoration: none;
+  transition: transform 0.2s ease, background 0.3s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    background: #d64545; /* Darker shade on hover */
+    transform: translateY(3px); /* Slight downward movement */
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2); /* Reduced shadow to show 'pressed' effect */
+  }
+
+  &:active {
+    transform: translateY(5px); /* Further downward movement on click */
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2); /* Even more reduced shadow on click */
+  }
+`;
+
