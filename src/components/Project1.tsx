@@ -161,6 +161,16 @@ const Project1: React.FC = () => {
 
   return (
     <ProjectContainer>
+      {/* Animated Project Title */}
+      <ProjectTitle
+        initial={{ y: -50, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ ease: 'easeOut', duration: 0.8 }}
+      >
+        Project 1 Title
+      </ProjectTitle>
+
+      {/* Project Image */}
     </ProjectContainer>
   );
 };
