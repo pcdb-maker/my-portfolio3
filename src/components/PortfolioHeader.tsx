@@ -35,9 +35,6 @@ const SubHeading = styled.p`
 
 const Header: React.FC = () => {
   return (
-    <HeaderContainer id='header'>
-      <MainHeading>Selected Works</MainHeading>
-      <SubHeading>A showcase of my recent projects and creative endeavors.</SubHeading>
     </HeaderContainer>
 
   );
