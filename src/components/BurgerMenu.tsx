@@ -115,9 +115,9 @@ const BurgerMenu: React.FC = () => {
   const [open, setOpen] = useState(false);
   const [visible, setVisible] = useState(false);
 
+  // Handle click event to toggle menu
   const handleClick = () => {
     setOpen(!open);
-    document.body.style.overflow = open ? 'auto' : 'hidden'; // Prevent scrolling when the menu is open
   };
 
   useEffect(() => {
