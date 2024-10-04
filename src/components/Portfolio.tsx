@@ -55,6 +55,20 @@ const ParallaxImage = styled(motion.img)`
   height: 100%;
   object-fit: cover;
   object-position: 50% 50%;
+  transition: transform 0.5s ease-in-out;
+`;
+
+// Card Title
+const CardTitle = styled.h1`
+  position: absolute;
+  bottom: 70px;
+  left: 20px;
+  font-size: 28px;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  transition: transform 0.3s ease-in-out;
+`;
+
 `;
 
 const Portfolio: React.FC = () => {
