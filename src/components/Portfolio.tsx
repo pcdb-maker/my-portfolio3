@@ -84,6 +84,27 @@ const Subtitle = styled.div`
   transition: none; /* No hover effect on subtitle */
 `;
 
+// Circle Link Icon with Spin on Hover
+const CircleLink = styled.div`
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: #e85a4f;
+  transition: transform 0.4s ease-in-out;
+
+  &:hover {
+    background-color: #e85a4f;
+    color: white;
+    transform: rotate(360deg); /* Spin animation */
+  }
 `;
 
 const Portfolio: React.FC = () => {
