@@ -226,3 +226,4 @@ const Project1: React.FC = () => {
 };
 
 export default Project1;
+
