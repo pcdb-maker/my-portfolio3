@@ -32,3 +32,11 @@ const ProjectNavbarContainer = styled.nav`
 `;
 
 
+const ProjectLogo = styled.div`
+  font-size: 28px;
+  font-weight: bold;
+  color: black; /* Changed logo text color to black */
+  overflow: hidden; /* Prevents overflow */
+  cursor: pointer; /* Cursor pointer for logo */
+`;
+
