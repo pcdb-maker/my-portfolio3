@@ -116,9 +116,24 @@ const RightColumn = styled.div`
   margin-left: 80px; 
 `;
 
-  &:hover {
-    background-color: #32478B;
-  }
+// Image grid for the large images
+const ImageGrid = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+  margin-top: 20px;
+`;
+
+const GridImage = styled.img`
+  width: 100%;
+  height: auto;
+  max-width: 1150px; /* New size for the large images */
+  height: 647px;
+  margin-left:25px;
+  border-radius: 15px;
+`;
+
 `;
 
 const Project1: React.FC = () => {
