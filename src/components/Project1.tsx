@@ -12,6 +12,13 @@ const ProjectContainer = styled.div`
   background-color: #EFE2BA; /* Same background color as Portfolio */
 `;
 
+// Project title styling with animation
+const ProjectTitle = styled(motion.h1)`
+  font-size: 4rem;
+  margin-top: -12px;
+  font-family: 'Playfair Display', serif;
+  margin-left: 10px;
+  color: #000000;
   margin-bottom: 30px;
 `;
 
