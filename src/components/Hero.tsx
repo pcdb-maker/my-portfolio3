@@ -97,7 +97,7 @@ const Arrow = styled(motion.div)`
 `;
 
 const scrollToPortfolioSection = () => {
-  const portfolioSection = document.getElementById('portfolio');
+  const portfolioSection = document.getElementById('portfolioHeader');
   if (portfolioSection) {
     portfolioSection.scrollIntoView({ behavior: 'smooth' });
   }
