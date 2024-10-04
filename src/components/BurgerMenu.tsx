@@ -97,11 +97,13 @@ const InternalLinks = styled(Link)`
   }
 `;
 
-// External links with regular styling
 const ExternalLinks = styled.a`
   font-size: 15px;
   color: white;
   text-decoration: none;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: 25px;
   
 
   &:hover {
