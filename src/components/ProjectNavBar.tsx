@@ -102,3 +102,25 @@ const Navbar: React.FC = () => {
   };
 
   return (
+    <ProjectNavbarContainer>
+      <ProjectLogo onClick={handleLogoClick}>Chloe Osborne <IconWrapper/> </ProjectLogo>
+      <ProjectNavLinks>
+        <ProjectNavLink to="header" smooth={true} duration={200}>
+          Portfolio
+        </ProjectNavLink>
+        <ProjectNavLink to="services" smooth={true} duration={200}>
+          Services
+        </ProjectNavLink>
+        <ProjectNavLink to="about" smooth={true} duration={200}>
+          About
+          </ProjectNavLink>
+        </ProjectNavLinks>
+      <ContactButton href="contact">
+        Contact me
+        <IconWrapper /> 
+      </ContactButton>
+    </ProjectNavbarContainer>
+  );
+};
+
+export default Navbar;
