@@ -25,7 +25,6 @@ const BurgerWrapper = styled.div<{ visible: boolean }>`
   }
 `;
 
-// Styling for the burger lines
 const BurgerLines = styled.div<{ open: boolean }>`
   width: 35px;
   height: 4px;
@@ -56,12 +55,10 @@ const BurgerLines = styled.div<{ open: boolean }>`
   }
 `;
 
-// Adjust Sidebar menu for larger width and further position
 const Sidebar = styled.div<{ open: boolean }>`
   position: fixed;
-  top: 170px;
+  top: 1px;
   right: 0;
-  height: 430px;
   width: 300px;  /* Increased width for larger pop out */
   background-color: #333;
   border-radius: 15px 15px 15px 15px;
