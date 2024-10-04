@@ -192,6 +192,22 @@ const Project1: React.FC = () => {
         {/* Live Project Button */}
         <LiveProjectButton href="https://www.example.com" target="_blank">
           View Live Project ✦
+        </LiveProjectButton>
+      </InfoBox>
+
+      {/* Two Columns of Text */}
+      <TextColumns>
+        <LeftColumn>Description</LeftColumn>
+        <RightColumn>
+          Right Text Column with more details about the project. It can have a longer description here that spans multiple lines.
+          Right Text Column with more details about the project. It can have a longer description here that spans multiple lines.
+          Right Text Column with more details about the project. It can have a longer description here that spans multiple lines.
+          Right Text Column with more details about the project. It can have a longer description here that spans multiple lines.
+          Right Text Column with more details about the project. It can have a longer description here that spans multiple lines.
+          Right Text Column with more details about the project. It can have a longer description here that spans multiple lines.
+          Right Text Column with more details about the project. It can have a longer description here that spans multiple lines.
+        </RightColumn>
+      </TextColumns>
     </ProjectContainer>
   );
 };
