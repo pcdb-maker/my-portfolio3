@@ -84,3 +84,16 @@ const ContactButton = styled.a`
   }
 `;
 
+const IconWrapper = styled(ClubIcon)`
+  width: 16px; /* Smaller icon size */
+  height: 16px;
+  margin-left: 8px; /* Spacing between text and icon */
+  transition: transform 0.3s ease;
+
+  /* Spin animation on hover */
+  ${ContactButton}:hover & {
+    transform: rotate(360deg);
+  }
+`;
+
+const Navbar: React.FC = () => {
