@@ -47,6 +47,14 @@ const InfoBox = styled(motion.div)`
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
 `;
 
+// Text container for the left-aligned text in the InfoBox
+const InfoTextContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 10px;
+`;
+
   color: #333;
   max-width: 800px;
   margin: 0 auto 40px auto;
