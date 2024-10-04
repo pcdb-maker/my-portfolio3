@@ -120,6 +120,18 @@ const BurgerMenu: React.FC = () => {
     setOpen(!open);
   };
 
+  // Effect to monitor the state of the menu and handle scrolling
+  useEffect(() => {
+    // If menu is open, prevent scrolling
+    document.body.style.overflow = open ? 'hidden' : 'auto';
+
+    // Clean up overflow style when component unmounts
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, [open]); // Run this effect every time `open` changes
+
+  // Handle scroll event to show/hide burger menu
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
