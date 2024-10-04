@@ -97,3 +97,8 @@ const IconWrapper = styled(ClubIcon)`
 `;
 
 const Navbar: React.FC = () => {
+  const handleLogoClick = () => {
+    window.history.back(); // Go back to the previous page
+  };
+
+  return (
