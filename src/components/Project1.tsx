@@ -88,10 +88,6 @@ const LiveProjectButton = styled.a`
   }
 `;
 
-// Button to link to the live project
-const LiveProjectButton = styled.a`
-  display: inline-block;
-  padding: 10px 30px;
   font-size: 1rem;
   color: #fff;
   background-color: #4056A1;
