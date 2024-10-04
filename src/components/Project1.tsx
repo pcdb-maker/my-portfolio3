@@ -9,7 +9,7 @@ const ProjectContainer = styled.div`
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
-  background-color: #EFE2BA; /* Background color matching the portfolio section */
+  background-color: #EFE2BA; /* Same background color as Portfolio */
 `;
 
 // Project title styling
