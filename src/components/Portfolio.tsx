@@ -114,12 +114,12 @@ const Portfolio: React.FC = () => {
   const isBurgerVisible = useTransform(scrollYProgress, [0.5, 0.5], [0, 1]);
 
   // Map the scroll position to the Y-axis of the cards
-  const y1 = useTransform(scrollYProgress, [0, 1], [-15, 50]);
-  const y2 = useTransform(scrollYProgress, [0, 1], [10, 50]);
-  const y3 = useTransform(scrollYProgress, [0, 1], [200, 10]);
-  const y4 = useTransform(scrollYProgress, [0, 1], [10, 100]);
-  const y5 = useTransform(scrollYProgress, [0, 1], [100, 10]);
-  const y6 = useTransform(scrollYProgress, [0, 1], [100, 200]);
+  const y1 = useTransform(scrollYProgress, [0, 1], [-20, 250]);
+  const y2 = useTransform(scrollYProgress, [0, 1], [250, -20]);
+  const y3 = useTransform(scrollYProgress, [0, 1], [0, 250]);
+  const y4 = useTransform(scrollYProgress, [0, 1], [250, 0]);
+  const y5 = useTransform(scrollYProgress, [0, 1], [0, 100]);
+  const y6 = useTransform(scrollYProgress, [0, 1], [100, 0]);
 
   return (
     <>
