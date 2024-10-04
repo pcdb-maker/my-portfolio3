@@ -33,6 +33,20 @@ const ProjectImage = styled.img`
   margin-bottom: 20px;
 `;
 
+// White Box with rounded corners and two columns for text
+const InfoBox = styled(motion.div)`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  width: 100%;
+  max-width: 1112px; /* Match the image width */
+  margin: 20px auto 0 auto;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+`;
+
   color: #333;
   max-width: 800px;
   margin: 0 auto 40px auto;
