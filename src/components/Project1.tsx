@@ -55,9 +55,11 @@ const InfoTextContainer = styled.div`
   gap: 10px;
 `;
 
+// Text styling for the two columns inside the info box
+const InfoText = styled.p`
+  font-size: 16px;
   color: #333;
-  max-width: 800px;
-  margin: 0 auto 40px auto;
+  margin: 5px 0;
 `;
 
 // Back button to portfolio
