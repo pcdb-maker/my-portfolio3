@@ -64,7 +64,7 @@ const Sidebar = styled.div<{ open: boolean }>`
   background-color: #333;
   border-radius: 15px 15px 15px 15px;
   transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(100%)')};
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.5s ease-in-out;
   z-index: 99;
   display: flex;
   flex-direction: column;
@@ -73,14 +73,14 @@ const Sidebar = styled.div<{ open: boolean }>`
   color: white;
 `;
 
-// Close button styling
 const CloseButton = styled.div`
   font-size: 30px;
   font-family: 'Playfair Display';
-  font-decoration: italic;
   color: #e85a4f;
   cursor: pointer;
   align-self: flex-end;
+  margin-top: 10px;
+  margin-right: 14px;
 `;
 
 // Internal links with larger, decorative text
