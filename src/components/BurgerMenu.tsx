@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 // Wrapper for the burger icon
 const BurgerWrapper = styled.div<{ visible: boolean }>`
   position: fixed;
-  bottom: 450px; /* Adjust the position as needed */
-  right: 20px;
+  bottom: 560px; 
+  right: 30px;
   z-index: 150;
   width: 60px;
   height: 60px;

@@ -1,18 +1,34 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Import routing components
-import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
+import Navbar from './components/Navbar'; // Original Navbar
+import ProjectNavBar from './components/ProjectNavBar'; // Custom Navbar for project pages
 import Hero from './components/Hero';
 import Portfolio from './components/Portfolio';
 import Services from './components/Services';
 import About from './components/About';
-import Project1 from './components/Project1'; // Import new project components
+import Project1 from './components/Project1';
 import Project2 from './components/Project2';
-import './index.css'; // Ensure your global styles are imported
+
+// Function to conditionally render the correct navbar
+const NavbarSelector: React.FC = () => {
+  const location = useLocation();
+
+  // List of paths where the ProjectNavBar should be shown
+  const projectPaths = ['/project1', '/project2'];
+
+  // Conditionally return ProjectNavBar for project pages, otherwise return the standard Navbar
+  if (projectPaths.includes(location.pathname)) {
+    return <ProjectNavBar />;
+  }
+
+  return <Navbar />;
+};
 
 const App: React.FC = () => {
   return (
     <Router>
-      <Navbar /> {/* Navbar will remain consistent across all pages */}
+      {/* Conditional rendering of the navbar */}
+      <NavbarSelector />
       <Routes>
         <Route path="/" element={<>
           <Hero />
