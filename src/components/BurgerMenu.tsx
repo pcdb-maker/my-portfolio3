@@ -59,7 +59,8 @@ const Sidebar = styled.div<{ open: boolean }>`
   position: fixed;
   top: 1px;
   right: 0;
-  width: 300px;  /* Increased width for larger pop out */
+  height: 530px;
+  width: 300px; 
   background-color: #333;
   border-radius: 15px 15px 15px 15px;
   transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(100%)')};
