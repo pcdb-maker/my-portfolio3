@@ -22,11 +22,12 @@ const ProjectTitle = styled(motion.h1)`
   margin-bottom: 30px;
 `;
 
-// Project image
+// Project image styling (first large image)
 const ProjectImage = styled.img`
   width: 100%;
   height: auto;
-  max-width: 800px;
+  max-width: 1150px; /* Ensure the image is wide enough */
+  height: 647px;
   border-radius: 15px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
   margin-bottom: 20px;
