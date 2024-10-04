@@ -111,7 +111,7 @@ const Portfolio: React.FC = () => {
   const { scrollYProgress } = useScroll();
 
   // Show the burger menu once the user scrolls past the hero section
-  const isBurgerVisible = useTransform(scrollYProgress, [0.15, 0.25], [0, 1]);
+  const isBurgerVisible = useTransform(scrollYProgress, [0.5, 0.5], [0, 1]);
 
   // Map the scroll position to the Y-axis of the cards
   const y1 = useTransform(scrollYProgress, [0, 1], [-15, 50]);
