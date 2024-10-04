@@ -88,6 +88,27 @@ const LiveProjectButton = styled.a`
   }
 `;
 
+// Two columns of text sectionRight Text Column with more details about the project. It can have a longer description here that spans multiple lines.
+
+const TextColumns = styled.div`
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Playfair Display', serif;
+  margin: 40px 0;
+  width: 100%;
+  max-width: 1150px;
+`;
+
+const LeftColumn = styled.div`
+  font-size: 2rem;
+  color: #333;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+  margin-left: 30px; 
+`;
+
+const RightColumn = styled.div`
   font-size: 1rem;
   color: #fff;
   background-color: #4056A1;
