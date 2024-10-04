@@ -35,9 +35,16 @@ const SubHeading = styled.p`
 
 const Header: React.FC = () => {
   return (
+    <HeaderContainer id='portfolioHeader'>
+      <MainHeading>Selected</MainHeading><Fancy>Works.</Fancy> 
+      <SubHeading>✦ Take a look at some of my projects ✦</SubHeading>
+      <SubHeading>This portfolio features a showcase of my recent projects and creative endeavors.</SubHeading>
+      <SubHeading>Click on the cards for live demos, repositories
+ and an explanation of the design process.</SubHeading>
     </HeaderContainer>
 
   );
 };
 
 export default Header;
+
