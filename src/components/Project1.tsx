@@ -110,12 +110,6 @@ const LeftColumn = styled.div`
 
 const RightColumn = styled.div`
   font-size: 1rem;
-  color: #fff;
-  background-color: #4056A1;
-  border-radius: 25px;
-  text-decoration: none;
-  transition: background 0.3s ease;
-  margin-left: 20px;
 
   &:hover {
     background-color: #32478B;
