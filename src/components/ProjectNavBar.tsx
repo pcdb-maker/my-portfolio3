@@ -47,3 +47,14 @@ const ProjectNavLinks = styled.div`
 `;
 
 const ProjectNavLink = styled(Link)`
+  font-size: 16px;
+  color: black; /* Changed link text to black */
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+`;
+
+const ContactButton = styled.a`
