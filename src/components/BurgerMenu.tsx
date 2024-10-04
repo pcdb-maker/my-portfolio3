@@ -151,7 +151,6 @@ const BurgerMenu: React.FC = () => {
 
       <Sidebar open={open}>
         <CloseButton onClick={handleClick}> X </CloseButton>
-        {/* Internal Links */}
         <InternalLinks to="/portfolio">Portfolio</InternalLinks>
         <InternalLinks to="/services">Services</InternalLinks>
         <InternalLinks to="/about">About</InternalLinks>
