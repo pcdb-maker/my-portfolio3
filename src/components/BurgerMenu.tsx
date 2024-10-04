@@ -83,19 +83,15 @@ const CloseButton = styled.div`
   margin-right: 14px;
 `;
 
-// Internal links with larger, decorative text
 const InternalLinks = styled(Link)`
   font-family: 'Playfair Display';
   font-style: italic;
-  font-size: 35px;
-  font-weight: bold;
+  font-size: 55px;
   color: white;
   text-decoration: none;
-  margin-top:-1px;
-  margin-bottom:-1px;
+  margin-top: -170px;
+  margin-bottom: -20px;
 
-  
-  
   &:hover {
     color: #e85a4f;
   }
