@@ -27,8 +27,9 @@ const Fancy = styled.h1`
 `;
 
 const SubHeading = styled.p`
-  font-size: 24px; /* Smaller font size for subheading */
-  color: #4056a1;
+  font-size: 18px;
+  color: #000000;
+  align: center;
   margin: 10px 0 0;
 `;
 
