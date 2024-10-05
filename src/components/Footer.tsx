@@ -59,6 +59,7 @@ const Footer = () => {
                 position: 'relative', 
                 width: '100%', 
                 overflow: 'hidden',  // Ensure no scrolling elements overflow
+                    ref={scrollContainerRef}
                     style={{
                         fontSize: '6rem',
                         whiteSpace: 'nowrap',
