@@ -109,6 +109,7 @@ const Footer = () => {
             {/* Footer Bottom */}
             <div style={{ backgroundColor: '#000', color: '#EFE2BA', textAlign: 'center', padding: '20px 0', marginTop: '30px' }}>
                 <p>© 2024 by Astrid Mottes | All Rights Reserved</p>
+                backgroundColor: '#28282F', 
                 color: '#fffff', 
                 textAlign: 'center', 
                 padding: '20px 0', 
