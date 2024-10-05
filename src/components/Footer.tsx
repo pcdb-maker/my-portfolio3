@@ -27,6 +27,7 @@ const Footer = () => {
         <div style={{ 
             backgroundColor: '#E7594F', 
             fontFamily: 'Playfair Display',
+            color: '#ffffff', 
             {/* Banner animation */}
             <motion.div
                 style={{
