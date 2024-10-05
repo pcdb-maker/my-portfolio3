@@ -36,24 +36,6 @@ const Footer = () => {
             paddingTop: '30px'
         }}>
             {/* Banner animation */}
-                    width: '100%',
-                }}
-                initial={{ x: '100%' }}
-                animate={{ x: '-100%' }}
-                transition={{
-                    ease: "linear",
-                    duration: 20, // Slowed down
-                    repeat: Infinity
-                }}
-            >
-                {/* Duplicated content for seamless looping */}
-                <span>Let's work together</span>
-                <span style={{ margin: '0 20px', fontStyle: 'italic' }}>♦</span>
-                <span>一緒に働こう</span>
-                <span>Lavoriamo insieme</span>
-                <span style={{ margin: '0 20px', fontStyle: 'italic' }}>♦</span>
-                <span>Trabajemos juntos</span>
-                <span style={{ margin: '0 20px', fontStyle: 'italic' }}>♦</span>
             <div style={{ 
                 position: 'relative', 
                 width: '100%', 
