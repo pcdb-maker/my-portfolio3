@@ -70,6 +70,7 @@ const Footer = () => {
                 <span style={{ margin: '0 20px', fontStyle: 'italic' }}>♦</span>
                 <span>Trabajemos juntos</span>
             </motion.div>
+                height: '2px', 
                 backgroundColor: 'white', 
                 position: 'relative',  // Independent of the scrollable banner
                 marginTop: '-30px', // Space above the white line
