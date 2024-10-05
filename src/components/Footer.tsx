@@ -36,7 +36,6 @@ const Footer = () => {
             paddingTop: '30px'
         }}>
             {/* Banner animation */}
-                    alignItems: 'center',
                     justifyContent: 'center',
                     width: '100%',
                 }}
