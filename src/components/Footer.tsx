@@ -60,6 +60,7 @@ const Footer = () => {
                 width: '100%', 
                 overflow: 'hidden',  // Ensure no scrolling elements overflow
                     style={{
+                        fontSize: '6rem',
                         whiteSpace: 'nowrap',
                         display: 'inline-flex',
                         justifyContent: 'center',
