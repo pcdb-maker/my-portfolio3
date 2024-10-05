@@ -78,7 +78,6 @@ const Footer = () => {
                 paddingTop: '40px',
                 fontSize: '1.1rem',
                 textAlign: 'left',
-                gap: '40px', // Increased horizontal space
             }}>
                 <div style={{ padding: '0 20px' }}>
                     <h3 style={{ color: '#D7C3A4' }}>Chloe Osborne Designs</h3>
