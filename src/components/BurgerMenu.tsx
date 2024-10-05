@@ -81,6 +81,7 @@ const CloseButton = styled.div`
   align-self: flex-end;
   margin-top: 10px;
   margin-right: 14px;
+  margin-right: 50px;
 `;
 
 const InternalLinks = styled(Link)`
