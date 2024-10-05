@@ -4,6 +4,7 @@ const Footer = () => {
     const scrollContainerRef = useRef<HTMLDivElement | null>(null);
     let scrollAmount = 0;
 
+    useEffect(() => {
     return (
         <div style={{ backgroundColor: '#4056A1', color: '#EFE2BA', padding: '50px 0', position: 'relative' }}>
             {/* Banner animation */}
