@@ -74,6 +74,7 @@ const Sidebar = styled.div<{ open: boolean }>`
 `;
 
 const CloseButton = styled.div`
+  font-size: 40px;
   font-family: 'Playfair Display';
   color: #e85a4f;
   cursor: pointer;
