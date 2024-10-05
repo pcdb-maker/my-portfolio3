@@ -103,6 +103,7 @@ const Footer = () => {
                     <p style={{ marginBottom: '10px' }}>Portfolio</p>
                     <p style={{ marginBottom: '10px' }}>Services</p>
                     <p>About</p>
+                    <p>Portfolio <br /> Services <br /> About</p>
                 </div>
             </div>
 
