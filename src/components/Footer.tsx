@@ -65,6 +65,7 @@ const Footer = () => {
                 <span style={{ margin: '0 20px', fontStyle: 'italic' }}>♦</span>
                 <span>Trabajemos juntos</span>
             </motion.div>
+                    }}
                 >
                     {/* Scrolling content */}
                     <span>Let's work <span style={{ fontStyle: 'italic' }}>together</span></span> {/* Italicize 'together' */}
