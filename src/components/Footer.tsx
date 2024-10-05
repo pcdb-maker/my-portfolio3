@@ -98,7 +98,6 @@ const Footer = () => {
                     <p>LinkedIn</p>
                 </div>
 
-                <div style={{ flex: 1, padding: '0 20px' }}>
                 <div style={{ padding: '0 20px' }}>
                     <h3 style={{ color: '#D7C3A4' }}>Other Links</h3>
                     <p>Portfolio <br /> Services <br /> About</p>
