@@ -307,6 +307,7 @@ const Project1: React.FC = () => {
         </LiveProjectButton>
       </InfoBox>
 
+      {/* Text Columns */}
       <TextColumns>
         <LeftColumn>Project Description Goes Here</LeftColumn>
         <RightColumn>Additional project details and information go here.</RightColumn>
