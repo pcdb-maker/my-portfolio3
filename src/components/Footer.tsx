@@ -56,6 +56,7 @@ const Footer = () => {
                 <span style={{ margin: '0 20px', fontStyle: 'italic' }}>♦</span>
                 <span>Let's work together</span>
             </motion.div>
+            <div style={{ 
                         width: 'max-content', // Prevents clipping of the text
                         fontStyle: 'italic',
                         margin: '20px',
