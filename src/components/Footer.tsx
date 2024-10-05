@@ -29,6 +29,7 @@ const Footer = () => {
             fontFamily: 'Playfair Display',
             color: '#ffffff', 
             display: 'flex', 
+            flexDirection: 'column', 
             {/* Banner animation */}
             <motion.div
                 style={{
