@@ -50,7 +50,6 @@ const Footer = () => {
                 <span>Let's work together</span>
                 <span style={{ margin: '0 20px', fontStyle: 'italic' }}>♦</span>
                 <span>一緒に働こう</span>
-                <span style={{ margin: '0 20px', fontStyle: 'italic' }}>♦</span>
                 <span>Lavoriamo insieme</span>
                 <span style={{ margin: '0 20px', fontStyle: 'italic' }}>♦</span>
                 <span>Trabajemos juntos</span>
