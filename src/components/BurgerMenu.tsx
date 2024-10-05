@@ -79,7 +79,6 @@ const CloseButton = styled.div`
   color: #e85a4f;
   cursor: pointer;
   align-self: flex-end;
-  margin-top: 10px;
   margin-top: 40px;
   margin-right: 50px;
 `;
