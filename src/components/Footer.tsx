@@ -16,6 +16,7 @@ const Footer = () => {
                 if (Math.abs(scrollAmount) >= scrollContainer.scrollWidth / 2) {
                     scrollAmount = 0;
                 }
+                requestAnimationFrame(scroll);
     return (
         <div style={{ backgroundColor: '#4056A1', color: '#EFE2BA', padding: '50px 0', position: 'relative' }}>
             {/* Banner animation */}
