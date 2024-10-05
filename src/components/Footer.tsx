@@ -99,7 +99,6 @@ const Footer = () => {
                 </div>
 
                 <div style={{ flex: 1, padding: '0 20px' }}>
-                    <h3 style={{ color: '#D79922', marginBottom: '10px' }}>Other Links</h3>
                 <div style={{ padding: '0 20px' }}>
                     <h3 style={{ color: '#D7C3A4' }}>Other Links</h3>
                     <p>Portfolio <br /> Services <br /> About</p>
