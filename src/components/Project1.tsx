@@ -307,6 +307,7 @@ const Project1: React.FC = () => {
         </LiveProjectButton>
       </InfoBox>
 
+      </TextColumns>
 
       {/* Image Grid */}
       <ImageGrid>
