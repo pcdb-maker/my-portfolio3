@@ -57,6 +57,7 @@ const Footer = () => {
                 <span>Let's work together</span>
             </motion.div>
             <div style={{ 
+                position: 'relative', 
                         width: 'max-content', // Prevents clipping of the text
                         fontStyle: 'italic',
                         margin: '20px',
