@@ -271,6 +271,7 @@ const Project1: React.FC = () => {
 
   return (
     <ProjectContainer>
+
       {/* Animated Project Title */}
       <ProjectTitle
         initial={{ y: -50, opacity: 0 }}
