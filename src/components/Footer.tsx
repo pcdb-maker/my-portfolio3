@@ -70,6 +70,7 @@ const Footer = () => {
                 <span style={{ margin: '0 20px', fontStyle: 'italic' }}>♦</span>
                 <span>Trabajemos juntos</span>
             </motion.div>
+                marginTop: '-30px', // Space above the white line
             }}></div>
 
             {/* Footer content */}
