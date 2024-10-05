@@ -55,7 +55,6 @@ const Footer = () => {
                 <span style={{ margin: '0 20px', fontStyle: 'italic' }}>♦</span>
                 <span>Trabajemos juntos</span>
                 <span style={{ margin: '0 20px', fontStyle: 'italic' }}>♦</span>
-                {/* Repeat the text for seamless effect */}
                 <span>Let's work together</span>
                 <span style={{ margin: '0 20px', fontStyle: 'italic' }}>♦</span>
                 <span>一緒に働こう</span>
