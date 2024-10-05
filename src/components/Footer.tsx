@@ -34,6 +34,7 @@ const Footer = () => {
             minHeight: '85vh', 
             position: 'relative',
             paddingTop: '30px'
+        }}>
             {/* Banner animation */}
             <motion.div
                 style={{
