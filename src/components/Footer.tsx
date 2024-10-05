@@ -96,6 +96,7 @@ const Footer = () => {
                     <p style={{ marginBottom: '10px' }}>Instagram</p>
                     <p style={{ marginBottom: '10px' }}>Behance</p>
                     <p>LinkedIn</p>
+                    <p>Instagram <br /> Behance <br /> LinkedIn</p>
                 </div>
 
                 <div style={{ padding: '0 20px' }}>
