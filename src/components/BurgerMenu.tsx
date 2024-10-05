@@ -89,7 +89,6 @@ const InternalLinks = styled(Link)`
   font-size: 55px;
   color: white;
   text-decoration: none;
-  margin-top: -170px;
   margin-top: -80px;
   margin-bottom: -20px;
 
