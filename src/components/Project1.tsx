@@ -19,6 +19,7 @@ const ProjectTitle = styled(motion.h1)`
   font-family: 'Playfair Display', serif;
   font-size: 4rem;
   margin-left: 10px;
+  margin-top: -10px;
   color: #000000;
   background-color: ##EFE2BA;
 `;
