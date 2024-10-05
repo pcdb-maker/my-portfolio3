@@ -30,6 +30,7 @@ const Footer = () => {
             color: '#ffffff', 
             display: 'flex', 
             flexDirection: 'column', 
+            justifyContent: 'space-between', 
             {/* Banner animation */}
             <motion.div
                 style={{
