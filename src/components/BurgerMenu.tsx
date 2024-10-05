@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 const BurgerWrapper = styled.div<{ visible: boolean }>`
   position: fixed;
   bottom: 560px; 
-  right: 30px;
   bottom: 530px; 
   z-index: 150;
   width: 60px;
