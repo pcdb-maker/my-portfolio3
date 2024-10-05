@@ -59,7 +59,6 @@ const Sidebar = styled.div<{ open: boolean }>`
   position: fixed;
   top: 1px;
   right: 0;
-  height: 530px;
   height: 430px;
   width: 300px; 
   background-color: #333;
