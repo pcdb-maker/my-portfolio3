@@ -285,6 +285,7 @@ const Project1: React.FC = () => {
       <motion.div>
         <BurgerMenu />
       </motion.div>
+      <ProjectImage src="https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187.jpg?w=1436&h=958" alt="Image 1" />
 
       {/* White Box with fade-in animation on scroll */}
       <InfoBox
