@@ -62,6 +62,7 @@ const Footer = () => {
                     style={{
                         whiteSpace: 'nowrap',
                         display: 'inline-flex',
+                        justifyContent: 'center',
                         width: 'max-content', // Prevents clipping of the text
                         fontStyle: 'italic',
                         margin: '20px',
