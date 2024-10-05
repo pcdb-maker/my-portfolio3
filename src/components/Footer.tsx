@@ -8,6 +8,7 @@ const Footer = () => {
         const scrollContainer = scrollContainerRef.current;
         if (scrollContainer) {
             const scrollSpeed = 1.5;
+
     return (
         <div style={{ backgroundColor: '#4056A1', color: '#EFE2BA', padding: '50px 0', position: 'relative' }}>
             {/* Banner animation */}
