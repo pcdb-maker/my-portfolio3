@@ -3,15 +3,20 @@ import styled from 'styled-components';
 import { motion, useTransform } from 'framer-motion';
 import { useInView } from 'react-intersection-observer'; 
 import { Link } from 'react-router-dom';
-import BurgerMenu from './BurgerMenu'; // Importing BurgerMenu
+import BurgerPortfolioMenu from './BurgerPortfolioMenu';
+
+
+
+
+
 
 // Main container for the project page
 const ProjectContainer = styled.div`
   padding: 80px 20px;
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   text-align: center;
-  background-color: #EFE2BA;
+  background-color: #edf1ff;
 `;
 
 // Project title styling with animation
@@ -131,7 +136,7 @@ const GridImage = styled.img`
   height: auto;
   max-width: 1150px;
   height: 647px;
-  margin-left: 25px;
+  margin-left: 100px;
   border-radius: 15px;
 `;
 
@@ -139,11 +144,12 @@ const GridImage = styled.img`
 const SmallImageGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  justify-items: left;
+  gap: 0px;
+  margin-left:100px;
+  margin-right:50px;
+  
   margin-top: 20px;
-  margin-left: 30px;
-  margin-right: -20px;
-  gap: 10px;
+ 
 `;
 
 const SmallImage = styled.img`
@@ -271,7 +277,8 @@ const Project1: React.FC = () => {
 
   return (
     <ProjectContainer>
-      <BurgerMenu />  {/* Add the BurgerMenu here */}
+           <BurgerPortfolioMenu />
+          
 
       {/* Animated Project Title */}
       <ProjectTitle
