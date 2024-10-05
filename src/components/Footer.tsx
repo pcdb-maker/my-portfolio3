@@ -59,6 +59,7 @@ const Footer = () => {
                 position: 'relative', 
                 width: '100%', 
                 overflow: 'hidden',  // Ensure no scrolling elements overflow
+                    style={{
                         width: 'max-content', // Prevents clipping of the text
                         fontStyle: 'italic',
                         margin: '20px',
