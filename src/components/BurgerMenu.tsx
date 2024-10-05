@@ -90,6 +90,7 @@ const InternalLinks = styled(Link)`
   color: white;
   text-decoration: none;
   margin-top: -170px;
+  margin-top: -80px;
   margin-bottom: -20px;
 
   &:hover {
