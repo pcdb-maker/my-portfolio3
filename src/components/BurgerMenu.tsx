@@ -25,7 +25,7 @@ const BurgerWrapper = styled.div<{ visible: boolean }>`
   }
 `;
 
-const BurgerLines = styled.div<{ open: boolean }>`
+const BurgerLines = styled.div`
   width: 35px;
   height: 4px;
   background-color: white;
@@ -37,7 +37,7 @@ const BurgerLines = styled.div<{ open: boolean }>`
   &:after {
     content: '';
     position: absolute;
-    width: 35px;
+    width: 100%;  /* Ensures all lines, including pseudo-elements, are the same width */
     height: 4px;
     background-color: white;
     border-radius: 2px;
@@ -45,15 +45,19 @@ const BurgerLines = styled.div<{ open: boolean }>`
   }
 
   &:before {
-    top: ${(props) => (props.open ? '0' : '-10px')};
-    transform: ${(props) => (props.open ? 'rotate(45deg)' : 'rotate(0)')};
+    top: -10px; /* Space above the middle line */
+    right: -5px;
+    width:70%;
+  
   }
 
   &:after {
-    bottom: ${(props) => (props.open ? '0' : '-10px')};
-    transform: ${(props) => (props.open ? 'rotate(-45deg)' : 'rotate(0)')};
+    top: 10px; /* Space below the middle line */
+    left: -5px;
+    width:70%;
   }
 `;
+
 
 const Sidebar = styled.div<{ open: boolean }>`
   position: fixed;
@@ -146,7 +150,7 @@ const BurgerMenu: React.FC = () => {
   return (
     <>
       <BurgerWrapper onClick={handleClick} visible={visible && !open}>
-        <BurgerLines open={open} />
+        <BurgerLines/>
       </BurgerWrapper>
 
       <Sidebar open={open}>
