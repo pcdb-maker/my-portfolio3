@@ -81,7 +81,6 @@ const Footer = () => {
                 gap: '40px', // Increased horizontal space
             }}>
                 <div style={{ flex: 1, padding: '0 20px' }}>
-                    <h3 style={{ color: '#D79922', marginBottom: '10px' }}>Astrid Design</h3>
                 <div style={{ padding: '0 20px' }}>
                     <h3 style={{ color: '#D7C3A4' }}>Chloe Osborne Designs</h3>
                     <p>Design with <em>purpose.</em> <br />Ideas with<em> impact.</em></p>
