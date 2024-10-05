@@ -10,6 +10,7 @@ const Footer = () => {
             const scrollSpeed = 1.5;
 
             const scroll = () => {
+                scrollAmount -= scrollSpeed;
     return (
         <div style={{ backgroundColor: '#4056A1', color: '#EFE2BA', padding: '50px 0', position: 'relative' }}>
             {/* Banner animation */}
