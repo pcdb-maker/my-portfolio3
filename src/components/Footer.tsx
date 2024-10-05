@@ -66,6 +66,7 @@ const Footer = () => {
                 <span style={{ margin: '0 20px', fontStyle: 'italic' }}>♦</span>
                 <span>Trabajemos juntos</span>
             </motion.div>
+                </div>
             </div>
 
             {/* Fixed white underline - placed outside of scrolling area */}
