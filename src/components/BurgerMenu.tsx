@@ -80,7 +80,6 @@ const CloseButton = styled.div`
   cursor: pointer;
   align-self: flex-end;
   margin-top: 10px;
-  margin-right: 14px;
   margin-top: 40px;
   margin-right: 50px;
 `;
