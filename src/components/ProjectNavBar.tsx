@@ -7,7 +7,7 @@ const ProjectNavbarContainer = styled.nav`
   top: 0;
   width: 100%;
   margin: 0;
-  background: #EFE2BA;; /* Navbar background color */
+  background: #edf1ff;
   display: flex;
   justify-content: space-between; /* Aligns items to the left and right */
   align-items: center;
