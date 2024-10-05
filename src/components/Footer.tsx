@@ -31,6 +31,7 @@ const Footer = () => {
             display: 'flex', 
             flexDirection: 'column', 
             justifyContent: 'space-between', 
+            minHeight: '85vh', 
             {/* Banner animation */}
             <motion.div
                 style={{
