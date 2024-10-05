@@ -13,6 +13,7 @@ const Footer = () => {
                 scrollAmount -= scrollSpeed;
                 scrollContainer.style.transform = `translateX(${scrollAmount}px)`;
 
+                if (Math.abs(scrollAmount) >= scrollContainer.scrollWidth / 2) {
     return (
         <div style={{ backgroundColor: '#4056A1', color: '#EFE2BA', padding: '50px 0', position: 'relative' }}>
             {/* Banner animation */}
