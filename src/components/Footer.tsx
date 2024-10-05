@@ -86,7 +86,6 @@ const Footer = () => {
                     <p>The beauty of <em>ideas.</em></p>
                 </div>
 
-                <div style={{ flex: 1, padding: '0 20px' }}>
                 <div style={{ padding: '0 20px' }}>
                     <h3 style={{ color: '#D7C3A4' }}>Email me:</h3>
                     <p style={{ fontSize: '1.5rem', color: '#ffffff' }}>cosborne.career@outlook.com</p>
