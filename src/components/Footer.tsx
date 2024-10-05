@@ -57,6 +57,7 @@ const Footer = () => {
                 <span>Let's work together</span>
             <div style={{ 
                 position: 'relative', 
+                overflow: 'hidden',  // Ensure no scrolling elements overflow
                         width: 'max-content', // Prevents clipping of the text
                         fontStyle: 'italic',
                         margin: '20px',
