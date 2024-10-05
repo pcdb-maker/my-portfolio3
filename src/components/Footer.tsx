@@ -76,6 +76,7 @@ const Footer = () => {
                 display: 'flex',
                 justifyContent: 'space-around',
                 paddingTop: '40px',
+                padding: '10px 10px', // Reduced padding from 40px to 20px
                 fontSize: '1.1rem',
                 textAlign: 'left',
             }}>
