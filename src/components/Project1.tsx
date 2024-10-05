@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { motion, useTransform } from 'framer-motion';
 import { useInView } from 'react-intersection-observer'; 
 import { Link } from 'react-router-dom';
-import BurgerMenu from './BurgerMenuProjects'; // Assuming you have the BurgerMenu component
 
 // Main container for the project page
 const ProjectContainer = styled.div`
