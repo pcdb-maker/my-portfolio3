@@ -271,6 +271,7 @@ const Project1: React.FC = () => {
 
   return (
     <ProjectContainer>
+      <BurgerMenu />  {/* Add the BurgerMenu here */}
 
       {/* Animated Project Title */}
       <ProjectTitle
