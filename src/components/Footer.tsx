@@ -66,6 +66,7 @@ const Footer = () => {
                 <span style={{ margin: '0 20px', fontStyle: 'italic' }}>♦</span>
                 <span>Trabajemos juntos</span>
             </motion.div>
+                    <span style={{ margin: '0 20px', fontStyle: 'italic' }}>♦</span>
                     <span style={{ marginLeft: '40px' }}>Let's work <span style={{ fontStyle: 'italic' }}>together</span></span> {/* Italicize 'together' */}
                     <span style={{ margin: '0 20px', fontStyle: 'italic' }}>♦</span>
 
