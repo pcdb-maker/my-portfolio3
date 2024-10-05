@@ -36,7 +36,6 @@ const Footer = () => {
             paddingTop: '30px'
         }}>
             {/* Banner animation */}
-                    fontSize: '3rem', // Increased size
                     whiteSpace: 'nowrap',
                     overflow: 'hidden',
                     display: 'flex',
