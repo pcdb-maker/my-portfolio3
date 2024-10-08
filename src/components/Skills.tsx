@@ -22,6 +22,7 @@ const Bar = styled(motion.div)`
   overflow: hidden;
 `;
 
+const Progress = styled(motion.div)`
   background-color: #D79922; /* Gold for the progress bar */
   border-radius: 10px;
 `;
