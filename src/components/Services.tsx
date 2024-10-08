@@ -27,6 +27,7 @@ const Service = styled(motion.div)`
 `;
 
 const Services = () => {
+  const iconColor = index % 2 === 0 ? '#F13C20' : '#4056A1'; // Custom colors for icons
 
   const wordVariants = {
     hidden: { opacity: 0.2, x: moveDirection },
