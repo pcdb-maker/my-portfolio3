@@ -77,6 +77,7 @@ const TableHeader = styled.th`
 const TableData = styled.td`
   padding: 50px 0;
 
+      setRotation(scrollTop % 360); // Continuous rotation logic
     };
 
     window.addEventListener('scroll', handleScroll);
