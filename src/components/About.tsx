@@ -29,6 +29,7 @@ const AboutText = styled.p`
   max-width: 700px;
 `;
 
+const ContentWrapper = styled.div`
   return (
     <AboutSection id="about">
       <ProfileImage src="/path/to/profile.jpg" alt="Astrid Mottes" />
