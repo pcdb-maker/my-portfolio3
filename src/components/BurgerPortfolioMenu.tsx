@@ -144,7 +144,6 @@ const InternalLinks = styled(Link)`
   font-style: italic;
   font-size: 55px;
   color: white;
-  text-decoration: none;
   margin-bottom: 20px;
   text-align: center;
 
