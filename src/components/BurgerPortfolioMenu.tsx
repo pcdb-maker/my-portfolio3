@@ -80,6 +80,7 @@ const ContactButton = styled.a`
 
   &:active {
     transform: translateY(5px);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
   }
 
   &:after {
