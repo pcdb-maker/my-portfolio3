@@ -51,6 +51,7 @@ const Services = () => {
         <h3>Motion Graphics</h3>
       </Service>
     </ServicesSection>
+        <IconContainer color={iconColor}>
           <Icon />
         </IconContainer>
       )}
