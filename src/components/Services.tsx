@@ -48,7 +48,6 @@ const Services = () => {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.9 }}
       >
-        <h3>Motion Graphics</h3>
     <ServiceItemContainer ref={ref} initial="hidden" animate={controls} variants={wordVariants}>
       {index % 2 === 0 && (
         <IconContainer color={iconColor}>
