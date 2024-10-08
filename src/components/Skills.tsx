@@ -4,6 +4,7 @@
   margin: 20px 0;
   width: 70%; /* Reduced width */
   max-width: 800px; /* Maximum width to avoid the bars being too long */
+const SkillLabel = styled.h3`
   font-family: 'Playfair Display', serif;
   font-size: 1.5rem;
 
