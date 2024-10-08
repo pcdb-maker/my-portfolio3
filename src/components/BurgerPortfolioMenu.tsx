@@ -119,7 +119,6 @@ const BurgerMenuContainer = styled.div`
   background-color: #2f2f2f;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   padding: 20px;
   color: white;
 `;
