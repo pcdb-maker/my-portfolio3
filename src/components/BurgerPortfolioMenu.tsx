@@ -13,6 +13,7 @@ const BurgerWrapper = styled.div<{ visible: boolean }>`
   background-color: #E6584F;
   border-radius: 15px;
   display: ${({ visible }) => (visible ? 'flex' : 'none')};
+  display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
