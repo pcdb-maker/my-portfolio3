@@ -5,6 +5,7 @@
   width: 70%; /* Reduced width */
   max-width: 800px; /* Maximum width to avoid the bars being too long */
 
+
 const Skills = () => {
   const skills = [
     { name: 'JavaScript', level: 90 },
