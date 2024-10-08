@@ -49,6 +49,7 @@ const PortraitContainer = styled(motion.div)`
 `;
 
 const SpinningIconContainer = styled.div`
+  position: absolute; /* Make sure it's relative to the AboutContainer */
   return (
     <AboutSection id="about">
       <ProfileImage src="/path/to/profile.jpg" alt="Astrid Mottes" />
