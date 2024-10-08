@@ -128,7 +128,6 @@ const InternalLinks = styled(Link)`
   margin-bottom: 10px;
 
   &:hover {
-    color: #e85a4f;
   a {
     color: white;
     text-decoration: none;
