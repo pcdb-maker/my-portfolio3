@@ -1,4 +1,5 @@
 import React from 'react';
+`;
 
 const SkillBarContainer = styled(motion.div)`
   display: flex;
