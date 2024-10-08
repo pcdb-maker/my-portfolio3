@@ -87,6 +87,7 @@ const TableData = styled.td`
     window.addEventListener('scroll', handleScroll);
 
     };
+  }, []);
 
   return (
     <AboutContainer>
