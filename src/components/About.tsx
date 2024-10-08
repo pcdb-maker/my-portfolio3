@@ -22,6 +22,11 @@ const Heading = styled(motion.h1)`
   }
 `;
 
+const AboutText = styled.p`
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 0 auto 50px;
+  max-width: 700px;
 `;
 
 const About = () => {
