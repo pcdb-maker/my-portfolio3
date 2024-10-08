@@ -1,4 +1,5 @@
 
+  align-items: flex-start;
 
 const Skills = () => {
   const skills = [
