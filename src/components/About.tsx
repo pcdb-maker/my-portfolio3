@@ -60,6 +60,7 @@ const SpinningIcon = styled(motion.div)`
 
 const Table = styled.table`
   width: 100%;
+  margin-top: 30px;
 `;
 
   return (
