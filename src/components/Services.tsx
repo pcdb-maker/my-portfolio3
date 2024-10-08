@@ -51,6 +51,7 @@ const Services = () => {
         <h3>Motion Graphics</h3>
       </Service>
     </ServicesSection>
+          <Icon />
         </IconContainer>
       <ServiceText variants={wordVariants}>{service}</ServiceText>
       {index % 2 !== 0 && (
