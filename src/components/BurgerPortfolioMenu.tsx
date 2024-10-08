@@ -58,10 +58,6 @@ const NavLink = styled(Link)`
   }
 `;
 
-const BurgerLines = styled.div`
-  width: 35px;
-  height: 4px;
-  position: relative;
 const ContactButton = styled.a`
   display: flex;
   align-items: center;
