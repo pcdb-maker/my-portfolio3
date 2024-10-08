@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import Portfolio from './components/Portfolio';
 import Services from './components/Services';
 import About from './components/About';
+import Skills from './components/Skills';
 import Project1 from './components/Project1';
 import Project2 from './components/Project2';
 import Footer from './components/Footer'; // Import Footer
