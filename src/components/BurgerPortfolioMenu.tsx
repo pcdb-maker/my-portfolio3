@@ -114,7 +114,6 @@ const BurgerMenuContainer = styled.div`
   position: fixed;
   top: 0;
   right: 0;
-  transition: transform 0.5s ease-in-out;
   z-index: 99;
   display: flex;
   flex-direction: column;
