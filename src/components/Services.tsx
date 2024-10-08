@@ -16,7 +16,6 @@ const Service = styled(motion.div)`
   padding: 20px;
   margin: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 const IconContainer = styled.div<{ color?: string }>`
   width: 50px;
   height: 50px;
