@@ -119,7 +119,6 @@ const BurgerMenuContainer = styled.div`
   background-color: #2f2f2f;
   display: flex;
   flex-direction: column;
-  padding: 20px;
 
 const CloseButton = styled.div`
   font-size: 40px;
