@@ -1,4 +1,5 @@
 import React from 'react';
+  color: white; /* White for the heading */
 `;
 
 const SkillBarContainer = styled(motion.div)`
