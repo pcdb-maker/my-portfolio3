@@ -51,6 +51,7 @@ const Services = () => {
         <h3>Motion Graphics</h3>
       </Service>
     </ServicesSection>
+          {index === 1 ? customSpanIcon : <Icon />} {/* Use span icon for black ones */}
       )}
     </ServiceItemContainer>
   );
