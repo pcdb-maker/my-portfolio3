@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
   text-align: center;
+  height: 100vh;
 `;
 
 const Heading = styled.h2`
