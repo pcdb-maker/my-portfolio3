@@ -1,3 +1,4 @@
+          transition={{ duration: 1, ease: 'easeInOut' }}
         />
       </Bar>
     </SkillBarContainer>
