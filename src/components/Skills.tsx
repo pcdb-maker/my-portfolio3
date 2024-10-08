@@ -4,6 +4,7 @@
   margin: 20px 0;
   width: 70%; /* Reduced width */
   max-width: 800px; /* Maximum width to avoid the bars being too long */
+  margin: 20px auto; /* Center the bars horizontally */
 `;
 
 const SkillLabel = styled.h3`
