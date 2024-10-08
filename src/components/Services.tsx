@@ -8,6 +8,7 @@ import styled from 'styled-components';
   align-items: center;
   padding: 50px;
   background-color: #C5CBE3;
+const ServiceText = styled(motion.h2)`
   font-family: 'Playfair Display', serif;
   font-size: 4.5rem;
   font-style: italic;
