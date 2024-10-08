@@ -1,3 +1,4 @@
+    if (inView) {
       controls.start({ width: `${skill.level}%` });
     } else {
       controls.start({ width: '0%' });
