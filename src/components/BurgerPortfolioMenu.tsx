@@ -159,7 +159,6 @@ const BurgerMenu: React.FC = () => {
     // If menu is open, prevent scrolling
     document.body.style.overflow = open ? 'hidden' : 'auto';
 
-    // Clean up overflow style when component unmounts
 const CloseButton = styled.div`
   position: absolute;
   top: 20px;
