@@ -142,6 +142,7 @@ const ExternalLinks = styled.a`
   
   &:hover {
   a:hover {
+    color: #d79922; /* Highlighted color on hover */
   }
 `;
 
