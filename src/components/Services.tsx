@@ -53,6 +53,7 @@ const Services = () => {
     </ServicesSection>
           <Icon />
         </IconContainer>
+      )}
       <ServiceText variants={wordVariants}>{service}</ServiceText>
       {index % 2 !== 0 && (
         <IconContainer color={iconColor}>
