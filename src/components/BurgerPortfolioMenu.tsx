@@ -86,6 +86,7 @@ const ContactButton = styled.a`
   &:after {
     top: 10px; /* Space below the middle line */
     left: -5px;
+  @media (max-width: 768px) {
     padding: 5px 15px; /* Smaller padding for mobile */
     font-size: 14px; /* Smaller font size for mobile */
   }
