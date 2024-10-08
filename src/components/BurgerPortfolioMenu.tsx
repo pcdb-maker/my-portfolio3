@@ -180,7 +180,6 @@ const BurgerMenu: React.FC = () => {
         <div>
         <ExternalLinks href="https://instagram.com" target="_blank">Instagram</ExternalLinks>
         <ExternalLinks href="https://behance.net" target="_blank">Behance</ExternalLinks>
-        <ExternalLinks href="https://linkedin.com" target="_blank">LinkedIn</ExternalLinks>
       <NavbarContainer>
         <Logo>Chloe Osborne <IconWrapper /></Logo>
         <NavLinks>
