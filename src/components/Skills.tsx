@@ -1,3 +1,4 @@
+
   return (
     <SkillBarContainer ref={ref}>
       <SkillLabel>{skill.name}</SkillLabel>
