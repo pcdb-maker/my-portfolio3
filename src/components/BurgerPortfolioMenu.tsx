@@ -91,6 +91,7 @@ const ContactButton = styled.a`
 
 const IconWrapper = styled(ClubIcon)`
   width: 16px;
+  height: 16px;
 
 const Sidebar = styled.div<{ open: boolean }>`
   position: fixed;
