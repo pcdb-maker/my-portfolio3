@@ -61,7 +61,6 @@ const BurgerLines = styled.div`
   width: 35px;
   height: 4px;
   position: relative;
-    width: 100%;  /* Ensures all lines, including pseudo-elements, are the same width */
     height: 4px;
     background-color: white;
     border-radius: 2px;
