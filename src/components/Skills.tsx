@@ -2,6 +2,7 @@
   flex-direction: column;
   align-items: flex-start;
   margin: 20px 0;
+  width: 70%; /* Reduced width */
 
 const Skills = () => {
   const skills = [
