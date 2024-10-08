@@ -22,6 +22,7 @@ const Bar = styled(motion.div)`
   overflow: hidden;
 `;
 
+  background-color: #D79922; /* Gold for the progress bar */
 `;
 
 const Skills = () => {
