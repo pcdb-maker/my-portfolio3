@@ -10,7 +10,6 @@ const BurgerWrapper = styled.div<{ visible: boolean }>`
   right: 30px; // Adjust this value to ensure it’s aligned properly on the right
   z-index: 150;
   width: 60px;
-  height: 60px;
 const NavbarContainer = styled.nav`
   top: 0;
   width: 100%;
