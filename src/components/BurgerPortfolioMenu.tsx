@@ -154,7 +154,6 @@ const BurgerMenu: React.FC = () => {
     // Clean up overflow style when component unmounts
     return () => {
       document.body.style.overflow = 'auto';
-    };
 const CloseButton = styled.div`
   position: absolute;
   top: 20px;
