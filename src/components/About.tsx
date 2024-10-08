@@ -65,6 +65,7 @@ const SpinningIcon = styled(motion.div)`
         I love design in all its forms and enjoy exploring new areas and learning new things every day.
       </BioText>
     </AboutSection>
+                <TableData>Graphic Designer & Illustrator</TableData>
                 <TableData>Freelance</TableData>
               </HighlightedRow>
             </tbody>
