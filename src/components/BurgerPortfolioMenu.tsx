@@ -184,6 +184,7 @@ const BurgerMenu: React.FC = () => {
         </div>
       </Sidebar>
       </NavbarContainer>
+
       {/* Burger Menu */}
       <BurgerMenuContainer isOpen={isBurgerOpen}>
         <CloseButton onClick={toggleBurgerMenu}>X</CloseButton>
