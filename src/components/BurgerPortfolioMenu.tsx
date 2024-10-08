@@ -61,6 +61,7 @@ const BurgerLines = styled.div`
   width: 35px;
   height: 4px;
   position: relative;
+const ContactButton = styled.a`
   }
 
   &:before {
