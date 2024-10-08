@@ -14,6 +14,7 @@ const SkillLabel = styled.h3`
   margin-bottom: 10px;
 `;
 
+  width: 100%;
   background-color: #C5CBE3; /* Light blue */
   height: 20px;
   border-radius: 10px;
