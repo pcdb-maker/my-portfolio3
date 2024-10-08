@@ -59,6 +59,7 @@ const SpinningIcon = styled(motion.div)`
   width: 100px;
   height: 100px;
   svg {
+    width: 100%;
 `;
 const TableContainer = styled(motion.div)`
   max-width: 700px;
