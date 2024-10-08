@@ -145,7 +145,6 @@ const ExternalLinks = styled.a`
   }
 `;
 
-  const [open, setOpen] = useState(false);
 const CloseButton = styled.div`
   position: absolute;
   top: 20px;
