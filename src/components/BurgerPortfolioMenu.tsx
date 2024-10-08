@@ -60,7 +60,6 @@ const NavLink = styled(Link)`
 const BurgerLines = styled.div`
   width: 35px;
   height: 4px;
-  background-color: white;
   border-radius: 2px;
   position: relative;
   transition: all 0.3s ease-in-out;
