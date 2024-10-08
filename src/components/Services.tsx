@@ -26,6 +26,7 @@ const Service = styled(motion.div)`
 `;
 
 const Services = () => {
+      controls.start('visible');
     } else {
       controls.start('hidden');
     }
