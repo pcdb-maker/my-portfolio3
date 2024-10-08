@@ -26,6 +26,7 @@ const Service = styled(motion.div)`
 `;
 
 const Services = () => {
+  const controls = useAnimation();
   const { ref, inView } = useInView({
     triggerOnce: false,
     threshold: 0.3,
