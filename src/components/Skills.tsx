@@ -1,4 +1,5 @@
 import React from 'react';
+  text-align: center;
   font-size: 3rem;
   margin-bottom: 50px;
   color: white; /* White for the heading */
