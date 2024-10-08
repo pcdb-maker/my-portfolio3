@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
+import { ReactComponent as Icon } from '../assets/club.svg'; // Updated icon import
   background-color: #EFE2BA;
   display: flex;
   flex-direction: column;
