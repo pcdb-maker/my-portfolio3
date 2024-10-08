@@ -110,7 +110,6 @@ const LeftColumn = styled.div`
   color: #333;
   font-weight: bold;
   font-style: italic;
-  margin-left: 30px;
 `;
 
 const RightColumn = styled.div`
