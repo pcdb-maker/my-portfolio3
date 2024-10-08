@@ -48,6 +48,7 @@ const NavLinks = styled.div`
 
 const NavLink = styled(Link)`
   font-size: 16px;
+  color: #e85a4f;
   cursor: pointer;
   transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
 
