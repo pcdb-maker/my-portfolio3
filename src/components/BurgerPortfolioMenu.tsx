@@ -178,7 +178,6 @@ const BurgerMenu: React.FC = () => {
         <InternalLinks to="/services">Services</InternalLinks>
         <InternalLinks to="/about">About</InternalLinks>
         <div>
-        <ExternalLinks href="https://instagram.com" target="_blank">Instagram</ExternalLinks>
       <NavbarContainer>
         <Logo>Chloe Osborne <IconWrapper /></Logo>
         <NavLinks>
