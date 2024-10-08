@@ -79,6 +79,7 @@ const TableData = styled.td`
 `;
 
 `;
+
 const AboutMe = () => {
   const [rotation, setRotation] = useState(0);
 
