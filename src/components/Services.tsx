@@ -22,6 +22,7 @@ const Service = styled(motion.div)`
 
   &:hover {
     transform: translateY(-10px);
+      fill: ${({ color }) => color}; /* Apply color to paths */
     }
   }
 `;
