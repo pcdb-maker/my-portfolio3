@@ -100,6 +100,7 @@ const IconWrapper = styled(ClubIcon)`
   }
 `;
 
+const BurgerIcon = styled.div`
   position: fixed;
   top: 1px;
   right: 0;
