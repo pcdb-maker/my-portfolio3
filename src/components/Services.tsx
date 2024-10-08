@@ -27,6 +27,7 @@ const Service = styled(motion.div)`
 `;
 
 const Services = () => {
+    hidden: { opacity: 0.2, x: moveDirection },
   };
 
   return (
