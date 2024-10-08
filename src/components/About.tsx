@@ -59,6 +59,7 @@ const SpinningIcon = styled(motion.div)`
   width: 100px;
 
 const Table = styled.table`
+  width: 100%;
   return (
     <AboutSection id="about">
       <ProfileImage src="/path/to/profile.jpg" alt="Astrid Mottes" />
