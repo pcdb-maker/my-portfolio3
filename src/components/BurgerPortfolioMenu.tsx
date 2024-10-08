@@ -116,6 +116,7 @@ const BurgerMenuContainer = styled.div`
   right: 0;
   width: 100%;
   height: 100vh;
+  background-color: #2f2f2f;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
