@@ -43,7 +43,6 @@ const Services = () => {
       >
         <h3>Web Design</h3>
       </Service>
-      <Service
     <ServiceItemContainer ref={ref} initial="hidden" animate={controls} variants={wordVariants}>
       {index % 2 === 0 && (
         <IconContainer color={iconColor}>
