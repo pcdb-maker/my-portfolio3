@@ -68,6 +68,7 @@ const TableRow = styled.tr`
   border-bottom: 1px solid black;
 `;
 
+const TableHeader = styled.th`
   padding: 40px 0;
   font-weight: bold;
   text-align: left;
