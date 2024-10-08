@@ -10,6 +10,7 @@ const AboutContainer = styled.div`
   color: black;
   padding: 100px 20px;
   text-align: center;
+  font-family: 'Playfair Display', serif;
 `;
 
 const ProfileImage = styled.img`
