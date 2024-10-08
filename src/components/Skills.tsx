@@ -1,3 +1,4 @@
+
   React.useEffect(() => {
     if (inView) {
       controls.start({ width: `${skill.level}%` });
