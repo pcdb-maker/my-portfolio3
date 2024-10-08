@@ -120,7 +120,6 @@ const BurgerMenuContainer = styled.div`
   display: flex;
   flex-direction: column;
   font-family: 'Playfair Display';
-  align-self: flex-end;
   align-items: center;
   justify-content: center;
   z-index: 1000;
