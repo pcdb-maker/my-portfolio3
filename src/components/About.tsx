@@ -77,6 +77,7 @@ const TableHeader = styled.th`
 const TableData = styled.td`
   padding: 50px 0;
 
+  useEffect(() => {
     const handleScroll = () => {
       // Calculate rotation based on scroll position, but no position change
       const scrollTop = window.pageYOffset;
