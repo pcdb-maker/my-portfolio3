@@ -64,6 +64,7 @@ const BurgerLines = styled.div`
 const ContactButton = styled.a`
   display: flex;
   align-items: center;
+  justify-content: center;
   }
 
   &:before {
