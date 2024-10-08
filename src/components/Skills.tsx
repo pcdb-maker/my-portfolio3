@@ -10,6 +10,7 @@
 const SkillLabel = styled.h3`
   font-family: 'Playfair Display', serif;
   font-size: 1.5rem;
+  color: white; /* White for skill text */
   margin-bottom: 10px;
 `;
 
