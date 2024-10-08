@@ -162,7 +162,6 @@ const BurgerMenu: React.FC = () => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
       const showAt = 800;
-      setVisible(scrollTop > showAt);
 const Navbar = () => {
   const [isBurgerOpen, setIsBurgerOpen] = useState(false);
 
