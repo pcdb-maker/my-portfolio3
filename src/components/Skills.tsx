@@ -1,4 +1,5 @@
 import React from 'react';
+  margin-bottom: 50px;
   color: white; /* White for the heading */
 `;
 
