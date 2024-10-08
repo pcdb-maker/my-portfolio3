@@ -12,6 +12,7 @@ const SkillLabel = styled.h3`
   font-size: 1.5rem;
 
 
+
 const Skills = () => {
   const skills = [
     { name: 'JavaScript', level: 90 },
