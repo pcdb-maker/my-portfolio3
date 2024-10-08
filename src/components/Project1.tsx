@@ -178,7 +178,6 @@ const FeaturedTitle = styled.h2`
 const CardsGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
   margin-left: 60px;
 `;
 
