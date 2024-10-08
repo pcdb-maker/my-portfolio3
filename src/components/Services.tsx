@@ -3,6 +3,25 @@ import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import styled from 'styled-components';
 
+// Import your SVG icons (Replace with actual icon paths)
+import { ReactComponent as Icon1 } from '../assets/club.svg'; // for white icons
+import { ReactComponent as Icon2 } from '../assets/circle.svg'; // for white icons
+
+const ServicesContainer = styled.div`
+  background-color: #28282F;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  height: 100vh;
+`;
+
+const Heading = styled.h2`
+  font-size: 2rem;
+  margin-bottom: 50px;
+  color: white;
+`;
+
+const ServiceItemContainer = styled(motion.div)`
   display: flex;
   flex-direction: column;
   align-items: center;
