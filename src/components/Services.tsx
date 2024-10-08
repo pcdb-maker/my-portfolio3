@@ -23,10 +23,11 @@ const Heading = styled.h2`
 
 const ServiceItemContainer = styled(motion.div)`
   display: flex;
-  flex-direction: column;
   align-items: center;
-  padding: 50px;
-  background-color: #C5CBE3;
+  justify-content: center; /* Center everything */
+  gap: 40px; /* Add space between icon and text */
+`;
+
 const ServiceText = styled(motion.h2)`
   font-family: 'Playfair Display', serif;
   font-size: 4.5rem;
