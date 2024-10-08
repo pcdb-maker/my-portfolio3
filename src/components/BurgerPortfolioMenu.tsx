@@ -89,6 +89,7 @@ const ContactButton = styled.a`
   }
 `;
 
+const IconWrapper = styled(ClubIcon)`
 
 const Sidebar = styled.div<{ open: boolean }>`
   position: fixed;
