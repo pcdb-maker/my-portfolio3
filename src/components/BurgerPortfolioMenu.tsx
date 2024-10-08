@@ -32,6 +32,7 @@ const Logo = styled.div`
   color: #e85a4f;
 const NavLinks = styled.div`
   display: flex;
+  gap: 40px;
   cursor: pointer;
   transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
 
