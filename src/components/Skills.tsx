@@ -1,3 +1,4 @@
+    threshold: 0.5,
   });
 
   React.useEffect(() => {
