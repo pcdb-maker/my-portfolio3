@@ -65,6 +65,17 @@ const ContactButton = styled.a`
   padding: 10px 30px;
   font-size: 16px;
   font-weight: bold;
+  color: #ffffff;
+  background: #e85a4f;
+  border-radius: 25px;
+  box-shadow: 10px 6px 14px rgba(0, 0, 0, 0.4), -1px 5px 3px rgba(0, 0, 0, 20);
+  text-decoration: none;
+  transition: transform 0.2s ease, background 0.3s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    background: #d64545;
+    transform: translateY(3px);
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
   }
 
   &:before {
