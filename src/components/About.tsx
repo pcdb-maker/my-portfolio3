@@ -64,6 +64,7 @@ const Table = styled.table`
   margin-top: 30px;
 `;
 
+const TableRow = styled.tr`
   return (
     <AboutSection id="about">
       <ProfileImage src="/path/to/profile.jpg" alt="Astrid Mottes" />
