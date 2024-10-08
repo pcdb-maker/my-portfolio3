@@ -1,3 +1,4 @@
+      {skills.map((skill, index) => (
         <SkillScrollItem key={index} skill={skill} />
       ))}
     </SkillsContainer>
