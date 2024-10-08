@@ -1,3 +1,4 @@
+      <Bar>
         <Progress
           initial={{ width: '0%' }}
           animate={controls}
