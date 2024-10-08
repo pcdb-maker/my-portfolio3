@@ -27,6 +27,7 @@ const Service = styled(motion.div)`
 `;
 
 const Services = () => {
+
   const wordVariants = {
     hidden: { opacity: 0.2, x: moveDirection },
     visible: { opacity: 1, x: 0, transition: { type: 'spring', stiffness: 50, damping: 50, mass: 0.5 }},
