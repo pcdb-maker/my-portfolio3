@@ -8,7 +8,6 @@ const BurgerWrapper = styled.div<{ visible: boolean }>`
   position: fixed;
   bottom: 30px; // Adjust this value to move it higher up on the page
   right: 30px; // Adjust this value to ensure it’s aligned properly on the right
-  z-index: 150;
 const NavbarContainer = styled.nav`
   top: 0;
   width: 100%;
