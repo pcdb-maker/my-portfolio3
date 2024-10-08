@@ -5,6 +5,7 @@ import { useInView } from 'react-intersection-observer';
 
 // Styled components
 const SkillsContainer = styled.div`
+  background-color: #4056A1; /* Dark blue for background */
   text-align: center;
   padding: 100px 20px;
   height: 100vh;
