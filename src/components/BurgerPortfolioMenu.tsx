@@ -51,7 +51,6 @@ const NavLink = styled(Link)`
   color: #e85a4f;
   text-decoration: none;
   cursor: pointer;
-  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
 
   &:hover {
     background-color: #e85a4f;
