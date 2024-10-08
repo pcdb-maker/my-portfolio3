@@ -78,6 +78,7 @@ const TableData = styled.td`
   padding: 50px 0;
 
 
+
     };
   return (
     <AboutSection id="about">
