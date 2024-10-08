@@ -1,4 +1,5 @@
 
+  flex-direction: column;
   align-items: flex-start;
 
 const Skills = () => {
