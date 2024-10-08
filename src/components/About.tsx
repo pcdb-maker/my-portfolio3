@@ -36,6 +36,7 @@ const ContentWrapper = styled.div`
   gap: 50px;
 `;
 
+const PortraitContainer = styled(motion.div)`
   return (
     <AboutSection id="about">
       <ProfileImage src="/path/to/profile.jpg" alt="Astrid Mottes" />
