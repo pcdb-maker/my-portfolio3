@@ -1,3 +1,4 @@
+
 const SkillScrollItem = ({ skill }: { skill: { name: string; level: number } }) => {
   const controls = useAnimation();
   const { ref, inView } = useInView({
