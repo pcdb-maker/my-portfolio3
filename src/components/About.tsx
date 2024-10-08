@@ -57,6 +57,7 @@ const SpinningIconContainer = styled.div`
 
 const SpinningIcon = styled(motion.div)`
   width: 100px;
+`;
 
 const Table = styled.table`
   width: 100%;
