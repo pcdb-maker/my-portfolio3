@@ -67,6 +67,7 @@ const SpinningIcon = styled(motion.div)`
     </AboutSection>
                 <TableData>Graphic Designer</TableData>
                 <TableData>Graphic Line Studio</TableData>
+              </TableRow>
                 <TableData>May 2019 - Jan 2024</TableData>
                 <TableData>Web Designer</TableData>
                 <TableData>t26 Italia</TableData>
