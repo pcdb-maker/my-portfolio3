@@ -33,6 +33,9 @@ const ContentWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  gap: 50px;
+`;
+
   return (
     <AboutSection id="about">
       <ProfileImage src="/path/to/profile.jpg" alt="Astrid Mottes" />
