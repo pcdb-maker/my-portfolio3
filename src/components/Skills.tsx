@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
+// Styled components
 const SkillsContainer = styled.div`
   text-align: center;
   padding: 100px 20px;
