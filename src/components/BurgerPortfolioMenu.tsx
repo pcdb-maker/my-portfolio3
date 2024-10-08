@@ -64,6 +64,7 @@ const ContactButton = styled.a`
   justify-content: center;
   padding: 10px 30px;
   font-size: 16px;
+  font-weight: bold;
   }
 
   &:before {
