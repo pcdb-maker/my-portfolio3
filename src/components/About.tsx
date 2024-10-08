@@ -52,6 +52,7 @@ const SpinningIconContainer = styled.div`
   position: absolute; /* Make sure it's relative to the AboutContainer */
   top: 5200px; 
   right: 850px;
+  z-index: 10;
   return (
     <AboutSection id="about">
       <ProfileImage src="/path/to/profile.jpg" alt="Astrid Mottes" />
