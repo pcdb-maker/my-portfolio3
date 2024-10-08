@@ -96,6 +96,7 @@ const TableData = styled.td`
         I love design in all its forms and enjoy exploring new areas and learning new things every day.
       </BioText>
     </AboutSection>
+        <PortraitContainer
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
