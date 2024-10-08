@@ -1,3 +1,4 @@
+    { name: 'React.js', level: 85 },
     { name: 'Node.js', level: 75 },
     { name: 'TypeScript', level: 80 },
     { name: 'CSS/HTML', level: 95 },
