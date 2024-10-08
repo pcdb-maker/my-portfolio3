@@ -56,6 +56,7 @@ const SpinningIconContainer = styled.div`
 `;
 
 const SpinningIcon = styled(motion.div)`
+  width: 100px;
   return (
     <AboutSection id="about">
       <ProfileImage src="/path/to/profile.jpg" alt="Astrid Mottes" />
