@@ -78,6 +78,7 @@ const TableData = styled.td`
   padding: 50px 0;
 `;
 
+  background-color: #D79922; /* Highlight color for the last row */
 `;
 
 const AboutMe = () => {
