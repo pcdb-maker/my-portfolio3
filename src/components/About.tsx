@@ -42,6 +42,7 @@ const PortraitContainer = styled(motion.div)`
   height: 400px;
   border-radius: 30% 70% 70% 30%;
   overflow: hidden;
+  display: flex;
   return (
     <AboutSection id="about">
       <ProfileImage src="/path/to/profile.jpg" alt="Astrid Mottes" />
