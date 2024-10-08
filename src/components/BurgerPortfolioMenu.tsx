@@ -98,6 +98,7 @@ const IconWrapper = styled(ClubIcon)`
   ${ContactButton}:hover & {
     transform: rotate(360deg);
   }
+`;
   position: fixed;
   top: 1px;
   right: 0;
