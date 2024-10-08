@@ -1,3 +1,4 @@
+  const { ref, inView } = useInView({
     triggerOnce: false,
     threshold: 0.5,
   });
