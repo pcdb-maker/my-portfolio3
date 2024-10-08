@@ -153,7 +153,6 @@ const BurgerMenu: React.FC = () => {
   const handleClick = () => {
     setOpen(!open);
   };
-
 const CloseButton = styled.div`
   position: absolute;
   top: 20px;
