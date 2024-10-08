@@ -96,6 +96,7 @@ const TableData = styled.td`
         I love design in all its forms and enjoy exploring new areas and learning new things every day.
       </BioText>
     </AboutSection>
+        <TableContainer
           transition={{ duration: 0.8, ease: 'easeOut', delay: 0.5 }}
         >
           <Table>
