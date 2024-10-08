@@ -57,6 +57,7 @@ const SpinningIconContainer = styled.div`
 
 const SpinningIcon = styled(motion.div)`
   width: 100px;
+  height: 100px;
   svg {
 `;
 const TableContainer = styled(motion.div)`
