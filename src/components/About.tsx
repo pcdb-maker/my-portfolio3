@@ -65,6 +65,7 @@ const Table = styled.table`
 `;
 
 const TableRow = styled.tr`
+  border-bottom: 1px solid black;
 `;
   return (
     <AboutSection id="about">
