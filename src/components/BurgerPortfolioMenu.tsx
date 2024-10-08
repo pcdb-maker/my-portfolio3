@@ -127,7 +127,6 @@ const InternalLinks = styled(Link)`
   margin-top: 10px; // Adjust these margins to reduce space
   margin-bottom: 10px;
 
-  &:hover {
   a {
     color: white;
     text-decoration: none;
