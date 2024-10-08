@@ -26,6 +26,7 @@ const Service = styled(motion.div)`
 `;
 
 const Services = () => {
+  React.useEffect(() => {
     if (inView) {
       controls.start('visible');
     } else {
