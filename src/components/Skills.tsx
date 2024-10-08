@@ -1,3 +1,4 @@
+
 const Skills = () => {
   const skills = [
     { name: 'JavaScript', level: 90 },
