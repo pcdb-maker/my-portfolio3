@@ -32,7 +32,6 @@ const Services = () => {
       <Service
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.5 }}
     <ServiceItemContainer ref={ref} initial="hidden" animate={controls} variants={wordVariants}>
       {index % 2 === 0 && (
         <IconContainer color={iconColor}>
