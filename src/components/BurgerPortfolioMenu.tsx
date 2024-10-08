@@ -95,6 +95,7 @@ const IconWrapper = styled(ClubIcon)`
   margin-left: 8px;
   transition: transform 0.3s ease;
 
+  ${ContactButton}:hover & {
   position: fixed;
   top: 1px;
   right: 0;
