@@ -28,6 +28,7 @@ const Service = styled(motion.div)`
 
 const Services = () => {
     <span style={{ margin: '0 20px', color: '#EFE1B9', fontSize: '40px' }}>♦</span>
+  );
 
   // Determine if it's an SVG icon or span
   const Icon = index % 2 === 0 ? Icon1 : Icon2; // Only works for white icons
