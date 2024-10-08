@@ -14,6 +14,7 @@ const SkillLabel = styled.h3`
   margin-bottom: 10px;
 `;
 
+  border-radius: 10px;
   overflow: hidden;
 `;
 
