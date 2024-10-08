@@ -159,7 +159,6 @@ const BurgerMenu: React.FC = () => {
 
   // Handle scroll event to show/hide burger menu
   useEffect(() => {
-    const handleScroll = () => {
 const Navbar = () => {
   const [isBurgerOpen, setIsBurgerOpen] = useState(false);
 
