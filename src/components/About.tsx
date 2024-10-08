@@ -32,6 +32,7 @@ const AboutText = styled.p`
 const ContentWrapper = styled.div`
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   return (
     <AboutSection id="about">
       <ProfileImage src="/path/to/profile.jpg" alt="Astrid Mottes" />
