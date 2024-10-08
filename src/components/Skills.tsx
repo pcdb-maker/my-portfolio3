@@ -1,3 +1,4 @@
+    { name: 'CSS/HTML', level: 95 },
   ];
 
   return (
