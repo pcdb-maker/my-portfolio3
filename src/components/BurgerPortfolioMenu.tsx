@@ -102,6 +102,16 @@ const IconWrapper = styled(ClubIcon)`
 
 const BurgerIcon = styled.div`
   display: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #e85a4f;
+
+  @media (max-width: 768px) {
+    display: block; /* Show burger icon on smaller screens */
+  }
+`;
+
+const BurgerMenuContainer = styled.div`
   position: fixed;
   top: 1px;
   right: 0;
