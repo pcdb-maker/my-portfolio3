@@ -35,7 +35,6 @@ const Services = () => {
         transition={{ duration: 0.5 }}
       >
         <h3>Brand Identity</h3>
-      </Service>
     <ServiceItemContainer ref={ref} initial="hidden" animate={controls} variants={wordVariants}>
       {index % 2 === 0 && (
         <IconContainer color={iconColor}>
