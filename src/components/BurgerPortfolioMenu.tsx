@@ -86,6 +86,7 @@ const ContactButton = styled.a`
   &:after {
     top: 10px; /* Space below the middle line */
     left: -5px;
+    padding: 5px 15px; /* Smaller padding for mobile */
   }
 `;
 
