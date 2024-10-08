@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from 'styled-components';
   text-align: center;
   font-size: 3rem;
   margin-bottom: 50px;
