@@ -22,6 +22,7 @@ const Bar = styled(motion.div)`
   overflow: hidden;
 `;
 
+`;
 
 const Skills = () => {
   const skills = [
