@@ -3,7 +3,6 @@ import { Link } from 'react-scroll';
 import styled from 'styled-components';
 import { ReactComponent as ClubIcon } from '../assets/club.svg'; // Import Diamond SVG
 
-const BurgerWrapper = styled.div<{ visible: boolean }>`
   position: fixed;
   bottom: 30px; // Adjust this value to move it higher up on the page
 const NavbarContainer = styled.nav`
