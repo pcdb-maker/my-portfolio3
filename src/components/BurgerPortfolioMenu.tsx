@@ -166,5 +166,4 @@ const BurgerMenu: React.FC = () => {
   );
 };
 
-export default BurgerMenu;
 export default Navbar;
