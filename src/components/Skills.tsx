@@ -1,3 +1,4 @@
+  return (
     <SkillsContainer>
       <Heading>My Skills</Heading>
       {skills.map((skill, index) => (
