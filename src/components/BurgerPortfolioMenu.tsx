@@ -165,7 +165,6 @@ const BurgerMenu: React.FC = () => {
       setVisible(scrollTop > showAt);
     };
 
-    window.addEventListener('scroll', handleScroll);
   const toggleBurgerMenu = () => {
     setIsBurgerOpen(!isBurgerOpen);
   };
