@@ -1,3 +1,4 @@
+    triggerOnce: false,
     threshold: 0.5,
   });
 
