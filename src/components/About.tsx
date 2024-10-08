@@ -76,6 +76,7 @@ const TableHeader = styled.th`
 
 const TableData = styled.td`
   padding: 50px 0;
+    };
   return (
     <AboutSection id="about">
       <ProfileImage src="/path/to/profile.jpg" alt="Astrid Mottes" />
