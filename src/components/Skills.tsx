@@ -1,3 +1,4 @@
+    }
   }, [controls, inView, skill.level]);
 
   return (
