@@ -3,7 +3,6 @@ import { Link } from 'react-scroll';
 import styled from 'styled-components';
 import { ReactComponent as ClubIcon } from '../assets/club.svg'; // Import Diamond SVG
 
-// Wrapper for the burger icon
 const BurgerWrapper = styled.div<{ visible: boolean }>`
   position: fixed;
   bottom: 30px; // Adjust this value to move it higher up on the page
