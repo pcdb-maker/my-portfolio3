@@ -4,6 +4,8 @@ import { motion } from 'framer-motion';
 
 import { ReactComponent as Icon } from '../assets/club.svg'; // Updated icon import
 import Portrait from '../assets/portrait.png'; // Updated portrait import
+
+const AboutContainer = styled.div`
   background-color: #EFE2BA;
   display: flex;
   flex-direction: column;
