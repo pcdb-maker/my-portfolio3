@@ -3,7 +3,6 @@ import { Link } from 'react-scroll';
 import styled from 'styled-components';
 import { ReactComponent as ClubIcon } from '../assets/club.svg'; // Import Diamond SVG
 
-  bottom: 30px; // Adjust this value to move it higher up on the page
 const NavbarContainer = styled.nav`
   top: 0;
   width: 100%;
