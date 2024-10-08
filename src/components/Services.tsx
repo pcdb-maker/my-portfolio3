@@ -22,6 +22,7 @@ const Service = styled(motion.div)`
 
   &:hover {
     transform: translateY(-10px);
+  /* Target all paths inside SVG and apply color */
   svg {
     width: 100%;
     height: 100%;
