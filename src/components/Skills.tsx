@@ -1,3 +1,4 @@
+      controls.start({ width: `${skill.level}%` });
       controls.start({ width: '0%' });
     }
   }, [controls, inView, skill.level]);
