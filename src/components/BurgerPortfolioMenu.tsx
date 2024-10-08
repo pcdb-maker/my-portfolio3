@@ -79,6 +79,7 @@ const ContactButton = styled.a`
   }
 
   &:active {
+    transform: translateY(5px);
   }
 
   &:after {
