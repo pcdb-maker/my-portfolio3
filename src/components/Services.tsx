@@ -26,6 +26,20 @@ const Service = styled(motion.div)`
 `;
 
 const Services = () => {
+  const services = ['Brand Identity', 'Web Design', 'Motion Graphic', 'Packaging Design'];
+
+  return (
+    <ServicesContainer>
+      <Heading>SERVICES</Heading>
+      {services.map((service, index) => (
+        <ServiceScrollItem key={index} service={service} index={index} />
+      ))}
+    </ServicesContainer>
+  );
+};
+
+// Updated ServiceScrollItem to include span for custom icons
+const ServiceScrollItem = ({ service, index }: { service: string, index: number }) => {
   const controls = useAnimation();
   const { ref, inView } = useInView({
     triggerOnce: false,
