@@ -162,6 +162,7 @@ const BurgerMenu: React.FC = () => {
         <ExternalLinks href="https://linkedin.com" target="_blank">LinkedIn</ExternalLinks>
         </div>
       </Sidebar>
+          <a href="#behance">Behance</a>
           <a href="#linkedin">LinkedIn</a>
         </BurgerMenuLinks>
       </BurgerMenuContainer>
