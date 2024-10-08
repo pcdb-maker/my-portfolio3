@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
   text-align: center;
 `;
+
 const Heading = styled.h2`
   font-size: 3rem;
   margin-bottom: 50px;
