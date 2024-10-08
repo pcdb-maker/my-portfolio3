@@ -28,7 +28,6 @@ const Service = styled(motion.div)`
 
 const Services = () => {
   return (
-    <ServicesSection id ='services'>
     <ServiceItemContainer ref={ref} initial="hidden" animate={controls} variants={wordVariants}>
       {index % 2 === 0 && (
         <IconContainer color={iconColor}>
