@@ -172,7 +172,6 @@ const BurgerMenu: React.FC = () => {
         <BurgerLines />
       </BurgerWrapper>
 
-      <Sidebar open={open}>
       <NavbarContainer>
         <Logo>Chloe Osborne <IconWrapper /></Logo>
         <NavLinks>
