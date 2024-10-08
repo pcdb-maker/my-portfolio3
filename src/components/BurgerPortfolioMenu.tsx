@@ -132,7 +132,6 @@ const InternalLinks = styled(Link)`
   }
 `;
 
-  font-size: 15px;
   a:hover {
     color: #d79922; /* Highlighted color on hover */
   }
