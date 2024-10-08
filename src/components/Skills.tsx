@@ -1,3 +1,4 @@
+    { name: 'TypeScript', level: 80 },
     { name: 'CSS/HTML', level: 95 },
   ];
 
