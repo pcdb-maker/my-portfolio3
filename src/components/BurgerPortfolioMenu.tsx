@@ -156,6 +156,7 @@ const BurgerMenu: React.FC = () => {
       document.body.style.overflow = 'auto';
     };
   }, [open]); // Run this effect every time `open` changes
+  color: #e85a4f;
   cursor: pointer;
 `;
 
