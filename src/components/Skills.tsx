@@ -1,3 +1,4 @@
+          initial={{ width: '0%' }}
           animate={controls}
           transition={{ duration: 1, ease: 'easeInOut' }}
         />
