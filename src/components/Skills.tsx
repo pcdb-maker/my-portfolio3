@@ -1,3 +1,4 @@
+      <SkillLabel>{skill.name}</SkillLabel>
       <Bar>
         <Progress
           initial={{ width: '0%' }}
