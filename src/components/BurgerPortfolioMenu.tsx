@@ -20,7 +20,6 @@ const BurgerWrapper = styled.div<{ visible: boolean }>`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   z-index: 1000;
   transition: background 0.3s;
   overflow: hidden;
