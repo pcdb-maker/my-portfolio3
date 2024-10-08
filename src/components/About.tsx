@@ -67,6 +67,7 @@ const Table = styled.table`
 const TableRow = styled.tr`
   border-bottom: 1px solid black;
 `;
+  padding: 50px 0;
   return (
     <AboutSection id="about">
       <ProfileImage src="/path/to/profile.jpg" alt="Astrid Mottes" />
