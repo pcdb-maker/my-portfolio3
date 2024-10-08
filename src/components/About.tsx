@@ -59,6 +59,7 @@ const SpinningIcon = styled(motion.div)`
   width: 100px;
   svg {
 `;
+  max-width: 700px;
   width: 100%;
   text-align: left;
 `;
