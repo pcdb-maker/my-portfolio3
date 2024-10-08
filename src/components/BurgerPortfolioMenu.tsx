@@ -120,7 +120,6 @@ const BurgerMenuContainer = styled.div`
   display: flex;
   flex-direction: column;
   font-family: 'Playfair Display';
-  cursor: pointer;
   align-self: flex-end;
   margin-top: 40px;
   margin-right: 50px;
