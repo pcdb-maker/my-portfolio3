@@ -60,7 +60,17 @@ const SpinningIcon = styled(motion.div)`
   height: 100px;
   svg {
     width: 100%;
+    height: 100%;
+    fill: #4056A1; /* Icon color */
+  }
 `;
+
+const PortraitImage = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+`;
+
 const TableContainer = styled(motion.div)`
   max-width: 700px;
   width: 100%;
