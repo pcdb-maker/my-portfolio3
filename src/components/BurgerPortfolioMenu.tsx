@@ -169,7 +169,6 @@ const BurgerMenu: React.FC = () => {
   return (
     <>
       <BurgerWrapper onClick={handleClick} visible={visible && !open}>
-        <BurgerLines />
       <NavbarContainer>
         <Logo>Chloe Osborne <IconWrapper /></Logo>
         <NavLinks>
