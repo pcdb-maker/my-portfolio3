@@ -30,6 +30,7 @@ const Logo = styled.div`
   font-size: 28px;
   font-weight: bold;
   color: #e85a4f;
+const NavLinks = styled.div`
   cursor: pointer;
   transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
 
