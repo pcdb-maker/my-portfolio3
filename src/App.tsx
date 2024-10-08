@@ -37,6 +37,7 @@ const App: React.FC = () => {
           <Hero />
           <Portfolio />
           <Services />
+          <Skills /> 
           <About />
           <Footer /> {/* Add Footer at the bottom of the main page */}
         </>} />
