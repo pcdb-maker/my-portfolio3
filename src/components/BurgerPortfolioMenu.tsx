@@ -156,6 +156,7 @@ const BurgerMenu: React.FC = () => {
       document.body.style.overflow = 'auto';
     };
   }, [open]); // Run this effect every time `open` changes
+const CloseButton = styled.div`
   position: absolute;
   top: 20px;
   right: 20px;
