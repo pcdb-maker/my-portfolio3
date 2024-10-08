@@ -129,6 +129,7 @@ const InternalLinks = styled(Link)`
 
   &:hover {
     color: #e85a4f;
+    padding: 10px;
   }
 
   a:hover {
