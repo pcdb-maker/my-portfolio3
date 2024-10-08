@@ -93,6 +93,7 @@ const IconWrapper = styled(ClubIcon)`
   width: 16px;
   height: 16px;
   margin-left: 8px;
+  transition: transform 0.3s ease;
 
 const Sidebar = styled.div<{ open: boolean }>`
   position: fixed;
