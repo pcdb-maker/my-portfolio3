@@ -175,7 +175,6 @@ const BurgerMenu: React.FC = () => {
       <Sidebar open={open}>
         <CloseButton onClick={handleClick}> X </CloseButton>
         <InternalLinks to="/portfolio">Portfolio</InternalLinks>
-        <InternalLinks to="/services">Services</InternalLinks>
       <NavbarContainer>
         <Logo>Chloe Osborne <IconWrapper /></Logo>
         <NavLinks>
