@@ -97,6 +97,7 @@ const TableData = styled.td`
       </BioText>
     </AboutSection>
           viewport={{ once: true }}
+        >
           <PortraitImage src={Portrait} alt="Portrait" />
         </PortraitContainer>
 
