@@ -1,5 +1,6 @@
 import React from 'react';
 
+const SkillBarContainer = styled(motion.div)`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
