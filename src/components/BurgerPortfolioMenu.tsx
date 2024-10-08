@@ -156,7 +156,6 @@ const BurgerMenu: React.FC = () => {
 
   // Effect to monitor the state of the menu and handle scrolling
   useEffect(() => {
-    // If menu is open, prevent scrolling
 const CloseButton = styled.div`
   position: absolute;
   top: 20px;
