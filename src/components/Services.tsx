@@ -27,6 +27,7 @@ const Service = styled(motion.div)`
 `;
 
 const Services = () => {
+
   // Assign a different color based on index
   const iconColor = index % 2 === 0 ? '#F13C20' : '#4056A1'; // Custom colors for icons
 
