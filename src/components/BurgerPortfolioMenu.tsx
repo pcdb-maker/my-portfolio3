@@ -31,6 +31,7 @@ const Logo = styled.div`
   font-weight: bold;
   color: #e85a4f;
 const NavLinks = styled.div`
+  display: flex;
   cursor: pointer;
   transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
 
