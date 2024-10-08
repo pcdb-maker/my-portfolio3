@@ -41,6 +41,7 @@ const NavLinks = styled.div`
   display: flex;
   gap: 40px;
 
+  @media (max-width: 768px) {
   }
 `;
   cursor: pointer;
