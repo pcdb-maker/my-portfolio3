@@ -63,6 +63,7 @@ const ContactButton = styled.a`
   align-items: center;
   justify-content: center;
   padding: 10px 30px;
+  font-size: 16px;
   }
 
   &:before {
