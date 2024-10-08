@@ -22,6 +22,7 @@ const BurgerWrapper = styled.div<{ visible: boolean }>`
   align-items: center;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   z-index: 1000;
+  overflow: hidden;
   box-sizing: border-box;
   
   cursor: pointer;
