@@ -99,6 +99,7 @@ const IconWrapper = styled(ClubIcon)`
     transform: rotate(360deg);
   }
 `;
+
   position: fixed;
   top: 1px;
   right: 0;
