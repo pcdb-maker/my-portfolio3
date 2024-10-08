@@ -13,10 +13,7 @@ const AboutContainer = styled.div`
   font-family: 'Playfair Display', serif;
 `;
 
-const ProfileImage = styled.img`
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+const Heading = styled(motion.h1)`
   margin-bottom: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 `;
