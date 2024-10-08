@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
 import { ReactComponent as Icon } from '../assets/club.svg'; // Updated icon import
+import Portrait from '../assets/portrait.png'; // Updated portrait import
   background-color: #EFE2BA;
   display: flex;
   flex-direction: column;
