@@ -26,6 +26,7 @@ const Service = styled(motion.div)`
 `;
 
 const Services = () => {
+      controls.start('hidden');
     }
   }, [controls, inView]);
 
