@@ -183,6 +183,7 @@ const BurgerMenu: React.FC = () => {
         <ExternalLinks href="https://linkedin.com" target="_blank">LinkedIn</ExternalLinks>
         </div>
       </Sidebar>
+        <ContactButton href="contact">Contact me<IconWrapper /></ContactButton>
         <BurgerIcon onClick={toggleBurgerMenu}>☰</BurgerIcon>
       </NavbarContainer>
 
