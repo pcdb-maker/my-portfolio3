@@ -130,7 +130,6 @@ const InternalLinks = styled(Link)`
   &:hover {
     color: #e85a4f;
   }
-`;
 
   a:hover {
     color: #d79922; /* Highlighted color on hover */
