@@ -96,6 +96,7 @@ const TableData = styled.td`
         I love design in all its forms and enjoy exploring new areas and learning new things every day.
       </BioText>
     </AboutSection>
+      <Heading
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
