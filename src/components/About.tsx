@@ -98,6 +98,7 @@ const TableData = styled.td`
     </AboutSection>
         <TableContainer
           whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
           transition={{ duration: 0.8, ease: 'easeOut', delay: 0.5 }}
         >
           <Table>
