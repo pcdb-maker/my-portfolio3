@@ -137,6 +137,7 @@ const CloseButton = styled.div`
   align-self: flex-end;
   margin-top: 40px;
   margin-right: 50px;
+  align-items: center;
   justify-content: center;
   z-index: 1000;
   transition: transform 0.3s ease;
