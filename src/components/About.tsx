@@ -22,10 +22,6 @@ const Heading = styled(motion.h1)`
   }
 `;
 
-const BioText = styled.p`
-  max-width: 600px;
-  font-size: 18px;
-  line-height: 1.5;
 `;
 
 const About = () => {
