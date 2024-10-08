@@ -165,6 +165,7 @@ const BurgerMenu: React.FC = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+  const toggleBurgerMenu = () => {
     setIsBurgerOpen(!isBurgerOpen);
   };
 
