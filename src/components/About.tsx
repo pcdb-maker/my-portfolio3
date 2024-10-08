@@ -16,6 +16,10 @@ const AboutContainer = styled.div`
 const Heading = styled(motion.h1)`
   font-size: 3.5rem;
   margin-bottom: 20px;
+  span {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+  }
 `;
 
 const BioText = styled.p`
