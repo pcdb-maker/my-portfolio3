@@ -7,6 +7,7 @@ import Portrait from '../assets/portrait.png'; // Updated portrait import
 
 const AboutContainer = styled.div`
   background-color: #EFE2BA;
+  color: black;
   text-align: center;
 `;
 
