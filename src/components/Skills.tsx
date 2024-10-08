@@ -15,6 +15,7 @@ const SkillLabel = styled.h3`
 `;
 
   overflow: hidden;
+`;
 
 
 const Skills = () => {
