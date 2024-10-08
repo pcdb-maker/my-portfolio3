@@ -68,6 +68,7 @@ const TableRow = styled.tr`
   border-bottom: 1px solid black;
 `;
 
+  text-align: left;
 `;
 
 const TableData = styled.td`
