@@ -138,7 +138,6 @@ const ExternalLinks = styled.a`
   text-decoration: none;
   margin-top: 1px;
   margin-bottom: 1px;
-  margin-left: 25px;
   a:hover {
     color: #d79922; /* Highlighted color on hover */
   }
