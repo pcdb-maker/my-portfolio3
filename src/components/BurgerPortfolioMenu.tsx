@@ -26,6 +26,7 @@ const BurgerWrapper = styled.div<{ visible: boolean }>`
   overflow: hidden;
   box-sizing: border-box;
   
+  @media (max-width: 768px) {
 const Logo = styled.div`
   font-size: 28px;
   font-weight: bold;
