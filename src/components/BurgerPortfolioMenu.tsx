@@ -141,7 +141,6 @@ const ExternalLinks = styled.a`
   margin-left: 25px;
   
   &:hover {
-    color: #e85a4f;
   a:hover {
   }
 `;
