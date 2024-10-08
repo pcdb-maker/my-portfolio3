@@ -48,6 +48,7 @@ const PortraitContainer = styled(motion.div)`
   background-color: white;
 `;
 
+const SpinningIconContainer = styled.div`
   return (
     <AboutSection id="about">
       <ProfileImage src="/path/to/profile.jpg" alt="Astrid Mottes" />
