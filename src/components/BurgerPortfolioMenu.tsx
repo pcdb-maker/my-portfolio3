@@ -45,6 +45,7 @@ const NavLinks = styled.div`
     display: none; /* Hide the links for smaller screens */
   }
 `;
+  font-size: 16px;
   cursor: pointer;
   transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
 
