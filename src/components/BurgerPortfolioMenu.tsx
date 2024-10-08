@@ -42,6 +42,7 @@ const NavLinks = styled.div`
   gap: 40px;
 
   @media (max-width: 768px) {
+    display: none; /* Hide the links for smaller screens */
   }
 `;
   cursor: pointer;
