@@ -83,7 +83,6 @@ const ContactButton = styled.a`
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
   }
 
-  &:after {
   @media (max-width: 768px) {
     padding: 5px 15px; /* Smaller padding for mobile */
     font-size: 14px; /* Smaller font size for mobile */
