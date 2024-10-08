@@ -27,6 +27,7 @@ const Service = styled(motion.div)`
 `;
 
 const Services = () => {
+  // Define custom span icons for black ones
     <span style={{ margin: '0 20px', color: '#EFE1B9', fontSize: '40px' }}>♦</span>
   );
 
