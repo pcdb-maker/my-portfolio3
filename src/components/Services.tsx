@@ -1,9 +1,8 @@
 import React from 'react';
 import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 import styled from 'styled-components';
-import { motion } from 'framer-motion';
 
-const ServicesSection = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
