@@ -137,6 +137,7 @@ const CloseButton = styled.div`
   align-self: flex-end;
   margin-top: 40px;
   margin-right: 50px;
+  transition: transform 0.3s ease;
   transform: ${({ isOpen }) => (isOpen ? 'translateX(0)' : 'translateX(100%)')};
 `;
 
