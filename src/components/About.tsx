@@ -39,6 +39,7 @@ const ContentWrapper = styled.div`
 const PortraitContainer = styled(motion.div)`
   position: relative;
   width: 300px;
+  height: 400px;
   return (
     <AboutSection id="about">
       <ProfileImage src="/path/to/profile.jpg" alt="Astrid Mottes" />
