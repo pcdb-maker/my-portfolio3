@@ -8,6 +8,7 @@ import styled from 'styled-components';
   align-items: center;
   padding: 50px;
   background-color: #C5CBE3;
+  letter-spacing: 0.05em;
   margin: 0; /* Ensure no extra margin */
 `;
 
