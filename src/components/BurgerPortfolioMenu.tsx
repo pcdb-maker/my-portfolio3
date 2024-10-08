@@ -26,6 +26,7 @@ const BurgerWrapper = styled.div<{ visible: boolean }>`
   overflow: hidden;
   box-sizing: border-box;
   
+  font-size: 28px;
   font-weight: bold;
   cursor: pointer;
   transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
