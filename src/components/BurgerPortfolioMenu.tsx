@@ -14,6 +14,7 @@ const BurgerWrapper = styled.div<{ visible: boolean }>`
   background-color: #E6584F;
   border-radius: 15px;
   display: ${({ visible }) => (visible ? 'flex' : 'none')};
+const NavbarContainer = styled.nav`
   top: 0;
   width: 100%;
   margin: 0;
