@@ -152,7 +152,6 @@ const BurgerMenu: React.FC = () => {
   // Handle click event to toggle menu
   const handleClick = () => {
     setOpen(!open);
-  };
 const CloseButton = styled.div`
   position: absolute;
   top: 20px;
