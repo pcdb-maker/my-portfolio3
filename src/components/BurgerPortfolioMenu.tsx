@@ -148,7 +148,6 @@ const ExternalLinks = styled.a`
 const BurgerMenu: React.FC = () => {
   const [open, setOpen] = useState(false);
   const [visible, setVisible] = useState(false);
-  // Handle click event to toggle menu
 const CloseButton = styled.div`
   position: absolute;
   top: 20px;
