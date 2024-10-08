@@ -1,6 +1,7 @@
 
   flex-direction: column;
   align-items: flex-start;
+  margin: 20px 0;
 
 const Skills = () => {
   const skills = [
