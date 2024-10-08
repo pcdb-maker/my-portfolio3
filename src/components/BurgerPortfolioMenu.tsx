@@ -26,6 +26,7 @@ const BurgerWrapper = styled.div<{ visible: boolean }>`
   overflow: hidden;
   box-sizing: border-box;
   
+const Logo = styled.div`
   font-size: 28px;
   font-weight: bold;
   cursor: pointer;
