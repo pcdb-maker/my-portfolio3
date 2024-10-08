@@ -36,6 +36,7 @@ const Logo = styled.div`
   font-weight: bold;
   color: #e85a4f;
 `;
+
 const NavLinks = styled.div`
   display: flex;
   gap: 40px;
