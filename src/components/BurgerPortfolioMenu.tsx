@@ -139,7 +139,6 @@ const CloseButton = styled.div`
   margin-right: 50px;
 `;
 
-const InternalLinks = styled(Link)`
 const BurgerMenuLinks = styled.div`
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
