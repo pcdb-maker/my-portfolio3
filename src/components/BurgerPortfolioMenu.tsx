@@ -78,7 +78,6 @@ const ContactButton = styled.a`
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
   }
 
-    width:70%;
   
   }
 
