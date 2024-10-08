@@ -53,7 +53,6 @@ const NavLink = styled(Link)`
   cursor: pointer;
 
   &:hover {
-    background-color: #e85a4f;
     text-decoration: underline;
   }
 `;
