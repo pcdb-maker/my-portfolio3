@@ -27,6 +27,7 @@ const Service = styled(motion.div)`
 
 const Services = () => {
 
+  const moveDirection = index % 2 === 0 ? '-50px' : '50px';
   
   // Define custom span icons for black ones
   const customSpanIcon = (
