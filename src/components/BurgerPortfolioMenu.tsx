@@ -147,6 +147,7 @@ const InternalLinks = styled(Link)`
   text-decoration: none;
   margin-top: 10px; // Adjust these margins to reduce space
   margin-bottom: 10px;
+  text-align: center;
 
   a {
     color: white;
