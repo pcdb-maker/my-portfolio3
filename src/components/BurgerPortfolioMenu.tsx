@@ -61,7 +61,6 @@ const BurgerLines = styled.div`
   width: 35px;
   height: 4px;
   position: relative;
-
   &:before,
   &:after {
     content: '';
