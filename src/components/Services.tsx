@@ -50,7 +50,6 @@ const Services = () => {
       >
         <h3>Motion Graphics</h3>
       </Service>
-    </ServicesSection>
     <ServiceItemContainer ref={ref} initial="hidden" animate={controls} variants={wordVariants}>
       {index % 2 === 0 && (
         <IconContainer color={iconColor}>
