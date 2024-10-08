@@ -26,6 +26,7 @@ const Service = styled(motion.div)`
 `;
 
 const Services = () => {
+    }
   }, [controls, inView]);
 
   const moveDirection = index % 2 === 0 ? '-50px' : '50px';
