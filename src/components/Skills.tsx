@@ -1,3 +1,4 @@
+        <SkillScrollItem key={index} skill={skill} />
       ))}
     </SkillsContainer>
   );
