@@ -120,7 +120,6 @@ const BurgerMenuContainer = styled.div`
   display: flex;
   flex-direction: column;
 
-const CloseButton = styled.div`
   font-size: 40px;
   font-family: 'Playfair Display';
   color: #e85a4f;
