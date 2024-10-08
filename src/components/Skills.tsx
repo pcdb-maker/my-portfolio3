@@ -1,3 +1,4 @@
+  );
 };
 
 const SkillScrollItem = ({ skill }: { skill: { name: string; level: number } }) => {
