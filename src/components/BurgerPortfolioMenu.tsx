@@ -183,6 +183,7 @@ const BurgerMenu: React.FC = () => {
         <ExternalLinks href="https://linkedin.com" target="_blank">LinkedIn</ExternalLinks>
         </div>
       </Sidebar>
+        <Logo>Chloe Osborne <IconWrapper /></Logo>
         <NavLinks>
           <NavLink to="header" smooth={true} duration={200}>Portfolio</NavLink>
           <NavLink to="services" smooth={true} duration={200}>Services</NavLink>
