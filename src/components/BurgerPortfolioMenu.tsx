@@ -142,7 +142,6 @@ const CloseButton = styled.div`
 const InternalLinks = styled(Link)`
   font-family: 'Playfair Display';
   font-style: italic;
-  font-size: 55px;
 const BurgerMenuLinks = styled.div`
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
