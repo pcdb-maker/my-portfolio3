@@ -59,6 +59,7 @@ const SpinningIcon = styled(motion.div)`
   width: 100px;
   svg {
 `;
+const TableContainer = styled(motion.div)`
   max-width: 700px;
   width: 100%;
   text-align: left;
