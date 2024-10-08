@@ -162,6 +162,7 @@ const BurgerMenu: React.FC = () => {
         <ExternalLinks href="https://linkedin.com" target="_blank">LinkedIn</ExternalLinks>
         </div>
       </Sidebar>
+        <CloseButton onClick={toggleBurgerMenu}>X</CloseButton>
         <BurgerMenuLinks>
           <a href="#portfolio">Portfolio</a>
           <a href="#services">Services</a>
