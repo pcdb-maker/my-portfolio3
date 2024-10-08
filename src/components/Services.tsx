@@ -26,6 +26,7 @@ const Service = styled(motion.div)`
 `;
 
 const Services = () => {
+
   
   // Define custom span icons for black ones
   const customSpanIcon = (
