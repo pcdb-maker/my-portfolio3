@@ -68,6 +68,7 @@ const TableRow = styled.tr`
   border-bottom: 1px solid black;
 `;
 
+  padding: 40px 0;
   font-weight: bold;
   text-align: left;
 `;
