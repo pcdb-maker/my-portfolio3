@@ -26,6 +26,7 @@ const Service = styled(motion.div)`
 `;
 
 const Services = () => {
+    rootMargin: '0px 0px -100px 0px',
   });
 
   React.useEffect(() => {
