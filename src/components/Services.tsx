@@ -20,7 +20,6 @@ const Service = styled(motion.div)`
   text-align: center;
   cursor: pointer;
 
-  &:hover {
   /* Target all paths inside SVG and apply color */
   svg {
     width: 100%;
