@@ -1,3 +1,4 @@
+  return (
       <SkillLabel>{skill.name}</SkillLabel>
       <Bar>
         <Progress
