@@ -14,6 +14,7 @@ const BurgerWrapper = styled.div<{ visible: boolean }>`
   border-radius: 15px;
   display: ${({ visible }) => (visible ? 'flex' : 'none')};
   display: flex;
+  justify-content: space-between;
   align-items: center;
   justify-content: center;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
