@@ -1,3 +1,4 @@
+          animate={controls}
           transition={{ duration: 1, ease: 'easeInOut' }}
         />
       </Bar>
