@@ -88,14 +88,6 @@ const TableData = styled.td`
 
     };
   return (
-    <AboutSection id="about">
-      <ProfileImage src="/path/to/profile.jpg" alt="Astrid Mottes" />
-      <h2>About Me</h2>
-      <BioText>
-        Hello there! I'm a Graphic Designer & Illustrator based in Italy, passionate about helping brands stand out.
-        I love design in all its forms and enjoy exploring new areas and learning new things every day.
-      </BioText>
-    </AboutSection>
     <AboutContainer>
       <Heading
         initial={{ opacity: 0, y: 50 }}
