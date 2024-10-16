@@ -130,6 +130,7 @@ const Navbar = () => {
     setIsBurgerOpen(!isBurgerOpen);
   };
 
+      const showAt = 100;
     };
 
     window.addEventListener('scroll', handleScroll);
