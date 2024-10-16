@@ -12,7 +12,6 @@ import { Link } from 'react-router-dom';
   transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
 
   &:hover {
-    text-decoration: underline;
     background-color: #e85a4f;
     transform: scale(1.05);
   }
