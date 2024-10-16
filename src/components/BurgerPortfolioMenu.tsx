@@ -13,7 +13,6 @@ import { Link } from 'react-router-dom';
   display: ${({ visible }) => (visible ? 'flex' : 'none')};
   align-items: center;
   padding: 20px 40px;
-  transition: background 0.3s;
   overflow: hidden;
   box-sizing: border-box;
   
