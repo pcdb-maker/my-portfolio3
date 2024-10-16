@@ -25,6 +25,7 @@ const Heading = styled(motion.h1)`
     font-weight: bold;
   }
 
+  @media (max-width: 768px) {
 `;
 
 const AboutText = styled.p`
