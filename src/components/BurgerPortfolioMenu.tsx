@@ -9,7 +9,6 @@ import { Link } from 'react-router-dom';
   display: ${({ visible }) => (visible ? 'flex' : 'none')};
   align-items: center;
   display: flex;
-  gap: 40px;
   justify-content: center;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   cursor: pointer;
