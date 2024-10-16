@@ -123,7 +123,6 @@ const CloseButton = styled.div`
   cursor: pointer;
 `;
 
-const Navbar = () => {
 const BurgerMenu: React.FC = () => {
   const [open, setOpen] = useState(false);
   const [visible, setVisible] = useState(false);
