@@ -85,6 +85,7 @@ const SpinningIconContainer = styled.div`
 @media (min-width: 769px) and (max-width: 1024px) {
    top: 9000px;
   right: 550px;
+
   
 `;
 
