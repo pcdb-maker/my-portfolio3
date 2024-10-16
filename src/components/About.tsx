@@ -65,6 +65,11 @@ const PortraitContainer = styled(motion.div)`
   justify-content: center;
   align-items: center;
   background-color: white;
+
+  @media (max-width: 768px) {
+    width: 200px;
+    height: 270px;
+  }
 `;
 
 const SpinningIconContainer = styled.div`
