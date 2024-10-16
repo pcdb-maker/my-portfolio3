@@ -12,7 +12,6 @@ import { Link } from 'react-router-dom';
   border-radius: 15px;
   display: ${({ visible }) => (visible ? 'flex' : 'none')};
   align-items: center;
-  padding: 20px 40px;
   overflow: hidden;
   box-sizing: border-box;
   
