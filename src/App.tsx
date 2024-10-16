@@ -20,7 +20,6 @@ const NavbarSelector: React.FC = () => {
 const ScrollToHash: React.FC = () => {
   const location = useLocation();
 
-  if (projectPaths.includes(location.pathname)) {
     return <ProjectNavBar />;
   }
     if (location.hash) {
