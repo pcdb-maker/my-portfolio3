@@ -93,6 +93,7 @@ const SpinningIcon = styled(motion.div)`
     height: 100%;
     fill: #4056A1; /* Icon color */
   }
+
 `;
 
 const PortraitImage = styled.img`
