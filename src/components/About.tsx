@@ -26,6 +26,8 @@ const Heading = styled(motion.h1)`
   }
 
   @media (max-width: 768px) {
+    font-size: 2.5rem;
+  }
 `;
 
 const AboutText = styled.p`
@@ -33,6 +35,11 @@ const AboutText = styled.p`
   line-height: 1.6;
   margin: 0 auto 50px;
   max-width: 700px;
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
 `;
 
 const ContentWrapper = styled.div`
