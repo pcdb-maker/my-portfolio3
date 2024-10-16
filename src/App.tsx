@@ -12,7 +12,6 @@ import Footer from './components/Footer'; // Import Footer
 import { scroller } from 'react-scroll';
 
 // Function to conditionally render the correct navbar
-const NavbarSelector: React.FC = () => {
   const location = useLocation();
 
   // List of paths where the ProjectNavBar should be shown
