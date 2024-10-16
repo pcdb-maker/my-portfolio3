@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom';
   display: flex;
   justify-content: space-between;
   z-index: 150;
+  border-radius: 15px;
   align-items: center;
   padding: 20px 40px;
   z-index: 1000;
