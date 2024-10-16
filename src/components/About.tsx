@@ -147,6 +147,7 @@ const AboutMe = () => {
     };
   }, []);
 
+ 
   return (
     <AboutContainer id='about'>
       <Heading
