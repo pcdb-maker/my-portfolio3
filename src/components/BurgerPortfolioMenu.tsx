@@ -14,6 +14,7 @@ import { Link } from 'react-router-dom';
   &:hover {
     text-decoration: underline;
     background-color: #e85a4f;
+    transform: scale(1.05);
   }
 `;
 
