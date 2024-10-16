@@ -73,6 +73,7 @@ const PortraitContainer = styled(motion.div)`
 `;
 
 const SpinningIconContainer = styled.div`
+   @media (max-width: 375px) {
 `;
 
 const SpinningIcon = styled(motion.div)`
