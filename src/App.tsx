@@ -25,6 +25,7 @@ const ScrollToHash: React.FC = () => {
   }
 
   return <Navbar />;
+  return null;
 };
 
 const App: React.FC = () => {
