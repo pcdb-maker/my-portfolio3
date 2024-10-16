@@ -55,6 +55,7 @@ const BurgerLines = styled.div`
   &:after {
     top: 10px; /* Space below the middle line */
     left: -5px;
+    width:70%;
   }
 `;
 
