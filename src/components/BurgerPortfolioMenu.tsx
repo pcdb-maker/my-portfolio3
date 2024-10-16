@@ -59,7 +59,6 @@ const BurgerLines = styled.div`
   }
 `;
 
-const IconWrapper = styled(ClubIcon)`
   width: 16px;
   height: 16px;
   margin-left: 8px;
