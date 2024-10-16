@@ -13,7 +13,6 @@ import { Link } from 'react-router-dom';
 const Logo = styled.div`
   font-size: 28px;
 
-const NavLinks = styled.div`
   display: flex;
   gap: 40px;
 
