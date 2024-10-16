@@ -77,6 +77,7 @@ const SpinningIconContainer = styled.div`
    top: 80px;
   right: 0px;
 }
+
    
 top: 6000px;
   right: 60px;
