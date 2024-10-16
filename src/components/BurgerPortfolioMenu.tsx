@@ -126,7 +126,6 @@ const CloseButton = styled.div`
 const Navbar = () => {
   const [isBurgerOpen, setIsBurgerOpen] = useState(false);
 
-  const toggleBurgerMenu = () => {
   // Handle click event to toggle menu
   const handleClick = () => {
     setOpen(!open);
