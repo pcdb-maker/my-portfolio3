@@ -25,6 +25,7 @@ button:hover {
 
 /* Global settings for mobile */
   /* Specific exceptions for elements that need overflow-x: visible */
+  nav, header, main, footer, div, .burger-wrapper, .sidebar {
     max-width: 100vw !important;
     overflow-x: visible !important; /* Exception for burger menu and sidebar */
   }
