@@ -130,6 +130,7 @@ const Navbar = () => {
     setIsBurgerOpen(!isBurgerOpen);
   };
 
+    const handleScroll = () => {
       const scrollTop = window.scrollY;
       const showAt = 100;
       setVisible(scrollTop > showAt);
