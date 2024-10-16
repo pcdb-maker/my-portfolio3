@@ -18,6 +18,7 @@ const SkillsContainer = styled.div`
   @media (max-width: 320px) {
     padding: 50px 10px;
     height: auto;
+  }
     padding: 50px 20px;
   }
 `;
