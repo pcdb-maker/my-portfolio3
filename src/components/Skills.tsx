@@ -12,6 +12,7 @@ const SkillsContainer = styled.div`
   height: 100vh;
 
   @media (max-width: 900px) {
+    height: 70vh;
   }
   @media (max-width: 320px) {
     height: auto;
