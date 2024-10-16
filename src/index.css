@@ -25,6 +25,7 @@ button:hover {
 
 /* Global settings for mobile */
 @media (max-width: 768px) {
+    overflow-x: hidden !important; /* Prevent horizontal scrolling */
   }
 
   /* Ensure all elements are constrained within the view width */
