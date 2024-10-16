@@ -32,6 +32,7 @@ const App: React.FC = () => {
     <Router>
       {/* Conditional rendering of the navbar */}
       <NavbarSelector />
+      
       {/* Component to scroll to hash on route change */}
       <ScrollToHash />
 
