@@ -12,7 +12,6 @@ import { Link } from 'react-router-dom';
   border-radius: 15px;
   align-items: center;
   padding: 20px 40px;
-  z-index: 1000;
   transition: background 0.3s;
   overflow: hidden;
   box-sizing: border-box;
