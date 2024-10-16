@@ -24,6 +24,7 @@ const ScrollToHash: React.FC = () => {
   if (projectPaths.includes(location.pathname)) {
     return <ProjectNavBar />;
   }
+    if (location.hash) {
       const sectionId = location.hash.substring(1); // Remove the '#' from the hash
       scroller.scrollTo(sectionId, {
         duration: 800,
