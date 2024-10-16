@@ -9,7 +9,6 @@ import { Link } from 'react-router-dom';
   border-radius: 15px;
   display: ${({ visible }) => (visible ? 'flex' : 'none')};
   align-items: center;
-  overflow: hidden;
   box-sizing: border-box;
   @media (max-width: 768px) {
 const Logo = styled.div`
