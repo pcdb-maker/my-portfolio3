@@ -78,6 +78,7 @@ const SpinningIconContainer = styled.div`
   right: 0px;
 }
 
+/* For Medium Phones: iPhone 12, Pixel 5 */
 
 /* For Larger Phones/Phablets: Galaxy Note, iPhone 13 Pro Max */
 @media (min-width: 415px) and (max-width: 768px) {
