@@ -26,6 +26,7 @@ const SkillBarContainer = styled(motion.div)`
   width: 70%; /* Reduced width */
   max-width: 800px; /* Maximum width to avoid the bars being too long */
   margin: 20px auto; /* Center the bars horizontally */
+    width: 80%;
     margin: 10px auto;
   }
 `;
