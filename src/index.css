@@ -24,6 +24,7 @@ button:hover {
 }
 
 /* Global settings for mobile */
+  /* Specific exceptions for elements that need overflow-x: visible */
     overflow-x: visible !important; /* Exception for burger menu and sidebar */
   }
 }
