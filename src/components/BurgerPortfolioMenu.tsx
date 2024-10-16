@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-  justify-content: space-between;
   z-index: 150;
   border-radius: 15px;
   display: ${({ visible }) => (visible ? 'flex' : 'none')};
