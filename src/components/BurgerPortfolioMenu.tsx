@@ -18,7 +18,6 @@ import { Link } from 'react-router-dom';
   }
 `;
 
-const ContactButton = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
