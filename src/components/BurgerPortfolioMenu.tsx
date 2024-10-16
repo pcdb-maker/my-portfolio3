@@ -9,6 +9,7 @@ const BurgerWrapper = styled.div<{ visible: boolean }>`
   right: 30px; // Adjust this value to ensure it’s aligned properly on the right
   z-index: 150;
   width: 60px;
+  background-color: #E6584F;
   border-radius: 15px;
   display: ${({ visible }) => (visible ? 'flex' : 'none')};
   align-items: center;
