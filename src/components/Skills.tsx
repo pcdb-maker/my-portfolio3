@@ -23,6 +23,7 @@ const Heading = styled.h2`
     font-size: 1.5rem;
   }
 
+  @media (max-width: 320px) {
 `;
 
 const SkillBarContainer = styled(motion.div)`
