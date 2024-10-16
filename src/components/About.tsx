@@ -94,6 +94,7 @@ const SpinningIcon = styled(motion.div)`
     fill: #4056A1; /* Icon color */
   }
 
+    width: 70px;
     height: 70px;
   }
 `;
