@@ -50,7 +50,6 @@ const App: React.FC = () => {
         </>} />
 
         {/* Project 2 page */}
-        <Route path="/project2" element={<Project2 />} />
         <Route path="/project2" element={<>
           <Project2 />
           <Footer /> {/* Add Footer to Project2 page */}
