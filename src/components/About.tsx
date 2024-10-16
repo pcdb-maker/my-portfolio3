@@ -140,6 +140,7 @@ const AboutMe = () => {
       </AboutText>
 
           {/* Separate spinning icon */}
+          <SpinningIconContainer>
       <ContentWrapper>
         <PortraitContainer
           initial={{ opacity: 0, y: 100 }}
