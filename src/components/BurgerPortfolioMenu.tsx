@@ -35,6 +35,7 @@ import { Link } from 'react-router-dom';
     transform: translateY(3px);
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
   &:after {
+    position: absolute;
     width: 100%;  /* Ensures all lines, including pseudo-elements, are the same width */
   }
 
