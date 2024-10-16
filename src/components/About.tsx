@@ -187,7 +187,6 @@ const AboutMe = () => {
         <SpinningIconContainer>
           <SpinningIcon
             style={{ rotate: `${rotation}deg` }}
-          >
     
       </ContentWrapper>
     </AboutContainer>
