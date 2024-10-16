@@ -45,6 +45,7 @@ const BurgerLines = styled.div`
     background-color: white;
   }
 
+  &:before {
   }
 
   @media (max-width: 768px) {
