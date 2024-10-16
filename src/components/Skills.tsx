@@ -42,6 +42,7 @@ const Bar = styled(motion.div)`
   border-radius: 10px;
   overflow: hidden;
 
+
   @media (max-height: 800px) {
     height: 15px;
   }
