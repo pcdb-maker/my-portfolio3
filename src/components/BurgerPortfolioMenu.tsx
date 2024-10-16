@@ -36,7 +36,6 @@ const BurgerWrapper = styled.div<{ visible: boolean }>`
 const BurgerLines = styled.div`
   height: 4px;
 
-  &:hover {
     background: #d64545;
   &:before,
   &:after {
