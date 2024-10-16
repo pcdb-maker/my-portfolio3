@@ -8,7 +8,6 @@ import { Link } from 'react-router-dom';
   border-radius: 15px;
   display: ${({ visible }) => (visible ? 'flex' : 'none')};
   align-items: center;
-  display: flex;
   justify-content: center;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   cursor: pointer;
