@@ -97,6 +97,10 @@ const TableHeader = styled.th`
   padding: 40px 0;
   font-weight: bold;
   text-align: left;
+
+  @media (max-width: 768px) {
+    padding: 20px 0;
+  }
 `;
 
 const TableData = styled.td`
