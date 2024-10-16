@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-  width: 100%;
   margin: 0;
   background: #d8c3a5;
   display: flex;
