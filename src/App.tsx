@@ -16,7 +16,6 @@ const NavbarSelector: React.FC = () => {
   return <Navbar />;
 };
 
-  // List of paths where the ProjectNavBar should be shown
   const projectPaths = ['/project1', '/project2'];
 
   // Conditionally return ProjectNavBar for project pages, otherwise return the standard Navbar
