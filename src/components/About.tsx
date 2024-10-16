@@ -112,6 +112,7 @@ const TableContainer = styled(motion.div)`
 
   @media (max-width: 768px) {
     max-width: 100%;
+  }
 `;
 
 const Table = styled.table`
