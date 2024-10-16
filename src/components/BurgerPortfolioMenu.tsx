@@ -130,6 +130,7 @@ const Navbar = () => {
     setIsBurgerOpen(!isBurgerOpen);
   };
 
+
   // Handle scroll event to show/hide burger menu
   useEffect(() => {
     const handleScroll = () => {
