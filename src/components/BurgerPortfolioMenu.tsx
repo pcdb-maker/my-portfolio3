@@ -12,7 +12,6 @@ import { Link } from 'react-router-dom';
 
   display: flex;
   gap: 40px;
-  @media (max-width: 768px) {
   }
 `;
 
