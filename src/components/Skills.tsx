@@ -11,6 +11,7 @@ const SkillsContainer = styled.div`
   padding: 100px 20px;
   height: 100vh;
 
+  }
 `;
 
 const Heading = styled.h2`
