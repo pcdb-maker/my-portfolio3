@@ -125,6 +125,7 @@ const CloseButton = styled.div`
 
 const Navbar = () => {
   const [isBurgerOpen, setIsBurgerOpen] = useState(false);
+  const [open, setOpen] = useState(false);
   const [visible, setVisible] = useState(false);
 
   // Handle click event to toggle menu
