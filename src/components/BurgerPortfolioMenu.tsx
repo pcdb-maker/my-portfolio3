@@ -46,6 +46,7 @@ const BurgerLines = styled.div`
   }
 
   &:before {
+    top: -10px; /* Space above the middle line */
   }
 
   @media (max-width: 768px) {
