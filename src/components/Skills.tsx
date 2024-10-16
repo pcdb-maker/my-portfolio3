@@ -27,6 +27,7 @@ const Heading = styled.h2`
     font-size: 1.2rem;
     margin-bottom: 30px;
   }
+
 `;
 
 const SkillBarContainer = styled(motion.div)`
