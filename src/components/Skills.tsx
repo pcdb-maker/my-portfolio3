@@ -47,6 +47,7 @@ const SkillBarContainer = styled(motion.div)`
     margin: -15px; /* Reduce spacing for mobile view */
   }
 
+  @media (max-width: 320px) {
     width: 90%;
     margin: 10px auto;
   }
