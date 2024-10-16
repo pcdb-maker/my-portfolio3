@@ -24,6 +24,7 @@ const Heading = styled(motion.h1)`
     font-family: 'Playfair Display', serif;
     font-weight: bold;
   }
+
 `;
 
 const AboutText = styled.p`
