@@ -177,6 +177,7 @@ const Navbar = () => {
           <a href="#linkedin">LinkedIn</a>
         </BurgerMenuLinks>
       </BurgerMenuContainer>
+      </Sidebar>
     </>
   );
 };
