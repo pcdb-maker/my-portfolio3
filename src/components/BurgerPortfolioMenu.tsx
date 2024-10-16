@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { ReactComponent as ClubIcon } from '../assets/club.svg'; // Import Diamond SVG
 
