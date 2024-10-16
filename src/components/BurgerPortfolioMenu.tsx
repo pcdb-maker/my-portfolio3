@@ -13,7 +13,6 @@ import { Link } from 'react-router-dom';
   box-sizing: border-box;
   @media (max-width: 768px) {
     padding: 10px 20px; /* Adjust padding for smaller screens */
-
 const Logo = styled.div`
   font-size: 28px;
   font-weight: bold;
