@@ -32,6 +32,7 @@ const App: React.FC = () => {
     <Router>
       {/* Conditional rendering of the navbar */}
       <NavbarSelector />
+
       <Routes>
         {/* Main page includes Hero, Portfolio, Services, About, and Footer */}
         <Route path="/" element={<>
