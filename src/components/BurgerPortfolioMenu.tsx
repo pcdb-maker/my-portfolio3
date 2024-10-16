@@ -45,7 +45,6 @@ const BurgerLines = styled.div`
     background-color: white;
   }
 
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
   }
 
   @media (max-width: 768px) {
