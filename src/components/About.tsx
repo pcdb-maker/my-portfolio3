@@ -107,6 +107,7 @@ const SpinningIcon = styled(motion.div)`
     fill: #4056A1; /* Icon color */
   }
 
+  @media (max-width: 768px) {
     width: 70px;
     height: 70px;
   }
