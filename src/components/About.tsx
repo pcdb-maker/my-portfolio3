@@ -117,6 +117,7 @@ const Table = styled.table`
   margin-top: 30px;
 
   @media (max-width: 768px) {
+    font-size: 0.9rem;
   }
 `;
 
