@@ -52,7 +52,6 @@ const BurgerLines = styled.div`
   
   }
 
-    padding: 5px 15px; /* Smaller padding for mobile */
     font-size: 14px; /* Smaller font size for mobile */
   }
 `;
