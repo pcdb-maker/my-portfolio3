@@ -24,6 +24,7 @@ const ScrollToHash: React.FC = () => {
   if (projectPaths.includes(location.pathname)) {
     return <ProjectNavBar />;
   }
+      scroller.scrollTo(sectionId, {
         duration: 800,
         delay: 0,
         smooth: 'easeInOutQuart',
