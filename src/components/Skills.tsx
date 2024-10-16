@@ -61,6 +61,7 @@ const Skills = () => {
   return (
     <SkillsContainer>
       <Heading>My Skills</Heading>
+      <Heading id='skills'>MY SKILLS</Heading>
       {skills.map((skill, index) => (
         <SkillScrollItem key={index} skill={skill} />
       ))}
