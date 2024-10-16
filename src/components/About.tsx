@@ -191,6 +191,7 @@ const AboutMe = () => {
             <Icon />
           </SpinningIcon>
         </SpinningIconContainer>
+    
       </ContentWrapper>
     </AboutContainer>
   );
