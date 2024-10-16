@@ -150,6 +150,7 @@ const Navbar = () => {
           <a href="#linkedin">LinkedIn</a>
         </BurgerMenuLinks>
       </BurgerMenuContainer>
+      </BurgerWrapper>
       <Sidebar open={open}>
         <CloseButton onClick={handleClick}> X </CloseButton>
         <InternalLinks to="/portfolio">Portfolio</InternalLinks>
