@@ -33,6 +33,7 @@ const SkillLabel = styled.h3`
   font-size: 1.5rem;
   color: white; /* White for skill text */
   margin-bottom: 10px;
+    font-size: 1.2rem;
     margin-bottom: 8px;
   }
 `;
