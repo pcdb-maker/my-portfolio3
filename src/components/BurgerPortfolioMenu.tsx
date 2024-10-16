@@ -34,6 +34,7 @@ const BurgerWrapper = styled.div<{ visible: boolean }>`
   transition: transform 0.2s ease, background 0.3s ease, box-shadow 0.2s ease;
 const BurgerLines = styled.div`
   height: 4px;
+  border-radius: 2px;
   position: relative;
   transition: all 0.3s ease-in-out;
 
