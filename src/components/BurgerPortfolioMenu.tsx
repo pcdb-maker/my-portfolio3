@@ -123,6 +123,7 @@ const Navbar = () => {
     setIsBurgerOpen(!isBurgerOpen);
   };
 
+
   return (
     <>
       <BurgerWrapper onClick={handleClick} visible={visible && !open}>
