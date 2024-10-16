@@ -139,6 +139,7 @@ const AboutMe = () => {
         Hello there! I'm a Graphic Designer & Illustrator based in Italy, passionate about helping brands to stand out. Actually, I’ve always struggled to identify with a specific job title because I’ve never wanted to specialize in just one thing. I love design in all its forms and enjoy learning new things every day.
       </AboutText>
 
+          {/* Separate spinning icon */}
       <ContentWrapper>
         <PortraitContainer
           initial={{ opacity: 0, y: 100 }}
