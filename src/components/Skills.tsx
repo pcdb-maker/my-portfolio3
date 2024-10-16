@@ -43,6 +43,7 @@ const SkillBarContainer = styled(motion.div)`
   max-width: 800px; /* Maximum width to avoid the bars being too long */
   margin: 20px auto; /* Center the bars horizontally */
 
+  @media (max-width: 700px) {
     width: 90%;
     margin: 10px auto;
   }
