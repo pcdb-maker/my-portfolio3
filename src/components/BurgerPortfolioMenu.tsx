@@ -8,7 +8,6 @@ import { Link } from 'react-router-dom';
   border-radius: 15px;
   display: ${({ visible }) => (visible ? 'flex' : 'none')};
   align-items: center;
-  box-sizing: border-box;
   font-size: 28px;
 
   display: flex;
