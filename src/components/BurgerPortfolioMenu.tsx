@@ -131,6 +131,7 @@ const Navbar = () => {
   };
 
       const showAt = 100;
+      setVisible(scrollTop > showAt);
     };
 
     window.addEventListener('scroll', handleScroll);
