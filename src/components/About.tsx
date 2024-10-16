@@ -190,8 +190,6 @@ const AboutMe = () => {
           </Table>
         </TableContainer>
         
-        {/* Separate spinning icon */}
-        <SpinningIconContainer>
     
       </ContentWrapper>
     </AboutContainer>
