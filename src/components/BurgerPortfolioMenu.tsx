@@ -41,6 +41,7 @@ const BurgerLines = styled.div`
     height: 4px;
     background-color: white;
     border-radius: 2px;
+    transition: all 0.3s ease-in-out;
   }
 
   &:before {
