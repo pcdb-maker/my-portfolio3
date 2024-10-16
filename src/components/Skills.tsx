@@ -19,6 +19,7 @@ const Heading = styled.h2`
   margin-bottom: 50px;
   color: white; /* White for the heading */
 
+  @media (max-width: 700px) {
 `;
 
 const SkillBarContainer = styled(motion.div)`
