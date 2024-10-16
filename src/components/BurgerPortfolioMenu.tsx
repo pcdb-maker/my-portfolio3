@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 // Wrapper for the burger icon
 const BurgerWrapper = styled.div<{ visible: boolean }>`
   position: fixed;
+  bottom: 500px; // Adjust this value to move it higher up on the page
   z-index: 150;
   border-radius: 15px;
   display: ${({ visible }) => (visible ? 'flex' : 'none')};
