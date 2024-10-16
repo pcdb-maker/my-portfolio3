@@ -20,6 +20,7 @@ const NavbarSelector: React.FC = () => {
 const ScrollToHash: React.FC = () => {
   const location = useLocation();
 
+  useEffect(() => {
     if (location.hash) {
       const sectionId = location.hash.substring(1); // Remove the '#' from the hash
       scroller.scrollTo(sectionId, {
