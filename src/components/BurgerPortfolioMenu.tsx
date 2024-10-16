@@ -130,6 +130,7 @@ const Navbar = () => {
     setIsBurgerOpen(!isBurgerOpen);
   };
 
+  }, []);
 
   return (
     <>
