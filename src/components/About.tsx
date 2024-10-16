@@ -48,6 +48,7 @@ const ContentWrapper = styled.div`
   align-items: flex-start;
   gap: 50px;
 
+  @media (max-width: 768px) {
 `;
 
 const PortraitContainer = styled(motion.div)`
