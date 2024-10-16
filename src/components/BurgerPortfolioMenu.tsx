@@ -33,7 +33,6 @@ import { Link } from 'react-router-dom';
   &:hover {
     background: #d64545;
     transform: translateY(3px);
-    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
   &:before,
   &:after {
     content: '';
