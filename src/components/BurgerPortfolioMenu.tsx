@@ -125,6 +125,7 @@ const CloseButton = styled.div`
 
 const Navbar = () => {
   const [isBurgerOpen, setIsBurgerOpen] = useState(false);
+const BurgerMenu: React.FC = () => {
   const [open, setOpen] = useState(false);
   const [visible, setVisible] = useState(false);
 
