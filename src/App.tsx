@@ -20,7 +20,6 @@ const NavbarSelector: React.FC = () => {
 const ScrollToHash: React.FC = () => {
   const location = useLocation();
 
-  // Conditionally return ProjectNavBar for project pages, otherwise return the standard Navbar
   if (projectPaths.includes(location.pathname)) {
     return <ProjectNavBar />;
   }
