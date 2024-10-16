@@ -125,31 +125,8 @@ const Navbar = () => {
 
   return (
     <>
-      <NavbarContainer>
-        <Logo>Chloe Osborne <IconWrapper /></Logo>
-        <NavLinks>
-          <NavLink to="header" smooth={true} duration={200}>Portfolio</NavLink>
-          <NavLink to="services" smooth={true} duration={200}>Services</NavLink>
-          <NavLink to="about" smooth={true} duration={200}>About</NavLink>
-        </NavLinks>
-        <ContactButton href="contact">Contact me<IconWrapper /></ContactButton>
-        <BurgerIcon onClick={toggleBurgerMenu}>☰</BurgerIcon>
-      </NavbarContainer>
-
-      {/* Burger Menu */}
-      <BurgerMenuContainer isOpen={isBurgerOpen}>
-        <CloseButton onClick={toggleBurgerMenu}>X</CloseButton>
-        <BurgerMenuLinks>
-          <a href="#portfolio">Portfolio</a>
-          <a href="#services">Services</a>
-          <a href="#about">About</a>
-        </BurgerMenuLinks>
-        <BurgerMenuLinks>
-          <a href="#instagram">Instagram</a>
-          <a href="#behance">Behance</a>
-          <a href="#linkedin">LinkedIn</a>
-        </BurgerMenuLinks>
-      </BurgerMenuContainer>
+      <BurgerWrapper onClick={handleClick} visible={visible && !open}>
+        <BurgerLines />
       </BurgerWrapper>
 
       <Sidebar open={open}>
