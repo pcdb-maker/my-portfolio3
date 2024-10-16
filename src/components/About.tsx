@@ -142,6 +142,7 @@ const AboutMe = () => {
           {/* Separate spinning icon */}
           <SpinningIconContainer>
             <Icon />
+
       <ContentWrapper>
         <PortraitContainer
           initial={{ opacity: 0, y: 100 }}
