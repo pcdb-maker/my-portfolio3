@@ -98,4 +98,3 @@ const SkillScrollItem = ({ skill }: { skill: { name: string; level: number } }) 
 };
 
 export default Skills;
-export default Skills;
