@@ -47,6 +47,7 @@ const ContentWrapper = styled.div`
   justify-content: center;
   align-items: flex-start;
   gap: 50px;
+
 `;
 
 const PortraitContainer = styled(motion.div)`
