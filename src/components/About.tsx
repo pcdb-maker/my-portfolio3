@@ -11,6 +11,7 @@ const AboutContainer = styled.div`
   padding: 100px 20px;
   text-align: center;
   font-family: 'Playfair Display', serif;
+
 `;
 
 const Heading = styled(motion.h1)`
