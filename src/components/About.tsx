@@ -14,6 +14,7 @@ const AboutContainer = styled.div`
 
   @media (max-width: 768px) {
     padding: 50px 10px;
+  }
 `;
 
 const Heading = styled(motion.h1)`
