@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 // Wrapper for the burger icon
+const BurgerWrapper = styled.div<{ visible: boolean }>`
   z-index: 150;
   border-radius: 15px;
   display: ${({ visible }) => (visible ? 'flex' : 'none')};
