@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-  background: #d8c3a5;
   display: flex;
   justify-content: space-between;
   z-index: 150;
