@@ -24,7 +24,6 @@ const ScrollToHash: React.FC = () => {
     return <ProjectNavBar />;
   }
 
-  return <Navbar />;
   return null;
 };
 
