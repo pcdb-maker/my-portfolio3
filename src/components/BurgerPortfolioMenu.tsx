@@ -25,7 +25,6 @@ const BurgerWrapper = styled.div<{ visible: boolean }>`
   }
 `;
 
-  border-radius: 25px;
   box-shadow: 10px 6px 14px rgba(0, 0, 0, 0.4), -1px 5px 3px rgba(0, 0, 0, 20);
   text-decoration: none;
   transition: transform 0.2s ease, background 0.3s ease, box-shadow 0.2s ease;
