@@ -142,6 +142,7 @@ const AboutMe = () => {
           {/* Separate spinning icon */}
           <SpinningIconContainer>
             <Icon />
+        </SpinningIconContainer>
 
       <ContentWrapper>
         <PortraitContainer
