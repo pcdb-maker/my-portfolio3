@@ -82,6 +82,7 @@ const SpinningIconContainer = styled.div`
 @media (min-width: 376px) and (max-width: 414px) {
    
    top: 5900px;
+  right: 60px;
 
 /* For Larger Phones/Phablets: Galaxy Note, iPhone 13 Pro Max */
 @media (min-width: 415px) and (max-width: 768px) {
