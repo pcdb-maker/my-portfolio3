@@ -12,6 +12,7 @@ const AboutContainer = styled.div`
   text-align: center;
   font-family: 'Playfair Display', serif;
 
+  @media (max-width: 768px) {
 `;
 
 const Heading = styled(motion.h1)`
