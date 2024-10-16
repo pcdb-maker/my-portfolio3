@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 const BurgerWrapper = styled.div<{ visible: boolean }>`
   position: fixed;
   bottom: 500px; // Adjust this value to move it higher up on the page
+  right: 30px; // Adjust this value to ensure it’s aligned properly on the right
   z-index: 150;
   border-radius: 15px;
   display: ${({ visible }) => (visible ? 'flex' : 'none')};
