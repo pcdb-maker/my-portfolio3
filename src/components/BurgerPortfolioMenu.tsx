@@ -173,6 +173,7 @@ const Navbar = () => {
           <a href="#linkedin">LinkedIn</a>
         </BurgerMenuLinks>
       </BurgerMenuContainer>
+        <InternalLinks to="/services">Services</InternalLinks>
         <InternalLinks to="/about">About</InternalLinks>
         <div>
         <ExternalLinks href="https://instagram.com" target="_blank">Instagram</ExternalLinks>
