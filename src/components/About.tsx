@@ -197,4 +197,3 @@ const AboutMe = () => {
 };
 
 export default AboutMe;
-export default AboutMe;
