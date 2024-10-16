@@ -11,6 +11,7 @@ const SkillsContainer = styled.div`
   padding: 100px 20px;
   height: 100vh;
 
+  @media (max-width: 900px) {
     height: auto;
     padding: 50px 20px;
   }
