@@ -24,6 +24,7 @@ button:hover {
 }
 
 /* Global settings for mobile */
+@media (max-width: 768px) {
   }
 
   /* Specific exceptions for elements that need overflow-x: visible */
