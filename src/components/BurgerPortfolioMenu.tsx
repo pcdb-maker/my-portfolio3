@@ -9,7 +9,6 @@ import { Link } from 'react-router-dom';
   display: ${({ visible }) => (visible ? 'flex' : 'none')};
   align-items: center;
   box-sizing: border-box;
-  @media (max-width: 768px) {
   font-size: 28px;
 
   display: flex;
