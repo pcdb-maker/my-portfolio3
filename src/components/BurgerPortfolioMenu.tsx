@@ -12,7 +12,6 @@ import { Link } from 'react-router-dom';
   display: flex;
   gap: 40px;
 `;
-  font-size: 16px;
   color: #e85a4f;
   text-decoration: none;
   cursor: pointer;
