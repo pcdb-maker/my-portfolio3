@@ -105,6 +105,10 @@ const TableHeader = styled.th`
 
 const TableData = styled.td`
   padding: 50px 0;
+
+  @media (max-width: 768px) {
+    padding: 25px 0;
+  }
 `;
 
 const HighlightedRow = styled.tr`
