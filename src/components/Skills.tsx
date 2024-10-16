@@ -41,6 +41,7 @@ const Bar = styled(motion.div)`
   height: 20px;
   border-radius: 10px;
   overflow: hidden;
+    height: 15px;
   }
 `;
 
