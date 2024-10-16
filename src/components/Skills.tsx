@@ -34,6 +34,7 @@ const SkillLabel = styled.h3`
   color: white; /* White for skill text */
   margin-bottom: 10px;
 
+    margin-bottom: 5px;
   }
 
   @media (max-height: 800px) {
