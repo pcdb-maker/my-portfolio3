@@ -9,6 +9,7 @@ const NavbarContainer = styled.nav`
   background: #d8c3a5;
   display: flex;
   justify-content: space-between;
+  z-index: 150;
   align-items: center;
   padding: 20px 40px;
   z-index: 1000;
