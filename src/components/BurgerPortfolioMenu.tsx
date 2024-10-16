@@ -130,6 +130,7 @@ const Navbar = () => {
     setIsBurgerOpen(!isBurgerOpen);
   };
 
+  useEffect(() => {
     // If menu is open, prevent scrolling
     document.body.style.overflow = open ? 'hidden' : 'auto';
 
