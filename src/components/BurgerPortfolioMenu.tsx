@@ -10,6 +10,7 @@ import { Link } from 'react-router-dom';
   justify-content: space-between;
   z-index: 150;
   border-radius: 15px;
+  display: ${({ visible }) => (visible ? 'flex' : 'none')};
   align-items: center;
   padding: 20px 40px;
   transition: background 0.3s;
