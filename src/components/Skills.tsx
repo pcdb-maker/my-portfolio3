@@ -44,6 +44,7 @@ const SkillBarContainer = styled(motion.div)`
   margin: 20px auto; /* Center the bars horizontally */
 
   @media (max-width: 700px) {
+    margin: -15px; /* Reduce spacing for mobile view */
     width: 90%;
     margin: 10px auto;
   }
