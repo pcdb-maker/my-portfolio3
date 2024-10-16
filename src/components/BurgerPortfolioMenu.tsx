@@ -13,6 +13,7 @@ import { Link } from 'react-router-dom';
   gap: 40px;
   color: #e85a4f;
   text-decoration: none;
+  justify-content: center;
   cursor: pointer;
 
   &:hover {
