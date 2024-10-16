@@ -25,7 +25,6 @@ const BurgerWrapper = styled.div<{ visible: boolean }>`
   }
 `;
 
-  text-decoration: none;
   transition: transform 0.2s ease, background 0.3s ease, box-shadow 0.2s ease;
 const BurgerLines = styled.div`
   width: 35px;
