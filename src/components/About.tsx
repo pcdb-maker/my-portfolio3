@@ -115,6 +115,7 @@ const Table = styled.table`
   width: 100%;
   border-collapse: collapse;
   margin-top: 30px;
+  }
 `;
 
 const TableRow = styled.tr`
