@@ -23,6 +23,7 @@ const ScrollToHash: React.FC = () => {
   if (projectPaths.includes(location.pathname)) {
     return <ProjectNavBar />;
   }
+        smooth: 'easeInOutQuart',
       });
     }
   }, [location]);
