@@ -18,6 +18,7 @@ const Heading = styled.h2`
   font-size: 3rem;
   margin-bottom: 50px;
   color: white; /* White for the heading */
+
 `;
 
 const SkillBarContainer = styled(motion.div)`
