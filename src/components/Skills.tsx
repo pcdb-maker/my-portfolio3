@@ -19,6 +19,7 @@ const SkillsContainer = styled.div`
     padding: 50px 10px;
     height: auto;
   }
+
     padding: 50px 20px;
   }
 `;
