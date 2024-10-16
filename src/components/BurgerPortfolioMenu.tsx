@@ -130,6 +130,7 @@ const Navbar = () => {
     setIsBurgerOpen(!isBurgerOpen);
   };
 
+    return () => {
       document.body.style.overflow = 'auto';
     };
   }, [open]); // Run this effect every time `open` changes
