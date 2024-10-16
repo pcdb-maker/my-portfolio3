@@ -130,6 +130,7 @@ const Navbar = () => {
     setIsBurgerOpen(!isBurgerOpen);
   };
 
+
     // Clean up overflow style when component unmounts
     return () => {
       document.body.style.overflow = 'auto';
