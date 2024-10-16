@@ -17,6 +17,7 @@ const NavbarSelector: React.FC = () => {
 };
 
 // Component to scroll to the correct hash location
+const ScrollToHash: React.FC = () => {
 
   // Conditionally return ProjectNavBar for project pages, otherwise return the standard Navbar
   if (projectPaths.includes(location.pathname)) {
