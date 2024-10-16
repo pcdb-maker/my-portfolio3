@@ -10,7 +10,6 @@ import { Link } from 'react-router-dom';
   align-items: center;
   box-sizing: border-box;
   @media (max-width: 768px) {
-const Logo = styled.div`
   font-size: 28px;
 
   display: flex;
