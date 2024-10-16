@@ -37,6 +37,7 @@ import { Link } from 'react-router-dom';
   &:after {
     position: absolute;
     width: 100%;  /* Ensures all lines, including pseudo-elements, are the same width */
+    height: 4px;
   }
 
   &:active {
