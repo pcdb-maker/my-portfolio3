@@ -128,6 +128,7 @@ const Navbar = () => {
 
   const toggleBurgerMenu = () => {
     setIsBurgerOpen(!isBurgerOpen);
+  // Handle click event to toggle menu
   const handleClick = () => {
     setOpen(!open);
   };
