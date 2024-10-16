@@ -21,6 +21,7 @@ const SkillsContainer = styled.div`
   }
 
   @media (max-height: 800px) {
+    height: auto;
     padding: 50px 20px;
   }
 `;
