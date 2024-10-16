@@ -141,6 +141,7 @@ const AboutMe = () => {
 
           {/* Separate spinning icon */}
           <SpinningIconContainer>
+          <SpinningIcon
             <Icon />
         </SpinningIconContainer>
 
