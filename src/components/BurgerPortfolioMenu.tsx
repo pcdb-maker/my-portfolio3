@@ -25,7 +25,6 @@ const BurgerWrapper = styled.div<{ visible: boolean }>`
   }
 `;
 
-  justify-content: center;
   padding: 10px 30px;
   font-size: 16px;
   font-weight: bold;
