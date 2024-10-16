@@ -128,6 +128,7 @@ const Navbar = () => {
 
   const toggleBurgerMenu = () => {
     setIsBurgerOpen(!isBurgerOpen);
+    setOpen(!open);
   };
 
   // Effect to monitor the state of the menu and handle scrolling
