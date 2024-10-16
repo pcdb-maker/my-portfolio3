@@ -89,6 +89,7 @@ top: 6000px;
   right: 550px;
 
   
+  }
 `;
 
 const SpinningIcon = styled(motion.div)`
