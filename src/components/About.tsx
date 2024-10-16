@@ -77,6 +77,7 @@ const SpinningIconContainer = styled.div`
    top: 80px;
 /* For Small Tablets: iPad Mini */
 @media (min-width: 769px) and (max-width: 1024px) {
+   top: 9000px;
   
 `;
 
