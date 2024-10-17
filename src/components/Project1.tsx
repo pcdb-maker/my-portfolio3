@@ -104,6 +104,9 @@ const TextColumns = styled.div`
   margin: 40px 0;
   width: 100%;
   max-width: 1150px;
+  margin: 40px auto;
+  width: 90%;
+  max-width: 900px;
 `;
 
 // Left column with 50% width
