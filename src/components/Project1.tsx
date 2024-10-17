@@ -107,6 +107,7 @@ const TextColumns = styled.div`
 `;
 
 const LeftColumn = styled.div`
+  flex: 1;
   font-size: 2rem;
   color: #333;
   font-weight: bold;
