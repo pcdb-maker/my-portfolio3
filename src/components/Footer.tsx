@@ -137,7 +137,6 @@ const Footer: React.FC = () => {
                 padding: '20px 0', 
                 width: '100%', 
             }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', padding: '0 20px' }}>
             <FooterBottom>
                 <FooterBottomContent>
                     <span>© 2024 by Chloe Osborne</span>
