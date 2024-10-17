@@ -179,6 +179,7 @@ const CardsGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-left: 60px;
+  max-width: 900px;
 `;
 
 // Circle Link Icon with Spin on Hover
