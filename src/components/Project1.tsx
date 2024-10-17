@@ -106,6 +106,7 @@ const TextColumns = styled.div`
   max-width: 1150px;
 `;
 
+// Left column with 50% width
 const LeftColumn = styled.div`
   flex: 1;
   font-size: 2rem;
