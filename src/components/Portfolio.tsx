@@ -201,6 +201,7 @@ const Portfolio: React.FC = () => {
 
 
 
+        {[y3, y4, y5, y6].map((yTransform, index) => (
           <ProjectCard
             key={index}
             large={index % 2 === 0}
