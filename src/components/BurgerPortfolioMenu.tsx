@@ -58,7 +58,6 @@ const BurgerLines = styled.div`
   }
 `;
 
-  width: 16px;
   height: 16px;
   margin-left: 8px;
   transition: transform 0.3s ease;
