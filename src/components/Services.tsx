@@ -23,6 +23,7 @@ const Heading = styled.h2`
   @media (max-width: 700px) {
     font-size: 1rem;
   }
+  }
 `;
 
 const ServiceItemContainer = styled(motion.div)`
