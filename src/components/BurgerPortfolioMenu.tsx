@@ -72,7 +72,6 @@ const BurgerIcon = styled.div`
   display: none;
   cursor: pointer;
   font-size: 24px;
-  color: #e85a4f;
 
 
 const Sidebar = styled.div<{ open: boolean }>`
