@@ -142,6 +142,7 @@ const Navbar: React.FC = () => {
         <IconWrapper />
       </ContactButton>
     </NavbarContainer>
+        )}
         <div>
           <ExternalLinks href="https://instagram.com" target="_blank">Instagram</ExternalLinks>
           <ExternalLinks href="https://behance.net" target="_blank">Behance</ExternalLinks>
