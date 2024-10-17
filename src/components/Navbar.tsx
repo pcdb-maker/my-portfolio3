@@ -60,6 +60,7 @@ const NavLinks = styled.div<{ open: boolean }>`
   }
 `;
 
+const NavLink = styled(ScrollLink)`
   font-size: 16px;
   color: #e85a4f;
   text-decoration: none;
