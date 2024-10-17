@@ -135,6 +135,7 @@ const BurgerLine = styled.div`
   height: 3px;
   background-color: #e85a4f;
   border-radius: 5px;
+  color: white;
   margin-top: 1px;
   margin-bottom: 1px;
   margin-left: 4px;
