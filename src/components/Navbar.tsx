@@ -157,6 +157,7 @@ const Navbar: React.FC = () => {
         <IconWrapper />
       </ContactButton>
     </NavbarContainer>
+        <BurgerLines />
       </BurgerWrapper>
 
       <Sidebar open={open} topMenuActive={topMenuActive} burgerPosition={burgerPosition}>
