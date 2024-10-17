@@ -157,6 +157,7 @@ const Navbar: React.FC = () => {
         <IconWrapper />
       </ContactButton>
     </NavbarContainer>
+        <BurgerIcon onClick={() => toggleBurgerMenu(true)}>☰</BurgerIcon>
       </NavbarContainer>
 
       <BurgerWrapper onClick={handleScrollBurgerClick} visible={visible && !open} open={open}>
