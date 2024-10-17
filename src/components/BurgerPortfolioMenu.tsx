@@ -86,6 +86,7 @@ const BurgerMenuContainer = styled.div`
   width: 100%;
   height: 100vh;
   background-color: #2f2f2f;
+  transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(100%)')};
   transition: transform 0.5s ease-in-out;
   z-index: 99;
   display: flex;
