@@ -12,6 +12,7 @@ const ServicesContainer = styled.div`
   color: white;
   text-align: center;
   padding: 100px 20px;
+@media (min-width: 1281px) and (max-width: 1440px) {
   body {
     height: 100vh;
   }
