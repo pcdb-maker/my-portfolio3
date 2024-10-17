@@ -73,6 +73,7 @@ const NavLink = styled(ScrollLink)`
 
 const RouterNavLink = styled(RouterLink)`
   font-size: 16px;
+  color: #e85a4f;
   text-decoration: none;
 const ContactButton = styled.a`
   display: flex;
