@@ -115,10 +115,12 @@ const CircleLink = styled.div`
 `;
 
 const Portfolio: React.FC = () => {
-  const { scrollYProgress } = useScroll();
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1000);
 
-  // Show the burger menu once the user scrolls past the hero section
-  const isBurgerVisible = useTransform(scrollYProgress, [0.5, 0.5], [0, 1]);
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 1000);
+    };
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
