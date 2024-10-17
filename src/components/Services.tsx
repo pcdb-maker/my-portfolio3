@@ -19,6 +19,7 @@ const Heading = styled.h2`
   font-size: 2rem;
   margin-bottom: 50px;
   color: white;
+
   @media (max-width: 700px) {
     font-size: 1rem;
   }
