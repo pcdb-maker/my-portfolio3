@@ -113,6 +113,7 @@ const LeftColumn = styled.div`
   font-style: italic;
   text-align: right;
   margin-left: 100px;
+  margin-right: 10px;
 `;
 
 // Right column with 50% width
