@@ -156,6 +156,7 @@ const ScrollContainer = styled.div`
     overflow: hidden;
 `;
 
+
     @media (max-width: 375px) {
         font-size: 0.9rem;
     }
