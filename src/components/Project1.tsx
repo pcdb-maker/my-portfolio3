@@ -308,7 +308,6 @@ const Project1: React.FC = () => {
           <InfoText><strong>Client</strong> ✦ Costa d'Oro</InfoText>
           <InfoText><strong>Service</strong> ✦ Packaging Design</InfoText>
         </InfoTextContainer>
-
         <LiveProjectButton href="https://www.example.com" target="_blank">
           View Live Project ✦
         </LiveProjectButton>
