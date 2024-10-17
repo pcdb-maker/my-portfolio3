@@ -157,6 +157,8 @@ const Navbar: React.FC = () => {
         <IconWrapper />
       </ContactButton>
     </NavbarContainer>
+      <Sidebar open={open} topMenuActive={topMenuActive} burgerPosition={burgerPosition}>
+        <CloseButton onClick={() => toggleBurgerMenu(topMenuActive)}> X </CloseButton>
         {isOnePage ? (
           <>
             <InternalLinks to="portfolioHeader" smooth={true} duration={200}>Portfolio</InternalLinks>
