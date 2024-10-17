@@ -107,6 +107,7 @@ const BurgerMenuLinks = styled.div`
     text-decoration: none;
     padding: 10px;
   }
+  margin-left: 10px;
   align-self: flex-start;
 
   &:hover {
