@@ -140,6 +140,7 @@ const BurgerLine = styled.div`
 const Navbar: React.FC = () => {
   const [open, setOpen] = useState(false);
 
+  const location = useLocation(); // To get the current pathname
 
   const isOnePage = location.pathname === '/'; // Assuming '/' is your one-page app route
 
