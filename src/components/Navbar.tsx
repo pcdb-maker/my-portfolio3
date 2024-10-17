@@ -118,6 +118,7 @@ const BurgerMenu = styled.div`
   width: 25px;
   height: 18px;
   cursor: pointer;
+  font-size: 30px;
   color: white;
   text-decoration: none;
   margin-top: -80px;
