@@ -194,6 +194,7 @@ const Portfolio: React.FC = () => {
 
 
 
+              <CircleLink className="CircleLink">&rarr;</CircleLink>
             </Link>
           </ProjectCard>
         ))}
