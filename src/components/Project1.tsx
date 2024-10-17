@@ -14,7 +14,6 @@ import BurgerPortfolioMenu from './BurgerPortfolioMenu';
 const ProjectContainer = styled.div`
   padding: 80px 20px;
   max-width: 100%;
-  margin: 0 auto;
   width: 100vw;
   overflow-x: hidden;
   margin: 10 auto;
