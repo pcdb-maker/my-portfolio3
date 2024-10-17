@@ -12,6 +12,7 @@ const ServicesContainer = styled.div`
   color: white;
   text-align: center;
   padding: 100px 20px;
+  }
 }
 
 /* For Small Laptops: 13" laptops like MacBook Air */
