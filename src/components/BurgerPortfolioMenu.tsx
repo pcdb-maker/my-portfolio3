@@ -67,7 +67,6 @@ const BurgerLines = styled.div`
   }
 `;
 
-
 const Sidebar = styled.div<{ open: boolean }>`
   position: fixed;
   top: 1px;
