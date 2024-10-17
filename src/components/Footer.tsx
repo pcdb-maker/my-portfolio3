@@ -83,6 +83,7 @@ const Footer: React.FC = () => {
                     <p>Portfolio <br /> Services <br /> About</p>
                 </div>
             </div>
+                        <h4>Social Media</h4>
                         <ul>
                             <li>Instagram</li>
                             <li>Behance</li>
