@@ -115,7 +115,6 @@ const BurgerMenuLinks = styled.div`
 
 const CloseButton = styled.div`
   position: absolute;
-  top: 20px;
 const ExternalLinks = styled.a`
   font-size: 15px;
   color: white;
