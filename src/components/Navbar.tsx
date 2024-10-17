@@ -113,6 +113,7 @@ const IconWrapper = styled(ClubIcon)`
 
 const BurgerMenu = styled.div`
   display: none;
+  z-index: ${({ open }) => (open ? '300' : '0')}; /* Adjust z-index when sidebar is open */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
