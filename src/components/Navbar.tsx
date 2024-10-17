@@ -119,6 +119,7 @@ const BurgerMenu = styled.div`
   height: 18px;
   cursor: pointer;
 
+  &:hover {
     color: #e85a4f;
   }
 `;
