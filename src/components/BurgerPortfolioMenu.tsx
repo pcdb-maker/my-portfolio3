@@ -93,6 +93,7 @@ const BurgerMenuContainer = styled.div`
   z-index: 1000;
   transition: transform 0.3s ease;
   transform: ${({ isOpen }) => (isOpen ? 'translateX(0)' : 'translateX(100%)')};
+  color: white;
 `;
 
 const CloseButton = styled.div`
