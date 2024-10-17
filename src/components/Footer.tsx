@@ -171,6 +171,7 @@ const ScrollContainer = styled.div`
 `;
 
     @media (max-width: 768px) {
+        margin-right: 0;
         margin-bottom: 20px;
         text-align: center; /* Center align content on mobile */
         align-items: center;
