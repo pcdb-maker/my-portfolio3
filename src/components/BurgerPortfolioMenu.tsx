@@ -95,7 +95,6 @@ const BurgerMenuContainer = styled.div`
   transform: ${({ isOpen }) => (isOpen ? 'translateX(0)' : 'translateX(100%)')};
 `;
 
-const BurgerMenuLinks = styled.div`
 const CloseButton = styled.div`
   font-size: 40px;
   font-family: 'Playfair Display';
