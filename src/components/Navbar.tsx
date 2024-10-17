@@ -86,7 +86,6 @@ const ContactButton = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 20px;
   padding: 10px 30px;
   font-size: 16px;
   font-weight: bold;
