@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import Header from './PortfolioHeader'; // Import Header component
-import BurgerMenu from './BurgerMenu'; // Import BurgerMenu component
 
 // Container for the entire portfolio section
 const PortfolioSection = styled.section`
@@ -46,6 +45,13 @@ const ProjectCard = styled(motion.div)<{ large?: boolean }>`
 
   &:hover h1 {
     transition: transform 0.5s ease-in-out;
+  }
+
+  @media (max-width: 1000px) {
+    width: 90%;
+    height: auto;
+    margin: 20px 0;
+    transition: none;
   }
 `;
 
