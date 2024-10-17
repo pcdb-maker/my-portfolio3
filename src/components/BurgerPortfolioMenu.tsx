@@ -107,6 +107,7 @@ const BurgerMenuLinks = styled.div`
     text-decoration: none;
     padding: 10px;
   }
+const InternalLinks = styled(Link)`
   font-family: 'Playfair Display';
   font-style: italic;
   font-size: 55px;
