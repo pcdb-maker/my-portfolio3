@@ -121,6 +121,7 @@ const RightColumn = styled.div`
   text-align: left;
   line-height: 1.6;
   margin-left: 80px;
+  margin-left: 10px;
 `;
 
 // Image grid for the large images
