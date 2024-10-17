@@ -156,6 +156,7 @@ const ScrollContainer = styled.div`
     overflow: hidden;
 `;
 
+        flex-direction: column;
         align-items: center;
         padding: 10px;
     }
