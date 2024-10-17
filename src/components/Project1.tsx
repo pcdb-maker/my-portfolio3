@@ -287,6 +287,7 @@ const Project1: React.FC = () => {
         transition={{ ease: 'easeOut', duration: 0.8 }}
       >
         <span style={{ fontWeight: 'bold', fontStyle: 'normal' }}>Project</span> 
+        <span style={{ fontWeight: 'bold', fontStyle: 'normal' }}>Project</span>
         <span style={{ fontStyle: 'italic', fontWeight: 'normal' }}>Title</span>
       </ProjectTitle>
 
