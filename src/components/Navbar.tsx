@@ -116,7 +116,6 @@ const BurgerMenu = styled.div`
   flex-direction: column;
   justify-content: space-between;
   width: 25px;
-  height: 18px;
   padding: 20px;
   color: white;
 
