@@ -119,7 +119,6 @@ const BurgerMenu = styled.div`
   height: 18px;
   cursor: pointer;
 
-  @media (max-width: 768px) {
   &:hover {
     color: #e85a4f;
   }
