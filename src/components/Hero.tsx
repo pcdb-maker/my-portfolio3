@@ -28,8 +28,6 @@ const HeroText = styled(motion.div)`
   z-index: 2;
   display: flex;
   letter-spacing: -10px;
-  @media (max-width: 768px) {
-    font-size: 100px;
 
    @media (max-width: 768px) {
        font-size: 70px;
