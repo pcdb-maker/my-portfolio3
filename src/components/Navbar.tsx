@@ -113,6 +113,7 @@ const IconWrapper = styled(ClubIcon)`
 
 const BurgerMenu = styled.div`
   display: none;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 20px;
