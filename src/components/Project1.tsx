@@ -129,7 +129,6 @@ const ImageGrid = styled.div`
   flex-direction: column;
   gap: 20px;
   justify-content: space-between;
-  margin-top: 20px;
   margin: 40px auto;
   width: 90%;
   max-width: 900px;
