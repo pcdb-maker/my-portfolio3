@@ -170,6 +170,7 @@ const ScrollContainer = styled.div`
     overflow: hidden;
 `;
 
+    color: #ffffff;
     text-align: center;
     padding: 20px 0;
     width: 100%;
