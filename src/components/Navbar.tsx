@@ -60,7 +60,6 @@ const NavLinks = styled.div<{ open: boolean }>`
   }
 `;
 
-const NavLink = styled(Link)`
   font-size: 16px;
   color: #e85a4f;
   text-decoration: none;
