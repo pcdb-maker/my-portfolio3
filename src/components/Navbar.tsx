@@ -142,15 +142,6 @@ const Navbar: React.FC = () => {
 
   const toggleMenu = () => setOpen(!open);
 
-  return (
-    <NavbarContainer>
-      <Logo>Chloe Osborne <IconWrapper /> </Logo>
-
-      {/* Burger menu for mobile */}
-      <BurgerMenu onClick={toggleMenu}>
-        <BurgerLine />
-        <BurgerLine />
-        <BurgerLine />
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
