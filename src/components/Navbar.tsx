@@ -109,6 +109,7 @@ const IconWrapper = styled(ClubIcon)`
   ${ContactButton}:hover & {
     transform: rotate(360deg);
   }
+  @media (max-width: 1100px) {
     margin-left: 4px;
   }
 `;
