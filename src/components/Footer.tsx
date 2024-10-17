@@ -83,6 +83,7 @@ const Footer: React.FC = () => {
                     <p>Portfolio <br /> Services <br /> About</p>
                 </div>
             </div>
+            </FooterContent>
 
             {/* Footer Bottom */}
             <FooterBottom>
