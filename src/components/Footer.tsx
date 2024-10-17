@@ -90,6 +90,7 @@ const Footer: React.FC = () => {
                 </div>
             </div>
                         </a>
+                    </ContactSection>
                     <FooterLinks>
                         <h4>Link</h4>
                         <ul>
