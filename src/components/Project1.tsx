@@ -3,12 +3,6 @@ import styled from 'styled-components';
 import { motion, useTransform } from 'framer-motion';
 import { useInView } from 'react-intersection-observer'; 
 import { Link } from 'react-router-dom';
-import BurgerPortfolioMenu from './BurgerPortfolioMenu';
-
-
-
-
-
 
 // Main container for the project page
 const ProjectContainer = styled.div`
@@ -27,7 +21,6 @@ const ProjectTitle = styled(motion.h1)`
   margin-left: 10px;
   margin-top: -10px;
   color: #000000;
-  background-color: ##EFE2BA;
 `;
 
 // Project image styling
