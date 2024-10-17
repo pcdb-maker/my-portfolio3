@@ -63,6 +63,13 @@ const ParallaxImage = styled(motion.img)`
   object-position: 50% 50%;
   transition: transform 0.5s ease-in-out;
 
+  @media (max-width: 1000px) {
+    width: 100%;
+  height: 100%;
+   margin-bottom:100px;
+  
+   
+  }
 `;
 
 // Card Title
