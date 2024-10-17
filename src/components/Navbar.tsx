@@ -117,6 +117,7 @@ const BurgerMenu = styled.div`
   justify-content: space-between;
   width: 25px;
   height: 18px;
+  font-family: 'Playfair Display';
   color: #e85a4f;
   cursor: pointer;
   align-self: flex-end;
