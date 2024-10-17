@@ -7,6 +7,7 @@ const HeaderContainer = styled.div`
   text-align: center;
   background-color: #EFE2BA;
   font-family: 'Poppins', sans-serif;
+  z-index: 10;
 `;
 
 const MainHeading = styled.h1`
@@ -14,6 +15,10 @@ const MainHeading = styled.h1`
   color: #e85a4f;
   font-weight: 700;
   margin: 0;
+
+  @media (max-width: 768px) {
+  font-size: 40px;
+   
 `;
 
 const Fancy = styled.h1`
@@ -23,6 +28,9 @@ const Fancy = styled.h1`
   font-style: italic;
    font-family: 'Playfair Display', sans-serif;
   margin: 0;
+
+    @media (max-width: 768px) {
+  font-size: 40px;
  
 `;
 
@@ -31,6 +39,10 @@ const SubHeading = styled.p`
   color: #000000;
   align: center;
   margin: 10px 0 0;
+
+   @media (max-width: 768px) {
+  font-size: 15px;
+ 
 `;
 
 const Header: React.FC = () => {
