@@ -143,6 +143,7 @@ const Footer: React.FC = () => {
                 </div>
             </div>
         </div>
+                </FooterBottomContent>
                 <PrivacyLinks>
                     <span>Privacy Policy</span> | <span>Cookie Policy</span>
                 </PrivacyLinks>
