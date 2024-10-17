@@ -194,6 +194,7 @@ const Portfolio: React.FC = () => {
 
 
 
+            style={isMobile ? {} : { y: yTransform }}
           >
             <Link to="/project2">
               <ParallaxImage
