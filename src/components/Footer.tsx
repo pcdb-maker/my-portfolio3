@@ -130,7 +130,6 @@ const Footer: React.FC = () => {
             </div>
 
             {/* Footer Bottom */}
-            <div style={{ 
             <FooterBottom>
                 <FooterBottomContent>
                     <span>© 2024 by Chloe Osborne</span>
