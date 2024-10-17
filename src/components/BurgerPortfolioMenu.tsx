@@ -102,7 +102,6 @@ const BurgerMenuLinks = styled.div`
   margin-bottom: 20px;
   text-align: center;
 
-  a {
 const InternalLinks = styled(Link)`
   font-family: 'Playfair Display';
   font-style: italic;
