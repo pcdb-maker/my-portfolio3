@@ -92,7 +92,6 @@ const BurgerMenuContainer = styled.div`
   justify-content: center;
   z-index: 1000;
   transition: transform 0.3s ease;
-  transform: ${({ isOpen }) => (isOpen ? 'translateX(0)' : 'translateX(100%)')};
   justify-content: space-between;
   padding: 20px;
   color: white;
