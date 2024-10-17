@@ -89,6 +89,7 @@ const Footer: React.FC = () => {
                     <p>Portfolio <br /> Services <br /> About</p>
                 </div>
             </div>
+                    </FooterLinks>
                     <FooterLinks>
                         <h4>Social Media</h4>
                         <ul>
