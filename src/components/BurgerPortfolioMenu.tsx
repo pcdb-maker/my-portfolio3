@@ -120,6 +120,7 @@ const CloseButton = styled.div`
   font-size: 24px;
   color: #e85a4f;
   cursor: pointer;
+  &:hover {
     color: #e85a4f;
   }
 `;
