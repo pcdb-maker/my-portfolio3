@@ -108,7 +108,6 @@ const BurgerMenuLinks = styled.div`
     padding: 10px;
   }
 
-  a:hover {
   &:hover {
     color: #e85a4f;
   }
