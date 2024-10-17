@@ -170,6 +170,7 @@ const ScrollContainer = styled.div`
     overflow: hidden;
 `;
 
+        align-items: center;
         display: flex;
         flex-direction: column;
     }
