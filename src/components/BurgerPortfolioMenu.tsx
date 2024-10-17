@@ -83,8 +83,6 @@ const BurgerMenuContainer = styled.div`
   position: fixed;
   top: 0;
   right: 0;
-  width: 100%;
-  height: 100vh;
   height: 430px;
   width: 300px; 
   background-color: #333;
