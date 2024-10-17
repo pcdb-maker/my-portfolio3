@@ -153,7 +153,6 @@ const SmallImageGrid = styled.div`
 `;
 
 const SmallImage = styled.img`
-  width: 92%;
   width: 100%;
   height: 323px;
   border-radius: 15px;
