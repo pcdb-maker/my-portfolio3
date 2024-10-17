@@ -117,6 +117,7 @@ const BurgerMenu = styled.div`
   justify-content: space-between;
   width: 25px;
   height: 18px;
+  padding: 20px;
   color: white;
 
   @media (max-width: 1100px) {
