@@ -194,6 +194,7 @@ const Portfolio: React.FC = () => {
 
 
 
+              <Subtitle>Packaging Design</Subtitle>
               <CircleLink className="CircleLink">&rarr;</CircleLink>
             </Link>
           </ProjectCard>
