@@ -134,6 +134,7 @@ const Footer = () => {
 
 export default Footer;
 
+// Styled-components for better responsiveness and animations
         font-size: 0.9rem;
     }
 `;
