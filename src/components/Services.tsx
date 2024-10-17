@@ -58,7 +58,6 @@ const Services = () => {
 
   return (
     <ServicesContainer>
-      <Heading>SERVICES</Heading>
       <Heading id='services'>SERVICES</Heading>
       {services.map((service, index) => (
         <ServiceScrollItem key={index} service={service} index={index} />
