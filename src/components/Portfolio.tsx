@@ -89,6 +89,9 @@ const Subtitle = styled.div`
   bottom: 40px;
   left: 20px;
   transition: none; /* No hover effect on subtitle */
+
+  @media (max-width: 1000px) {
+    
 `;
 
 // Circle Link Icon with Spin on Hover
