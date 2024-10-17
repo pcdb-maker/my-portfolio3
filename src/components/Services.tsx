@@ -19,6 +19,7 @@ const Heading = styled.h2`
   font-size: 2rem;
   margin-bottom: 50px;
   color: white;
+    font-size: 1rem;
   }
 `;
 
