@@ -139,6 +139,7 @@ export default Footer;
     position: relative;
     padding-top: 30px;
 
+    @media (max-width: 768px) {
         font-size: 0.9rem;
     }
 `;
