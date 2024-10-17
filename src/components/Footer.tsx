@@ -170,6 +170,7 @@ const ScrollContainer = styled.div`
     overflow: hidden;
 `;
 
+            font-size: 1rem;
         }
     }
 `;
