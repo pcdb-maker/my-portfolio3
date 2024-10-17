@@ -58,14 +58,6 @@ const BurgerLines = styled.div`
   }
 `;
 
-  height: 16px;
-  margin-left: 8px;
-  transition: transform 0.3s ease;
-
-  ${ContactButton}:hover & {
-    transform: rotate(360deg);
-  }
-`;
 
 const Sidebar = styled.div<{ open: boolean }>`
   position: fixed;
