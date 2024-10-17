@@ -157,6 +157,7 @@ const Navbar: React.FC = () => {
         <IconWrapper />
       </ContactButton>
     </NavbarContainer>
+        <Logo><IconWrapperLogo /> Chloe Osborne </Logo>
         <NavLinks>
           {isOnePage ? (
             <>
