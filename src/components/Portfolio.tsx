@@ -74,6 +74,10 @@ const CardTitle = styled.h1`
   color: white;
   font-family: 'Playfair Display', serif;
   transition: transform 0.3s ease-in-out;
+
+  @media (max-width: 1000px) {
+    transition: none;
+  }
 `;
 
 // Subtitle with a pop color and rounded background
