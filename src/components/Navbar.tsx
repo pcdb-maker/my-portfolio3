@@ -117,6 +117,7 @@ const BurgerMenu = styled.div`
   justify-content: space-between;
   width: 25px;
   height: 18px;
+  @media (max-width: 1100px) {
     right: ${({ open }) => (open ? '45px' : '-300px')};
   }
 `;
