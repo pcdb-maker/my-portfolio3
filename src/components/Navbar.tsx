@@ -157,6 +157,7 @@ const Navbar: React.FC = () => {
         <IconWrapper />
       </ContactButton>
     </NavbarContainer>
+          {isOnePage ? (
             <>
               <NavLink to="portfolioHeader" smooth={true} duration={200}>Portfolio</NavLink>
               <NavLink to="services" smooth={true} duration={200}>Services</NavLink>
