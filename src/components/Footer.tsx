@@ -143,6 +143,7 @@ const Footer: React.FC = () => {
                 </div>
             </div>
         </div>
+                    <span>PI 02743210227</span>
                 </FooterBottomContent>
                 <PrivacyLinks>
                     <span>Privacy Policy</span> | <span>Cookie Policy</span>
