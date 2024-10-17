@@ -101,6 +101,7 @@ const BurgerMenuLinks = styled.div`
   color: white;
   margin-bottom: 20px;
   text-align: center;
+  font-family: 'Playfair Display';
   color: #e85a4f;
   cursor: pointer;
   align-self: flex-end;
