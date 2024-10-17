@@ -31,6 +31,7 @@ const HeroText = styled(motion.div)`
   @media (max-width: 768px) {
     font-size: 100px;
     letter-spacing: -5px;
+   @media (max-width: 768px) {
        font-size: 70px;
        letter-spacing: -4px;
        margin-bottom: 20px;
