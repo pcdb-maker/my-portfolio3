@@ -201,6 +201,7 @@ const Portfolio: React.FC = () => {
 
 
 
+          <ProjectCard
             key={index}
             large={index % 2 === 0}
             style={isMobile ? {} : { y: yTransform }}
