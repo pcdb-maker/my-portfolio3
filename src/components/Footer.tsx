@@ -150,6 +150,7 @@ export default Footer;
 
 // Styled-components for better responsiveness and animations
     color: #ffffff;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     min-height: 85vh;
