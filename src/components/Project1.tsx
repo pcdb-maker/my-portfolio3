@@ -132,6 +132,7 @@ const ImageGrid = styled.div`
   margin-top: 20px;
 `;
 
+// Individual image styling in the image grid
 const GridImage = styled.img`
   width: 100%;
   height: 500px;
