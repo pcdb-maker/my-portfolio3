@@ -105,7 +105,6 @@ const BurgerMenuLinks = styled.div`
   a {
     color: white;
     text-decoration: none;
-    padding: 10px;
 const InternalLinks = styled(Link)`
   font-family: 'Playfair Display';
   font-style: italic;
