@@ -7,12 +7,25 @@ const Footer: React.FC = () => {
 
     useEffect(() => {
         const scrollContainer = scrollContainerRef.current;
-        if (scrollContainer) {
-            const scrollSpeed = 1.5;
+        let scrollSpeed = 1.5;
 
+        const handleResize = () => {
+            const screenWidth = window.innerWidth;
+
+            if (screenWidth < 768) {
+                scrollSpeed = 1.7; // Slow down for mobile devices
+            } else if (screenWidth < 1200) {
+                scrollSpeed = 1.7; // Moderate speed for tablets
+            } else {
+                scrollSpeed = 1.7; // Default speed for desktop
+            }
+        };
+
+        window.addEventListener('resize', handleResize);
+        handleResize(); // Set initial speed
+
+        if (scrollContainer) {
             const scroll = () => {
-                scrollAmount -= scrollSpeed;
-                scrollContainer.style.transform = `translateX(${scrollAmount}px)`;
 
                 if (Math.abs(scrollAmount) >= scrollContainer.scrollWidth / 2) {
                     scrollAmount = 0;
