@@ -143,6 +143,7 @@ const Footer: React.FC = () => {
                 </div>
             </div>
         </div>
+                </PrivacyLinks>
             </FooterBottom>
         </FooterContainer>
     );
