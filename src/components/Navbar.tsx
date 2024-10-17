@@ -142,6 +142,7 @@ const Navbar: React.FC = () => {
         <IconWrapper />
       </ContactButton>
     </NavbarContainer>
+      </Sidebar>
     </>
   );
 };
