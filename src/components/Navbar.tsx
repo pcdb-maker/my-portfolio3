@@ -113,6 +113,80 @@ const IconWrapper = styled(ClubIcon)`
 
 const BurgerMenu = styled.div`
   display: none;
+  cursor: pointer;
+  font-size: 40px;
+  color: #e85a4f;
+
+  @media (max-width: 1100px) {
+    display: block; /* Show burger icon on mobile */
+    padding-left: 50px;
+  }
+`;
+
+const BurgerWrapper = styled.div<{ visible: boolean; open: boolean }>`
+  position: fixed;
+  top: 15%;
+  right: 70px;
+  z-index: ${({ visible, open }) => (visible && !open ? '150' : open ? '200' : '0')}; /* Adjust z-index based on visibility and open state */
+  width: 30px;
+  height: 30px;
+  background-color: #e6584f;
+  border-radius: 7.5px;
+  display: ${({ visible }) => (visible ? 'flex' : 'none')};
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #e85a4f;
+    transform: scale(1.05);
+  }
+
+  @media (max-width: 1100px) {
+    right: 45px;
+  }
+`;
+
+const BurgerLines = styled.div`
+  width: 17.5px !important;
+  height: 2px !important;
+  background-color: white !important;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+
+  &:before,
+  &:after {
+    content: '';
+    position: absolute;
+    width: 50% !important;
+    height: 2px !important;
+    background-color: white !important;
+    transition: all 0.3s ease-in-out;
+  }
+
+  &:before {
+    top: -10px !important;
+    width: 70% !important; /* Control the width for asymmetry */
+    left: 0;
+  }
+
+  &:after {
+    top: 10px !important;
+    width: 70% !important; /* Control the width for asymmetry */
+    right: 0;
+  }
+`;
+
+// Sidebar with dynamic positioning based on which burger is clicked
+const Sidebar = styled.div<{ open: boolean; topMenuActive: boolean; burgerPosition: number | null }>`
+  position: fixed;
+  top: ${({ topMenuActive, burgerPosition }) => (topMenuActive ? '60px' : burgerPosition ? `${burgerPosition}px` : 'auto')}; /* Use burger position if scroll-triggered */
+  right: ${({ open }) => (open ? '90px' : '-300px')};
+  height: 360px;
+  width: 250px;
+  background-color: #333;
   border-radius: 15px;
   transition: all 0.5s ease-in-out;
   z-index: ${({ open }) => (open ? '300' : '0')}; /* Adjust z-index when sidebar is open */
