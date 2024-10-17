@@ -140,6 +140,7 @@ const BurgerLine = styled.div`
 const Navbar: React.FC = () => {
   const [open, setOpen] = useState(false);
   const toggleBurgerMenu = (fromNavbar: boolean) => {
+    setTopMenuActive(fromNavbar);
   };
 
   const handleScrollBurgerClick = (event: React.MouseEvent) => {
