@@ -67,6 +67,7 @@ const IconWrapper = styled(motion.div)<SVGProps<SVGSVGElement>>`
   z-index: 1;
 `;
 
+
 // Updated Arrow Component with hover animation
 const Arrow = styled(motion.div)`
   position: absolute;
