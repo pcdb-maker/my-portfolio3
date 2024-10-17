@@ -39,7 +39,6 @@ const Logo = styled.div`
 
 const NavLinks = styled.div<{ open: boolean }>`
   display: flex;
-  gap: 40px;
   margin-left: -300px;
   
   @media (max-width: 768px) {
