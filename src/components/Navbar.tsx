@@ -98,13 +98,15 @@ const ContactButton = styled.a`
     font-size: 10px;
     margin-right: -45px;
     margin-left: 6px;
+  }
 `;
 
 const IconWrapper = styled(ClubIcon)`
   width: 16px;
   height: 16px;
-  margin-left: 8px;
+  margin-left: 0px;
   transition: transform 0.3s ease;
+  margin-left: 8px;
 
   ${ContactButton}:hover & {
     transform: rotate(360deg);
