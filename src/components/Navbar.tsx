@@ -139,6 +139,7 @@ const BurgerLine = styled.div`
 
 const Navbar: React.FC = () => {
   const [open, setOpen] = useState(false);
+    document.body.style.overflow = open ? 'hidden' : 'auto';
     return () => {
       document.body.style.overflow = 'auto';
     };
