@@ -121,6 +121,7 @@ const BurgerMenu = styled.div`
 
   @media (max-width: 768px) {
     display: flex; /* Burger menu only visible on mobile */
+    color: #e85a4f;
   }
 `;
 
