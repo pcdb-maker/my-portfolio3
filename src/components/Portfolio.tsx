@@ -112,6 +112,11 @@ const CircleLink = styled.div`
     color: white;
     transform: rotate(360deg); /* Spin animation */
   }
+
+  @media (max-width: 1000px) {
+    transition: none;
+  
+  }
 `;
 
 const Portfolio: React.FC = () => {
