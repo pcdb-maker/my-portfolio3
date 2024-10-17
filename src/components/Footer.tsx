@@ -140,6 +140,22 @@ export default Footer;
     padding-top: 30px;
 
     @media (max-width: 768px) {
+        min-height: 60vh;
+        padding-top: 20px;
+    }
+
+    @media (max-width: 480px) {
+        min-height: 50vh;
+        padding-top: 10px;
+    }
+`;
+
+const ScrollContainer = styled.div`
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+`;
+
         font-size: 0.9rem;
     }
 `;
