@@ -152,6 +152,7 @@ const SmallImageGrid = styled.div`
  
 `;
 
+// Styling for smaller images
 const SmallImage = styled.img`
   width: 100%;
   height: 323px;
