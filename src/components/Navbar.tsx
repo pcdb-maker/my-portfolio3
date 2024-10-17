@@ -53,6 +53,7 @@ const NavLinks = styled.div<{ open: boolean }>`
     flex-direction: column;
     padding: 20px;
     border-radius: 8px;
+    display: none; /* Hide links on mobile view */
   }
 `;
 
