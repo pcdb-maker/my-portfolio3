@@ -69,7 +69,6 @@ const BurgerLines = styled.div`
 
 const BurgerIcon = styled.div`
   display: none;
-  cursor: pointer;
 
 const Sidebar = styled.div<{ open: boolean }>`
   position: fixed;
