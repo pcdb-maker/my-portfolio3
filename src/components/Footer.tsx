@@ -42,7 +42,6 @@ const Footer: React.FC = () => {
     return (
         <FooterContainer id="footer">
             {/* Banner animation */}
-            <div style={{ 
                 position: 'relative', 
                 width: '100%', 
                 overflow: 'hidden',  // Ensure no scrolling elements overflow
