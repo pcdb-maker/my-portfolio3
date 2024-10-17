@@ -115,6 +115,7 @@ const LeftColumn = styled.div`
   margin-left: 100px;
 `;
 
+// Right column with 50% width
 const RightColumn = styled.div`
   flex: 1;
   font-size: 1rem;
