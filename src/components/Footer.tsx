@@ -27,6 +27,7 @@ const Footer: React.FC = () => {
         if (scrollContainer) {
             const scroll = () => {
                 if (scrollContainer) {
+                    scrollAmount -= scrollSpeed;
 
                 if (Math.abs(scrollAmount) >= scrollContainer.scrollWidth / 2) {
                     scrollAmount = 0;
