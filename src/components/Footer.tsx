@@ -156,6 +156,7 @@ const ScrollContainer = styled.div`
     overflow: hidden;
 `;
 
+    }
 
     @media (max-width: 375px) {
         padding: 0 10px;
