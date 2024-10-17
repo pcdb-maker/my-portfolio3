@@ -149,6 +149,7 @@ const Footer: React.FC = () => {
 export default Footer;
 
 // Styled-components for better responsiveness and animations
+    font-family: 'Playfair Display', serif;
     color: #ffffff;
     display: flex;
     flex-direction: column;
