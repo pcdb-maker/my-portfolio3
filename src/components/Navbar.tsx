@@ -134,7 +134,6 @@ const BurgerMenu = styled.div`
 const BurgerLine = styled.div`
   height: 3px;
   background-color: #e85a4f;
-  border-radius: 5px;
 const ExternalLinks = styled.a`
   font-size: 15px;
   font-family: 'Playfair Display';
