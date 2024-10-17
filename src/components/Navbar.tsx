@@ -132,7 +132,6 @@ const BurgerMenu = styled.div`
 `;
 
 const BurgerLine = styled.div`
-  height: 3px;
 const ExternalLinks = styled.a`
   font-size: 15px;
   font-family: 'Playfair Display';
