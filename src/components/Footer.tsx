@@ -36,6 +36,7 @@ const Footer: React.FC = () => {
 
             requestAnimationFrame(scroll);
         }
+        };
     }, []);
 
     return (
