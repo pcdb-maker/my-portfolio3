@@ -140,7 +140,6 @@ const BurgerLine = styled.div`
 const Navbar: React.FC = () => {
   const [open, setOpen] = useState(false);
 
-  const toggleMenu = () => setOpen(!open);
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
