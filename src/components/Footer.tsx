@@ -73,20 +73,6 @@ const Footer: React.FC = () => {
                     <h3 style={{ color: '#D7C3A4' }}>Chloe Osborne Designs</h3>
                     <p>Design with <em>purpose.</em> <br />Ideas with<em> impact.</em></p>
                 </div>
-
-                <div style={{ padding: '0 20px' }}>
-                    <h3 style={{ color: '#D7C3A4' }}>Email me:</h3>
-                    <p style={{ fontSize: '1.5rem', color: '#ffffff' }}>cosborne.career@outlook.com</p>
-                </div>
-
-                <div style={{ padding: '0 20px' }}>
-                    <p>Instagram <br /> Behance <br /> LinkedIn</p>
-
-                <div style={{ padding: '0 20px' }}>
-                    <h3 style={{ color: '#D7C3A4' }}>Other Links</h3>
-                    <p>Portfolio <br /> Services <br /> About</p>
-                </div>
-            </div>
             <FooterContent>
                 <FooterRow>
                     <FooterColumn>
