@@ -139,6 +139,7 @@ const BurgerLine = styled.div`
 
 const Navbar: React.FC = () => {
   const [open, setOpen] = useState(false);
+  const handleScrollBurgerClick = (event: React.MouseEvent) => {
     const rect = (event.target as HTMLElement).getBoundingClientRect(); // Get the burger button's position
     setBurgerPosition(rect.top);
     toggleBurgerMenu(false);
