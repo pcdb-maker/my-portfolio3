@@ -21,6 +21,13 @@ const ServicesContainer = styled.div`
   }
 }
 
+/* For Medium Phones: iPhone 12, Pixel 5 */
+@media (min-width: 376px) and (max-width: 414px) {
+  body {
+    height: 110vh;
+  }
+}
+
 /* For Larger Phones/Phablets: Galaxy Note, iPhone 13 Pro Max */
 @media (min-width: 415px) and (max-width: 768px) {
   body {
