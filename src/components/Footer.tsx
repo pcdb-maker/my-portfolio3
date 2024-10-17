@@ -156,6 +156,7 @@ const ScrollContainer = styled.div`
     overflow: hidden;
 `;
 
+const PrivacyLinks = styled.div`
     margin-top: 10px;
     font-size: 0.9rem;
 
