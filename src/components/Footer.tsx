@@ -170,6 +170,7 @@ const ScrollContainer = styled.div`
     overflow: hidden;
 `;
 
+`;
 
 const FooterBottom = styled.div`
     background-color: #28282F;
