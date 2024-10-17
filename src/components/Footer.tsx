@@ -170,6 +170,7 @@ const ScrollContainer = styled.div`
     overflow: hidden;
 `;
 
+        margin-bottom: 20px;
         text-align: center; /* Center align content on mobile */
         align-items: center;
         display: flex;
