@@ -198,8 +198,6 @@ const Portfolio: React.FC = () => {
             <CircleLink className="CircleLink">→</CircleLink>
           </Link>
         </ProjectCard>
-
-
         {/* More Cards (3rd to 6th) */}
         {[y3, y4, y5, y6].map((yTransform, index) => (
           <ProjectCard
