@@ -18,6 +18,7 @@ const HeroSection = styled.section`
   overflow: hidden;
   font-family: 'Poppins', sans-serif;
   padding: 0 20px;
+padding: 0 !important;
  box-sizing: border-box;
       
       
