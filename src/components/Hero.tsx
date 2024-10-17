@@ -65,6 +65,7 @@ const IconWrapper = styled(motion.div)<SVGProps<SVGSVGElement>>`
   fill: #e85a4f;
   opacity: 0.4;
   z-index: 1;
+  }
 `;
 
 
