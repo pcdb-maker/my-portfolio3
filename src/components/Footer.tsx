@@ -57,7 +57,6 @@ const Footer: React.FC = () => {
             <Underline />
 
             {/* Footer content */}
-            <div style={{
                 display: 'flex',
                 justifyContent: 'space-around',
                 padding: '10px 10px', // Reduced padding from 40px to 20px
