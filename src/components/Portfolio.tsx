@@ -173,6 +173,10 @@ const Portfolio: React.FC = () => {
          <ProjectCard large={false} style={{ y: y4 }} transition={{ ease: [0.25, 0.1, 0.25, 1], duration: 0.01 }}>
           <Link to="/project2">
             <ParallaxImage src="https://static.wixstatic.com/media/36e847_9feb77b2a07c4d749bbcca75887be7ee~mv2.webp" alt="project2" />
+            <ParallaxImage
+              src="https://static.wixstatic.com/media/36e847_9feb77b2a07c4d749bbcca75887be7ee~mv2.webp"
+              alt="project2"
+            />
             <CardTitle>Opere d'Olio</CardTitle>
             <Subtitle>Packaging Design</Subtitle>
             <CircleLink className="CircleLink">&rarr;</CircleLink>
