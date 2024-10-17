@@ -138,6 +138,7 @@ const GridImage = styled.img`
   max-width: 1150px;
   height: 647px;
   margin-left: 100px;
+  height: 500px;
   border-radius: 15px;
 `;
 
