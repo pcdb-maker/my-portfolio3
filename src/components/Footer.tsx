@@ -149,6 +149,7 @@ const Footer: React.FC = () => {
 export default Footer;
 
 // Styled-components for better responsiveness and animations
+const FooterContainer = styled.div`
     background-color: #E5574E; // Use the preferred blue color
     font-family: 'Playfair Display', serif;
     color: #ffffff;
