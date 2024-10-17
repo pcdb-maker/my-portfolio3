@@ -40,7 +40,6 @@ const Footer: React.FC = () => {
     }, []);
 
     return (
-            color: '#ffffff', 
             display: 'flex', 
             flexDirection: 'column', 
             justifyContent: 'space-between', 
