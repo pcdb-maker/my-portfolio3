@@ -112,6 +112,7 @@ const IconWrapper = styled(ClubIcon)`
 `;
 
 const BurgerMenu = styled.div`
+const BurgerIcon = styled.div`
   display: none;
   cursor: pointer;
   font-size: 40px;
