@@ -118,6 +118,7 @@ const BurgerMenu = styled.div`
   width: 25px;
   height: 18px;
   cursor: pointer;
+
   font-family: 'Playfair Display';
   font-style: italic;
   font-size: 30px;
