@@ -140,6 +140,7 @@ const BurgerLine = styled.div`
 const Navbar: React.FC = () => {
   const [open, setOpen] = useState(false);
   const [visible, setVisible] = useState(false);
+  const [topMenuActive, setTopMenuActive] = useState(false);
   const [burgerPosition, setBurgerPosition] = useState<number | null>(null);
 
   const location = useLocation(); // To get the current pathname
