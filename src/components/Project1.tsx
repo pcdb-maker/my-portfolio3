@@ -101,9 +101,6 @@ const TextColumns = styled.div`
   display: flex;
   justify-content: space-between;
   font-family: 'Playfair Display', serif;
-  margin: 40px 0;
-  width: 100%;
-  max-width: 1150px;
   margin: 40px auto;
   width: 90%;
   max-width: 900px;
