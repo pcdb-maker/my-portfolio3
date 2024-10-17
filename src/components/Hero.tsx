@@ -85,6 +85,7 @@ const Arrow = styled(motion.div)`
     transform: translateY(15px); /* Moves the arrow down by 15px on hover */
   }
 
+
   /* Returns to original position when hover ends */
   &:not(:hover) {
     transform: translateY(0%); /* Returns to original Y-axis position */
