@@ -153,7 +153,6 @@ const Navbar: React.FC = () => {
         <BurgerLine />
       </BurgerMenu>
 
-      <NavLinks open={open}>
   return (
     <>
       <NavbarContainer open={open}>
