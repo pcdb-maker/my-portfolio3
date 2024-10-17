@@ -109,7 +109,6 @@ const BurgerMenuLinks = styled.div`
   }
 
   a:hover {
-    color: #d79922; /* Highlighted color on hover */
   &:hover {
     color: #e85a4f;
   }
