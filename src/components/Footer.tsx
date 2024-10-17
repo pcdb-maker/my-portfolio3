@@ -40,7 +40,6 @@ const Footer: React.FC = () => {
     }, []);
 
     return (
-        }}>
             {/* Banner animation */}
             <div style={{ 
                 position: 'relative', 
