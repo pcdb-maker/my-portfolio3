@@ -81,7 +81,6 @@ const BurgerIcon = styled.div`
 
 const BurgerMenuContainer = styled.div`
   position: fixed;
-  top: 0;
   top: 1px;
   right: 0;
   height: 430px;
