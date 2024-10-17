@@ -266,7 +266,6 @@ const Subtitle = styled.div`
   position: absolute;
   bottom: 40px;
   left: 20px;
-  transition: none;
 `;
 
 const Project1: React.FC = () => {
