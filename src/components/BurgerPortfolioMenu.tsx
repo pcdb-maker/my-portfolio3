@@ -101,6 +101,7 @@ const BurgerMenuLinks = styled.div`
   color: white;
   margin-bottom: 20px;
   text-align: center;
+  margin-top: 40px;
   margin-right: 50px;
 `;
 
