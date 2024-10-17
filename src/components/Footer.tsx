@@ -135,6 +135,7 @@ const Footer = () => {
 export default Footer;
 
 // Styled-components for better responsiveness and animations
+    min-height: 85vh;
         font-size: 0.9rem;
     }
 `;
