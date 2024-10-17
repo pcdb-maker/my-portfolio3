@@ -44,6 +44,7 @@ const SubText = styled(motion.p)`
   z-index: 2;
   @media (max-width: 768px) {
     font-size: 18px;
+    font-size: 26px;
      margin-bottom: 20px;
   }
 `;
