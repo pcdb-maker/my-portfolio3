@@ -32,13 +32,12 @@ const ProjectTitle = styled(motion.h1)`
 
 // Project image styling
 const ProjectImage = styled.img`
-  width: 100%;
-  height: auto;
-  max-width: 1150px;
-  height: 647px;
+  width: 90%;
+  max-width: 900px;
+  height: 500px;
   border-radius: 15px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
-  margin-bottom: 20px;
+  margin: 20px auto;
 `;
 
 // InfoBox with rounded corners and two columns for text
