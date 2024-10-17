@@ -19,6 +19,7 @@ const HeroSection = styled.section`
   font-family: 'Poppins', sans-serif;
   padding: 0 20px;
 
+   @media (max-width: 768px) {
 padding: 0 !important;
  box-sizing: border-box;
       
