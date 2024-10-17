@@ -142,6 +142,7 @@ const Navbar: React.FC = () => {
         <IconWrapper />
       </ContactButton>
     </NavbarContainer>
+            <RouterInternalLinks to="/#services">Services</RouterInternalLinks>
             <RouterInternalLinks to="/#skills">Skills</RouterInternalLinks>
             <RouterInternalLinks to="/#about">About</RouterInternalLinks>
           </>
