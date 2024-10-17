@@ -42,7 +42,6 @@ const Footer: React.FC = () => {
     return (
         <FooterContainer id="footer">
             {/* Banner animation */}
-                    ref={scrollContainerRef}
                     style={{
                         fontSize: '6rem',
                         whiteSpace: 'nowrap',
