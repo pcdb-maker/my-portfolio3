@@ -143,6 +143,7 @@ const Navbar: React.FC = () => {
       </ContactButton>
     </NavbarContainer>
             <RouterInternalLinks to="/#skills">Skills</RouterInternalLinks>
+            <RouterInternalLinks to="/#about">About</RouterInternalLinks>
           </>
         )}
         <div>
