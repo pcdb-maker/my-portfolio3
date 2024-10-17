@@ -69,10 +69,6 @@ const Footer: React.FC = () => {
                 fontSize: '1.1rem',
                 textAlign: 'left',
             }}>
-                <div style={{ padding: '0 20px' }}>
-                    <h3 style={{ color: '#D7C3A4' }}>Chloe Osborne Designs</h3>
-                    <p>Design with <em>purpose.</em> <br />Ideas with<em> impact.</em></p>
-                </div>
             <FooterContent>
                 <FooterRow>
                     <FooterColumn>
