@@ -34,6 +34,7 @@ const ServiceText = styled(motion.h2)`
   font-style: italic;
   letter-spacing: 0.05em;
   margin: 0; /* Ensure no extra margin */
+
   @media (max-width: 480px) {
     font-size: 2.5rem;
   }
