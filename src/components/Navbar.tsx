@@ -139,6 +139,7 @@ const BurgerLine = styled.div`
 
 const Navbar: React.FC = () => {
   const [open, setOpen] = useState(false);
+    setBurgerPosition(rect.top);
   };
 
   useEffect(() => {
