@@ -101,6 +101,7 @@ const BurgerMenuLinks = styled.div`
   color: white;
   margin-bottom: 20px;
   text-align: center;
+const CloseButton = styled.div`
   font-size: 40px;
   font-family: 'Playfair Display';
   color: #e85a4f;
