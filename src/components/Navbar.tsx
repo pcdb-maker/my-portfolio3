@@ -1,25 +1,40 @@
-import React, { useState } from 'react';
-import { Link } from 'react-scroll';
+import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import { ReactComponent as ClubIcon } from '../assets/club.svg'; // Import Diamond SVG
+import { Link as ScrollLink } from 'react-scroll';
+import { Link as RouterLink, useLocation } from 'react-router-dom';
+import { ReactComponent as ClubIcon } from '../assets/club.svg';
 
-const NavbarContainer = styled.nav`
+// Navbar styling
+
+const NavbarContainer = styled.nav<{ open: boolean }>`
   top: 0;
   width: 100%;
-  background: #d8c3a5; /* Navbar background color */
+  margin: 0;
+  background: #d8c3a5;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  z-index: 1000; /* Ensures the navbar is always above other elements */
-  transition: background 0.3s ease;
-  position: relative;
+  z-index: ${({ open }) => (open ? '100' : '0')}; /* Dynamically set z-index */
+  transition: background 0.3s, z-index 0.3s ease; /* Smooth transition for z-index */
+  box-sizing: border-box;
+  border-bottom: none; /* Ensure there's no border under the navbar */
+
+  @media (max-width: 1100px) {
+    padding: 10px 20px;
+  }
 `;
 
 const Logo = styled.div`
   font-size: 28px;
   font-weight: bold;
   color: #e85a4f;
+  margin-right: -350px;
+
+  @media (max-width: 1100px) {
+    font-size: 16px;
+    margin-right: -10px;
+  }
 `;
 
 const NavLinks = styled.div<{ open: boolean }>`
