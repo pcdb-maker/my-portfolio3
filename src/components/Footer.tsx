@@ -170,6 +170,203 @@ const ScrollContainer = styled.div`
     overflow: hidden;
 `;
 
+const ScrollContent = styled.div`
+    font-size: 5rem;
+    white-space: nowrap;
+    display: inline-flex;
+    justify-content: center;
+    width: max-content;
+    font-style: italic;
+    margin: 20px;
+    gap: 10px;
+    
+    @media (max-width: 768px) {
+        font-size: 4rem;
+        margin: 10px;
+        gap: 50px;
+    }
+
+    @media (max-width: 500px) {
+        font-size: 3rem;
+        margin: 40px;
+        gap: 90px;
+    }
+
+    @media (max-width: 400px) {
+        font-size: 2rem;
+        margin: 30px;
+        gap: 1px;
+    }
+
+    .scroll-item {
+        display: inline-flex;
+
+        .italic {
+            font-style: italic;
+        }
+
+        .diamond {
+            color: #EFE1B9;
+            margin: 0 20px;
+        }
+    }
+`;
+
+const Underline = styled.div`
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    margin-top: -30px;
+
+    @media (max-width: 480px) {
+        margin-top: -15px;
+    }
+`;
+
+const FooterContent = styled.div`
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+`;
+
+const FooterRow = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 20px;
+    flex-wrap: wrap;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+    }
+`;
+
+const FooterColumn = styled.div`
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+
+    @media (max-width: 768px) {
+        margin-right: 0;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+`;
+
+const LogoSection = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    @media (max-width: 768px) {
+        align-items: center;
+    }
+`;
+
+const LogoText = styled.h2`
+    font-size: 2rem;
+    color: #ffffff;
+    margin: 0;
+
+    @media (max-width: 768px) {
+        font-size: 2.5rem;
+    }
+
+    @media (max-width: 375px) {
+        font-size: 2rem;
+    }
+`;
+
+const LogoSubText = styled.span`
+    font-size: 1.5rem;
+    color: #EFE1B9;
+    font-style: italic;
+
+    @media (max-width: 375px) {
+        font-size: 0.9rem;
+    }
+`;
+
+const FooterTagline = styled.div`
+    font-size: 2rem;
+    margin-top: 5px;
+
+    p {
+        margin: 5px 0;
+    }
+
+    .highlight {
+        color: #EFE0B8; // Highlight color
+    }
+
+    @media (max-width: 375px) {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+`;
+
+const ContactSection = styled.div`
+    margin-right: 40px;
+    font-size: 1rem;
+
+    .contact-title {
+        font-size: 1.2rem;
+        color: #D7C3A4;
+        margin-bottom: 5px;
+    }
+
+    .email-link {
+        font-size: 1rem;
+        color: #ffffff;
+        text-decoration: none;
+
+        @media (max-width: 768px) {
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 375px) {
+            font-size: 0.8rem;
+        }
+    }
+
+    @media (max-width: 768px) {
+        margin-right: 0;
+        margin-bottom: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    @media (max-width: 375px) {
+        font-size: 0.8rem;
+    }
+`;
+
+const FooterLinks = styled.div`
+    margin-right: 40px;
+    text-align: center;
+
+    h4 {
+        font-size: 1.5rem;
+        color: #D7C3A4;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            font-size: 1rem;
+            margin-bottom: 5px;
+            color: #ffffff;
+        }
+    }
 
     @media (max-width: 768px) {
         margin-right: 0;
