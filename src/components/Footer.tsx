@@ -135,7 +135,6 @@ const Footer: React.FC = () => {
                 color: '#fffff', 
                 textAlign: 'center', 
                 padding: '20px 0', 
-                width: '100%', 
             <FooterBottom>
                 <FooterBottomContent>
                     <span>© 2024 by Chloe Osborne</span>
