@@ -26,6 +26,7 @@ const ServiceItemContainer = styled(motion.div)`
   align-items: center;
   justify-content: center; /* Center everything */
   gap: 40px; /* Add space between icon and text */
+
   }
 `;
 
