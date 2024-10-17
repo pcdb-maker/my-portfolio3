@@ -41,7 +41,7 @@ const ProjectImage = styled.img`
   margin-bottom: 20px;
 `;
 
-// White Box with rounded corners and two columns for text
+// InfoBox with rounded corners and two columns for text
 const InfoBox = styled(motion.div)`
   display: flex;
   justify-content: space-between;
@@ -49,13 +49,13 @@ const InfoBox = styled(motion.div)`
   background-color: white;
   border-radius: 20px;
   padding: 20px;
-  width: 100%;
-  max-width: 1112px;
-  margin: 20px auto 0 auto;
+  width: 90%;
+  max-width: 900px;
+  margin: 20px auto;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
 `;
 
-// Text container for the left-aligned text in the InfoBox
+// Text container for the InfoBox
 const InfoTextContainer = styled.div`
   display: flex;
   flex-direction: column;
