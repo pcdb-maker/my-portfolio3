@@ -156,6 +156,7 @@ const ScrollContainer = styled.div`
     overflow: hidden;
 `;
 
+    margin-top: 10px;
     font-size: 0.9rem;
 
     span {
