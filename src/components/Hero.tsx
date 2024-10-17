@@ -22,6 +22,7 @@ const HeroSection = styled.section`
    @media (max-width: 768px) {
       height: 100vh;
       border-top: none !important;
+      box-shadow: none !important;
 padding: 0 !important;
  box-sizing: border-box;
       
