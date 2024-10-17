@@ -141,7 +141,6 @@ const Footer: React.FC = () => {
                     <span>© 2024 by Chloe Osborne</span>
                     <span>All Rights Reserved</span>
                 </div>
-            </div>
                     <span>PI 02743210227</span>
                 </FooterBottomContent>
                 <PrivacyLinks>
