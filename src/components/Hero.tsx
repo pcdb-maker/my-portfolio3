@@ -113,6 +113,7 @@ const icons = [
   { Component: CircleIcon, initialX: 90, initialY: 10, size: 100 },
 ];
 
+
 const greetings = ["Hello!", "こんにちは!", "¡Hola!", "Ciao!"];
 
 const letterVariants = {
