@@ -142,7 +142,6 @@ const Footer: React.FC = () => {
                     <span>All Rights Reserved</span>
                 </div>
             </div>
-        </div>
                     <span>PI 02743210227</span>
                 </FooterBottomContent>
                 <PrivacyLinks>
