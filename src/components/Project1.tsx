@@ -134,7 +134,6 @@ const ImageGrid = styled.div`
 
 const GridImage = styled.img`
   width: 100%;
-  height: auto;
   height: 500px;
   border-radius: 15px;
 `;
