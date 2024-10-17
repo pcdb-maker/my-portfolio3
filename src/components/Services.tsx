@@ -119,3 +119,4 @@ const ServiceScrollItem = ({ service, index }: { service: string, index: number 
 };
 
 export default Services;
+export default Services;
