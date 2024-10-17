@@ -147,7 +147,6 @@ const SmallImageGrid = styled.div`
   gap: 0px;
   margin-left:100px;
   margin-right:50px;
-  
   gap: 20px;
   margin: 40px auto;
   width: 90%;
