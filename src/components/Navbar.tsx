@@ -120,7 +120,6 @@ const BurgerMenu = styled.div`
   cursor: pointer;
 
   @media (max-width: 768px) {
-    display: flex; /* Burger menu only visible on mobile */
   &:hover {
     color: #e85a4f;
   }
