@@ -123,6 +123,7 @@ const CloseButton = styled.div`
   margin-top: 1px;
   margin-bottom: 1px;
   margin-left: 25px;
+  
   &:hover {
     color: #e85a4f;
   }
