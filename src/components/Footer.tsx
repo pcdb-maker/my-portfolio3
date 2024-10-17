@@ -156,6 +156,7 @@ const ScrollContainer = styled.div`
     overflow: hidden;
 `;
 
+    padding: 0 20px;
 
     @media (max-width: 768px) {
         flex-direction: column;
