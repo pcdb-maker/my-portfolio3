@@ -75,6 +75,13 @@ const RouterNavLink = styled(RouterLink)`
   font-size: 16px;
   color: #e85a4f;
   text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+`;
+
 const ContactButton = styled.a`
   display: flex;
   align-items: center;
