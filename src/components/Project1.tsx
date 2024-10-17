@@ -15,6 +15,7 @@ const ProjectContainer = styled.div`
   padding: 80px 20px;
   max-width: 100%;
   margin: 0 auto;
+  overflow-x: hidden;
   margin: 10 auto;
   text-align: center;
   background-color: #edf1ff;
