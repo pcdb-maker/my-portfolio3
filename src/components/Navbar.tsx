@@ -151,7 +151,6 @@ const Navbar: React.FC = () => {
         <BurgerLine />
         <BurgerLine />
         <BurgerLine />
-      </BurgerMenu>
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
