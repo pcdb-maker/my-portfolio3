@@ -136,6 +136,7 @@ export default Footer;
 
 // Styled-components for better responsiveness and animations
     min-height: 85vh;
+    position: relative;
         font-size: 0.9rem;
     }
 `;
