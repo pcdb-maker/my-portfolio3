@@ -117,6 +117,7 @@ const BurgerMenu = styled.div`
   justify-content: space-between;
   width: 25px;
   height: 18px;
+`;
 
 const CloseButton = styled.div`
   font-size: 25px;
