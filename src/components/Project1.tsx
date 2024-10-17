@@ -120,7 +120,6 @@ const RightColumn = styled.div`
   color: #333;
   text-align: left;
   line-height: 1.6;
-  margin-left: 80px;
   margin-left: 10px;
 `;
 
