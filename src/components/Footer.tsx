@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import styled from 'styled-components';
 
+const Footer: React.FC = () => {
     const scrollContainerRef = useRef<HTMLDivElement | null>(null);
     let scrollAmount = 0;
 
