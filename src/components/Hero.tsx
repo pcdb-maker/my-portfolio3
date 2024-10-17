@@ -111,6 +111,7 @@ const icons = [
   { Component: DiamondIcon, initialX: 80, initialY: 30, size: 65 },
   { Component: DiamondIcon, initialX: 5, initialY: 70, size: 100 },
   { Component: CircleIcon, initialX: 90, initialY: 10, size: 100 },
+
 ];
 
 
