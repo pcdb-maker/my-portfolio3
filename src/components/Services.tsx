@@ -15,6 +15,7 @@ const ServicesContainer = styled.div`
   
   
 
+ @media (max-width: 375px) {
 /* For Larger Phones/Phablets: Galaxy Note, iPhone 13 Pro Max */
 @media (min-width: 415px) and (max-width: 768px) {
   body {
