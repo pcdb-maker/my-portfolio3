@@ -12,6 +12,7 @@ const ServicesContainer = styled.div`
   color: white;
   text-align: center;
   padding: 100px 20px;
+/* For Medium to Large Tablets: iPad Pro */
 @media (min-width: 1025px) and (max-width: 1280px) {
   body {
     height: 100vh;
