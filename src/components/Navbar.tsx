@@ -156,7 +156,6 @@ const Navbar: React.FC = () => {
         Contact me
         <IconWrapper />
       </ContactButton>
-    </NavbarContainer>
     <>
       <NavbarContainer open={open}>
         <Logo><IconWrapperLogo /> Chloe Osborne </Logo>
