@@ -131,7 +131,6 @@ const BurgerMenu = styled.div`
   }
 `;
 
-const BurgerLine = styled.div`
 const ExternalLinks = styled.a`
   font-size: 15px;
   font-family: 'Playfair Display';
