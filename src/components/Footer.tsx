@@ -40,7 +40,6 @@ const Footer: React.FC = () => {
     }, []);
 
     return (
-            backgroundColor: '#E7594F', 
             fontFamily: 'Playfair Display',
             color: '#ffffff', 
             display: 'flex', 
