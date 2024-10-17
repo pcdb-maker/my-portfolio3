@@ -120,6 +120,7 @@ const CloseButton = styled.div`
   font-size: 24px;
   color: #e85a4f;
   cursor: pointer;
+  text-decoration: none;
   margin-top: 1px;
   margin-bottom: 1px;
   margin-left: 25px;
