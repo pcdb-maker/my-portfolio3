@@ -87,6 +87,7 @@ const Footer: React.FC = () => {
                     <p>Portfolio <br /> Services <br /> About</p>
                 </div>
             </div>
+                            <LogoSubText>OSBORNE</LogoSubText>
                         </LogoSection>
                         <FooterTagline>
                             <p>Design <span className="highlight">that inspires</span>.</p>
