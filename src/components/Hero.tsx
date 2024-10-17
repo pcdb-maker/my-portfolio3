@@ -83,6 +83,7 @@ const Arrow = styled(motion.div)`
   &:hover {
     color: #b73225;
     transform: translateY(15px); /* Moves the arrow down by 15px on hover */
+    @media (max-width: 768px) {
     none;
   }
 
