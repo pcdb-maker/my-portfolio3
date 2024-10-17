@@ -119,6 +119,7 @@ const BurgerMenu = styled.div`
   height: 18px;
   cursor: pointer;
 
+const InternalLinks = styled(ScrollLink)`
   font-family: 'Playfair Display';
   font-style: italic;
   font-size: 30px;
