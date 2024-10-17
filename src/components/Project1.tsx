@@ -63,14 +63,14 @@ const InfoTextContainer = styled.div`
   gap: 10px;
 `;
 
-// Text styling for the two columns inside the info box
+// Text styling inside the InfoBox
 const InfoText = styled.p`
   font-size: 16px;
   color: #333;
   margin: 5px 0;
 `;
 
-// Button to link to the live project inside the info box
+// Button to link to the live project inside the InfoBox
 const LiveProjectButton = styled.a`
   display: flex;
   align-items: center;
