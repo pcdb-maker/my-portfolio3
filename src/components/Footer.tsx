@@ -131,7 +131,6 @@ const Footer: React.FC = () => {
 
             {/* Footer Bottom */}
             <div style={{ 
-                backgroundColor: '#28282F', 
             <FooterBottom>
                 <FooterBottomContent>
                     <span>© 2024 by Chloe Osborne</span>
