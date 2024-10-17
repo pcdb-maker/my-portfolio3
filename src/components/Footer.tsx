@@ -170,6 +170,7 @@ const ScrollContainer = styled.div`
     overflow: hidden;
 `;
 
+        flex-direction: column;
     }
 
     @media (max-width: 375px) {
