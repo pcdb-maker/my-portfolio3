@@ -65,6 +65,7 @@ const IconWrapper = styled(motion.div)<SVGProps<SVGSVGElement>>`
   fill: #e85a4f;
   opacity: 0.4;
   z-index: 1;
+    height: 70px !important; /* Resize icons */
     top: 90%; /* Adjust position if necessary */
     left: 90%; /* Adjust position if necessary */
     opacity: 0.2; /* Optional adjustment for visibility */
