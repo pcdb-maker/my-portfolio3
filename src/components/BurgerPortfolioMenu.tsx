@@ -98,7 +98,6 @@ const BurgerMenuContainer = styled.div`
 const BurgerMenuLinks = styled.div`
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
-  color: white;
 const CloseButton = styled.div`
   font-size: 40px;
   font-family: 'Playfair Display';
