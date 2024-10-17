@@ -40,7 +40,6 @@ const Footer: React.FC = () => {
     }, []);
 
     return (
-            justifyContent: 'space-between', 
             minHeight: '85vh', 
             position: 'relative',
             paddingTop: '30px'
