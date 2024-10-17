@@ -40,7 +40,6 @@ const Footer: React.FC = () => {
     }, []);
 
     return (
-            paddingTop: '30px'
         }}>
             {/* Banner animation */}
             <div style={{ 
