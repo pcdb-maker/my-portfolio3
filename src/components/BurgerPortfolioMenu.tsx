@@ -117,7 +117,6 @@ const CloseButton = styled.div`
   position: absolute;
   top: 20px;
   right: 20px;
-  font-size: 24px;
 const ExternalLinks = styled.a`
   font-size: 15px;
   color: white;
