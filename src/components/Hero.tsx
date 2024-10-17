@@ -23,6 +23,7 @@ const HeroSection = styled.section`
       height: 100vh;
       border-top: none !important;
       box-shadow: none !important;
+      margin: 0 !important;
 padding: 0 !important;
  box-sizing: border-box;
       
