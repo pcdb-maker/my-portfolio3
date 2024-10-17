@@ -154,7 +154,6 @@ const Navbar: React.FC = () => {
       </BurgerMenu>
 
       <NavLinks open={open}>
-        <NavLink to="header" smooth={true} duration={200}>
     <>
       <NavbarContainer open={open}>
         <Logo><IconWrapperLogo /> Chloe Osborne </Logo>
