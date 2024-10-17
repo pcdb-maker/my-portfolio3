@@ -109,6 +109,7 @@ const IconWrapper = styled(ClubIcon)`
   ${ContactButton}:hover & {
     transform: rotate(360deg);
   }
+  transition: transform 0.3s ease;
 `;
 
 const BurgerIcon = styled.div`
