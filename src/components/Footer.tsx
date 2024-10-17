@@ -89,6 +89,7 @@ const Footer: React.FC = () => {
                     <p>Portfolio <br /> Services <br /> About</p>
                 </div>
             </div>
+                    <ContactSection>
                         <p className="contact-title">Drop me a line</p>
                         <a href="mailto:chloeprofessionaldevelopment@outlook.com" className="email-link">
                             chloeprofessionaldevelopment@outlook.com
