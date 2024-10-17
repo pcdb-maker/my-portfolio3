@@ -156,6 +156,7 @@ const ScrollContainer = styled.div`
     overflow: hidden;
 `;
 
+    display: flex;
     justify-content: space-between;
     padding: 0 20px;
 
