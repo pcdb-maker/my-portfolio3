@@ -194,6 +194,7 @@ const Portfolio: React.FC = () => {
 
 
 
+            </Link>
           </ProjectCard>
         ))}
       </PortfolioSection>
