@@ -157,6 +157,7 @@ const Navbar: React.FC = () => {
         <IconWrapper />
       </ContactButton>
     </NavbarContainer>
+            <InternalLinks to="skills" smooth={true} duration={200}>Skills</InternalLinks>
             <InternalLinks to="about" smooth={true} duration={200}>About</InternalLinks>
           </>
         ) : (
