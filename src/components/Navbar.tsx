@@ -71,6 +71,7 @@ const NavLink = styled(ScrollLink)`
   }
 `;
 
+const RouterNavLink = styled(RouterLink)`
 const ContactButton = styled.a`
   display: flex;
   align-items: center;
