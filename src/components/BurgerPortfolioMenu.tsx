@@ -91,7 +91,6 @@ const BurgerMenuContainer = styled.div`
   align-items: center;
   justify-content: center;
   z-index: 1000;
-  transition: transform 0.3s ease;
   justify-content: space-between;
   padding: 20px;
   color: white;
