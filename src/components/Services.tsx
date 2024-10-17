@@ -24,6 +24,7 @@ const Heading = styled.h2`
     font-size: 1rem;
   }
 
+  @media (max-width: 700px) {
     font-size: 1rem;
   }
 `;
