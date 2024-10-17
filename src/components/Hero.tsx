@@ -78,6 +78,7 @@ const Arrow = styled(motion.div)`
   cursor: pointer;
   z-index: 2;
   transition: transform 0.3s ease, color 0.3s ease;
+    
   }
 
   /* Hover effect */
