@@ -241,6 +241,7 @@ const ParallaxImage = styled(motion.img)`
   object-fit: cover;
   object-position: 50% 50%;
   transition: transform 0.5s ease-in-out;
+  border-radius: inherit;
 `;
 
 // Card Title
