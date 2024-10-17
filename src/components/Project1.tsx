@@ -145,7 +145,6 @@ const GridImage = styled.img`
 const SmallImageGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 0px;
   gap: 20px;
   margin: 40px auto;
   width: 90%;
