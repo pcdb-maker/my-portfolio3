@@ -130,6 +130,7 @@ const ImageGrid = styled.div`
   gap: 20px;
   justify-content: space-between;
   margin-top: 20px;
+  max-width: 900px;
 `;
 
 // Individual image styling in the image grid
