@@ -157,6 +157,7 @@ const Navbar: React.FC = () => {
         <IconWrapper />
       </ContactButton>
     </NavbarContainer>
+              <RouterNavLink to="/#skills">Skills</RouterNavLink>
               <RouterNavLink to="/#about">About</RouterNavLink>
               <RouterNavLink to="/#portfolioHeader">Portfolio</RouterNavLink>
             </>
