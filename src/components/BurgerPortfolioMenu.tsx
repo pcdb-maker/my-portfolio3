@@ -77,7 +77,6 @@ const BurgerIcon = styled.div`
   @media (max-width: 768px) {
     display: block; /* Show burger icon on smaller screens */
   }
-`;
 
 const Sidebar = styled.div<{ open: boolean }>`
   position: fixed;
