@@ -74,7 +74,6 @@ const BurgerIcon = styled.div`
   font-size: 24px;
   color: #e85a4f;
 
-  @media (max-width: 768px) {
 
 const Sidebar = styled.div<{ open: boolean }>`
   position: fixed;
