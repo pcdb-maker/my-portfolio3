@@ -170,6 +170,7 @@ const ScrollContainer = styled.div`
     overflow: hidden;
 `;
 
+        h4 {
             font-size: 1rem;
         }
 
