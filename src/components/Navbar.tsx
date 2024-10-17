@@ -142,6 +142,7 @@ const Navbar: React.FC = () => {
 
   const toggleMenu = () => setOpen(!open);
       setVisible(scrollTop > showAt);
+    };
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
