@@ -37,21 +37,8 @@ const Logo = styled.div`
   }
 `;
 
-const NavLinks = styled.div<{ open: boolean }>`
+const NavLinks = styled.div`
   display: flex;
-  margin-left: -300px;
-  
-  @media (max-width: 768px) {
-    display: ${({ open }) => (open ? 'flex' : 'none')}; /* Hide links on mobile unless menu is open */
-    position: absolute;
-    top: 60px;
-    right: 0;
-    background-color: #333;
-    width: 200px;
-    height: auto;
-    flex-direction: column;
-    padding: 20px;
-    border-radius: 8px;
   gap: 30px;
 
   @media (max-width: 1100px) {
