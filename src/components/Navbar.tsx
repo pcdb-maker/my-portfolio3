@@ -118,6 +118,7 @@ const BurgerMenu = styled.div`
   width: 25px;
   height: 18px;
   cursor: pointer;
+  align-self: flex-start;
 
   &:hover {
     color: #e85a4f;
