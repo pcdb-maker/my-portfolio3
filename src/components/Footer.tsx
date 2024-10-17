@@ -140,7 +140,6 @@ const Footer: React.FC = () => {
                 <div style={{ display: 'flex', justifyContent: 'space-between', padding: '0 20px' }}>
                     <span>© 2024 by Chloe Osborne</span>
                     <span>All Rights Reserved</span>
-                </div>
                     <span>PI 02743210227</span>
                 </FooterBottomContent>
                 <PrivacyLinks>
