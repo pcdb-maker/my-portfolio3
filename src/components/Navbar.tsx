@@ -157,6 +157,7 @@ const Navbar: React.FC = () => {
         <IconWrapper />
       </ContactButton>
     </NavbarContainer>
+          )}
         </NavLinks>
         <ContactButton href="mailto:chloeprofessionaldevelopment@outlook.com">CONTACT ME<IconWrapper /></ContactButton>
         <BurgerIcon onClick={() => toggleBurgerMenu(true)}>☰</BurgerIcon>
