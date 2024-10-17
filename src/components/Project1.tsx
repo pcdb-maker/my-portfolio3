@@ -150,6 +150,7 @@ const SmallImageGrid = styled.div`
   
   margin-top: 20px;
  
+  max-width: 900px;
 `;
 
 // Styling for smaller images
