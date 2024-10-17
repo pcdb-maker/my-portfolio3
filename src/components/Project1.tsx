@@ -11,7 +11,11 @@ const ProjectContainer = styled.div`
   overflow-x: hidden;
   margin: 10 auto;
   text-align: center;
-  background-color: #edf1ff;
+  background-color: #D7C3A4;
+
+  @media (max-width: 768px) {
+    padding: 40px 10px;
+  }
 `;
 
 // Project title styling with animation
@@ -21,6 +25,10 @@ const ProjectTitle = styled(motion.h1)`
   margin-left: 10px;
   margin-top: -10px;
   color: #000000;
+
+  @media (max-width: 768px) {
+    font-size: 2.5rem;
+  }
 `;
 
 // Project image styling
@@ -31,6 +39,11 @@ const ProjectImage = styled.img`
   border-radius: 15px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
   margin: 20px auto;
+
+  @media (max-width: 768px) {
+    height: auto;
+    width: 100%;
+  }
 `;
 
 // InfoBox with rounded corners and two columns for text
@@ -45,6 +58,11 @@ const InfoBox = styled(motion.div)`
   max-width: 900px;
   margin: 20px auto;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 15px;
+  }
 `;
 
 // Text container for the InfoBox
@@ -53,6 +71,10 @@ const InfoTextContainer = styled.div`
   flex-direction: column;
   text-align: left;
   gap: 10px;
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 `;
 
 // Text styling inside the InfoBox
@@ -86,6 +108,11 @@ const LiveProjectButton = styled.a`
     transform: translateY(5px);
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
   }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    font-size: 0.9rem;
+  }
 `;
 
 // Two columns of text section
@@ -96,6 +123,11 @@ const TextColumns = styled.div`
   margin: 40px auto;
   width: 90%;
   max-width: 900px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+  }
 `;
 
 // Left column with 50% width
@@ -106,6 +138,12 @@ const LeftColumn = styled.div`
   font-weight: bold;
   font-style: italic;
   margin-right: 10px;
+
+  @media (max-width: 768px) {
+    margin-right: 0;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
 `;
 
 // Right column with 50% width
@@ -116,6 +154,11 @@ const RightColumn = styled.div`
   text-align: left;
   line-height: 1.6;
   margin-left: 10px;
+
+  @media (max-width: 768px) {
+    margin-left: 0;
+    text-align: center;
+  }
 `;
 
 // Image grid for the large images
@@ -134,6 +177,10 @@ const GridImage = styled.img`
   width: 100%;
   height: 500px;
   border-radius: 15px;
+
+  @media (max-width: 768px) {
+    height: auto;
+  }
 `;
 
 // Image grid for the two smaller side-by-side images
@@ -144,6 +191,11 @@ const SmallImageGrid = styled.div`
   margin: 40px auto;
   width: 90%;
   max-width: 900px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
 `;
 
 // Styling for smaller images
@@ -151,6 +203,10 @@ const SmallImage = styled.img`
   width: 100%;
   height: 323px;
   border-radius: 15px;
+
+  @media (max-width: 768px) {
+    height: auto;
+  }
 `;
 
 // Featured Works section container
@@ -158,6 +214,11 @@ const FeaturedWorksSection = styled.div`
   margin-top: 60px;
   padding: 40px 20px;
   background-color: #EFE2BA;
+
+  @media (max-width: 768px) {
+    margin-top: 30px;
+    padding: 20px 10px;
+  }
 `;
 
 // Section title
@@ -166,46 +227,35 @@ const FeaturedTitle = styled.h2`
   font-size: 3rem;
   color: #333;
   margin-bottom: 40px;
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
 `;
 
 // Cards grid for featured works
 const CardsGrid = styled.div`
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin: 0 auto;
-  gap: 20px;
-  width: 90%;
-  max-width: 900px;
-`;
-
-// Circle Link Icon with Spin on Hover
-const CircleLink = styled.div`
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  width: 50px;
-  height: 50px;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 50%;
   display: flex;
-  align-items: center;
   justify-content: center;
-  font-size: 25px;
-  color: #e85a4f;
-  transition: transform 0.4s ease-in-out;
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  flex-wrap: nowrap;
 
-  &:hover {
-    background-color: #e85a4f;
-    color: white;
-    transform: rotate(360deg);
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 30px;
   }
 `;
 
 // Card Container with Parallax and Sizing Styles
-const ProjectCard = styled(motion.div)<{ large?: boolean }>`
-  width: ${(props) => (props.large ? '530px' : '350px')};
+const ProjectCard = styled(motion.div)`
+  width: 100%;
+  max-width: 430px;
   background: #fff;
-  margin: 20px;
+  margin: 0;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   display: flex;
@@ -216,7 +266,10 @@ const ProjectCard = styled(motion.div)<{ large?: boolean }>`
   overflow: hidden;
   position: relative;
   transition: transform 0.3s ease-in-out;
-  z-index: 1;
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+  }
 
   &:hover img {
     transform: scale(1.1);
@@ -250,6 +303,10 @@ const CardTitle = styled.h1`
   color: white;
   font-family: 'Playfair Display', serif;
   transition: transform 0.3s ease-in-out;
+
+  @media (max-width: 768px) {
+    font-size: 24px;
+  }
 `;
 
 // Subtitle with a pop color and rounded background
@@ -264,6 +321,33 @@ const Subtitle = styled.div`
   position: absolute;
   bottom: 40px;
   left: 20px;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
+`;
+
+// Circle Link Icon with Spin on Hover
+const CircleLink = styled.div`
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: #e85a4f;
+  transition: transform 0.4s ease-in-out;
+
+  &:hover {
+    background-color: #e85a4f;
+    color: white;
+    transform: rotate(360deg);
+  }
 `;
 
 const Project1: React.FC = () => {

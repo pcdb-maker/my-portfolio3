@@ -6,6 +6,11 @@ import { ReactComponent as DiamondIcon } from '../assets/diamond.svg';
 import { ReactComponent as ClubIcon } from '../assets/club.svg';
 import { SVGProps } from 'react';
 
+<div id="hero">
+  {/* Hero content */}
+</div>
+
+
 const HeroSection = styled.section`
   position: relative;
   display: flex;
@@ -217,6 +222,7 @@ const Hero: React.FC = () => {
 
   return (
     <HeroSection>
+      
       {icons.map(({ Component, initialX, initialY, size }, index) => (
         <IconWrapper
           as={Component}
