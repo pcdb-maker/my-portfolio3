@@ -56,7 +56,6 @@ const DesignerText = styled(motion.span)`
   margin-top: 10px;
   margin-bottom: 50px; /* Adjust this value */
   @media (max-width: 768px) {
-    font-size: 20px;
     font-size: 28px;
      margin-bottom: 20px;
   }
