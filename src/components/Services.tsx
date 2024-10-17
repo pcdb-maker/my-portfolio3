@@ -13,6 +13,7 @@ const ServicesContainer = styled.div`
   text-align: center;
   padding: 100px 20px;
   height: 100vh;
+
 `;
 
 const Heading = styled.h2`
