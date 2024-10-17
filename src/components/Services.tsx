@@ -19,6 +19,7 @@ const ServicesContainer = styled.div`
   body {
     height: 100vh;
   }
+}
 
 /* For Larger Phones/Phablets: Galaxy Note, iPhone 13 Pro Max */
 @media (min-width: 415px) and (max-width: 768px) {
