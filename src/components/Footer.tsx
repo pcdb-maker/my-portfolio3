@@ -42,48 +42,19 @@ const Footer: React.FC = () => {
     return (
         <FooterContainer id="footer">
             {/* Banner animation */}
-                    style={{
-                        fontSize: '6rem',
-                        whiteSpace: 'nowrap',
-                        display: 'inline-flex',
-                        justifyContent: 'center',
-                        width: 'max-content', // Prevents clipping of the text
-                        fontStyle: 'italic',
-                        margin: '20px',
-                    }}
-                >
-                    {/* Scrolling content */}
-                    <span>Let's work <span style={{ fontStyle: 'italic' }}>together</span></span> {/* Italicize 'together' */}
-                    <span style={{ margin: '0 50px', color:'#EFE1B9' }}>♦</span>
-                    <span>Let's work <span style={{ fontStyle: 'italic' }}>together</span></span> {/* Italicize 'together' */}
-                    <span style={{ margin: '0 50px', color:'#EFE1B9' }}>♦</span>
-                    <span>Let's work <span style={{ fontStyle: 'italic' }}>together</span></span> {/* Italicize 'together' */}
-                    <span style={{ margin: '0 50px', color:'#EFE1B9' }}>♦</span>
-                    <span>Let's work <span style={{ fontStyle: 'italic' }}>together</span></span> {/* Italicize 'together' */}
-                    <span style={{ margin: '0 50px', color:'#EFE1B9' }}>♦</span>
+            <ScrollContainer>
+                <ScrollContent ref={scrollContainerRef}>
+                    {[...Array(8)].map((_, index) => (
+                        <span key={index} className="scroll-item">
+                          <span>Let's work <span className="italic">together</span></span>
+                          <span className="diamond"> ♦ </span>
+                        </span>
+                    ))}
+                </ScrollContent>
+            </ScrollContainer>
 
-                    {/* Duplicated content for seamless effect */}
-                    <span style={{ marginLeft: '40px' }}>Let's work <span style={{ fontStyle: 'italic' }}>together</span></span> {/* Italicize 'together' */}
-                    <span style={{ margin: '0 20px', fontStyle: 'italic' }}>♦</span>
-                    <span style={{ marginLeft: '40px' }}>Let's work <span style={{ fontStyle: 'italic' }}>together</span></span> {/* Italicize 'together' */}
-                    <span style={{ margin: '0 20px', fontStyle: 'italic' }}>♦</span>
-                    <span style={{ marginLeft: '40px' }}>Let's work <span style={{ fontStyle: 'italic' }}>together</span></span> {/* Italicize 'together' */}
-                    <span style={{ margin: '0 20px', fontStyle: 'italic' }}>♦</span>
-                    <span style={{ marginLeft: '40px' }}>Let's work <span style={{ fontStyle: 'italic' }}>together</span></span> {/* Italicize 'together' */}
-                    <span style={{ margin: '0 20px', fontStyle: 'italic' }}>♦</span>
-
-                   
-                </div>
-            </div>
-
-            {/* Fixed white underline - placed outside of scrolling area */}
-            <div style={{
-                width: '100%', 
-                height: '2px', 
-                backgroundColor: 'white', 
-                position: 'relative',  // Independent of the scrollable banner
-                marginTop: '-30px', // Space above the white line
-            }}></div>
+            {/* Fixed white underline */}
+            <Underline />
 
             {/* Footer content */}
             <div style={{
