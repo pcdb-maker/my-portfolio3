@@ -194,6 +194,7 @@ const Portfolio: React.FC = () => {
 
 
 
+            large={index % 2 === 0}
             style={isMobile ? {} : { y: yTransform }}
             transition={{ ease: [0.25, 0.1, 0.25, 1], duration: 0.01 }}
           >
