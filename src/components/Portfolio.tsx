@@ -194,6 +194,7 @@ const Portfolio: React.FC = () => {
 
 
 
+        ))}
       </PortfolioSection>
     </>
   );
