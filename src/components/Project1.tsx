@@ -116,6 +116,7 @@ const LeftColumn = styled.div`
 `;
 
 const RightColumn = styled.div`
+  flex: 1;
   font-size: 1rem;
   color: #333;
   text-align: left;
