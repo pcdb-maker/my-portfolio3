@@ -164,6 +164,7 @@ const FeaturedWorksSection = styled.div`
   margin-top: 60px;
   padding: 40px 20px;
   background-color: ##EFE2BA;
+  background-color: #EFE2BA;
 `;
 
 // Section title
