@@ -28,9 +28,11 @@ const Footer: React.FC = () => {
             const scroll = () => {
                 if (scrollContainer) {
                     scrollAmount -= scrollSpeed;
+                    scrollContainer.style.transform = `translateX(${scrollAmount}px)`;
 
-                if (Math.abs(scrollAmount) >= scrollContainer.scrollWidth / 2) {
-                    scrollAmount = 0;
+                    if (Math.abs(scrollAmount) >= scrollContainer.scrollWidth / 2) {
+                        scrollAmount = 0;
+                    }
                 }
                 requestAnimationFrame(scroll);
             };
@@ -38,6 +40,8 @@ const Footer: React.FC = () => {
             requestAnimationFrame(scroll);
         }
 
+        return () => {
+            window.removeEventListener('resize', handleResize);
         };
     }, []);
 
