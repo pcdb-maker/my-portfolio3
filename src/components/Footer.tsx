@@ -133,6 +133,7 @@ const Footer = () => {
 };
 
 export default Footer;
+
         font-size: 0.9rem;
     }
 `;
