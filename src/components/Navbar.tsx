@@ -161,7 +161,6 @@ const Navbar: React.FC = () => {
           Services
         </NavLink>
         <NavLink to="about" smooth={true} duration={200}>
-          About
     <>
       <NavbarContainer open={open}>
         <Logo><IconWrapperLogo /> Chloe Osborne </Logo>
