@@ -27,6 +27,7 @@ const ServiceItemContainer = styled(motion.div)`
   justify-content: center; /* Center everything */
   gap: 40px; /* Add space between icon and text */
 
+  @media (max-width: 700px) {
      gap: 1px; 
 
   }
