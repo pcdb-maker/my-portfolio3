@@ -149,6 +149,7 @@ const Footer: React.FC = () => {
 export default Footer;
 
 // Styled-components for better responsiveness and animations
+    flex-direction: column;
     justify-content: space-between;
     min-height: 85vh;
     position: relative;
